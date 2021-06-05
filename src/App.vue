@@ -14,24 +14,26 @@
         </b-collapse>
       </b-navbar>
 
-      <b-sidebar id="sidebar-1" title="Rolls" shadow class="p-0" >
+      <b-sidebar id="sidebar-1" title="Help" shadow class="p-0" >
         <!--Ayuda-->
       </b-sidebar>
     </div>
-    <div class="d-flex">
+    <div class="row ">
       <Rolls class="col-lg-4 col-xl-3 col-md-6 col-sm-12 col-12"/>
-      <Rolls />
+      <Sheets class="col-lg-8 col-xl-9 col-md-6 col-sm-12 col-12" />
     </div>
   </div>
 </template>
 
 <script>
 import Rolls from "./components/Rolls.vue";
+import Sheets from './components/Sheets.vue';
 
 export default {
   name: "App",
   components: {
     Rolls,
+    Sheets,
   },
 };
 </script>

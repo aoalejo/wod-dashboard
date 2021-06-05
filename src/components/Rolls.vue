@@ -1,6 +1,6 @@
 <template>
-  <div class="rolls m-2 p-0">
-    <b-card no-body>
+  <div class="rolls">
+    <b-card no-body class="m-2">
       <b-button class="flex-fill" v-on:click="makeRoll">Make Roll!</b-button>
 
       <b-button-group class="d-flex col-12 mt-2">
@@ -31,7 +31,6 @@
         </b-button>
       </b-button-group>
 
-    
       <b-table
         class="m-0 p-0"
         small
@@ -100,6 +99,22 @@
         </template>
         {{ printParticularRoll(singleRoll.roll) }}
       </b-card>
+
+      <b-button v-b-toggle.collapse-1 variant="primary">View All</b-button>
+
+      <b-collapse id="collapse-1" class="mt-2">
+        <b-card
+          class="m-2"
+          v-for="(singleRoll, index) in rolls.slice().reverse()"
+          :key="'Historic' + index"
+          head
+        >
+          <template #header>
+            <h4 class="mb-0">{{ singleRoll.time }}</h4>
+          </template>
+          {{ printParticularRoll(singleRoll.roll) }}
+        </b-card>
+      </b-collapse>
     </b-card>
   </div>
 </template>
@@ -244,8 +259,8 @@ export default {
     makeRoll() {
       var newRoll = [];
       var today = new Date();
-      var timeStr =
-        today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var timeStr = today.toLocaleDateString() + ' ' + today.toLocaleTimeString();
+        //today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
       var i;
       for (i = 0; i < 20; i++) {
@@ -306,8 +321,8 @@ a {
 table {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace !important;
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 .card-header {
   padding: 0px;
