@@ -18,7 +18,7 @@
         <!--Ayuda-->
       </b-sidebar>
     </div>
-    <div class="row ">
+    <div class="row justify-content-center ">
       <Rolls class="col-lg-4 col-xl-3 col-md-6 col-sm-12 col-12"/>
       <Sheets class="col-lg-8 col-xl-9 col-md-6 col-sm-12 col-12" />
     </div>
