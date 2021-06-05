@@ -3,10 +3,35 @@
     <b-card no-body>
       <b-button class="flex-fill" v-on:click="makeRoll">Make Roll!</b-button>
 
-      <p class="text-monospace small text-center m-2">
-        <strong>{{ printRoll() }}</strong>
-      </p>
+      <b-button-group class="d-flex col-12 mt-2">
+        <b-button
+          size="sm"
+          class="text-monospace"
+          :variant="buttonColor(singleRoll)"
+          v-for="(singleRoll, index) in roll.slice(0, 10)"
+          :key="index"
+          v-b-popover.hover.top="''"
+          :title="singleRoll"
+        >
+          {{ singleRoll }}
+        </b-button>
+      </b-button-group>
 
+      <b-button-group class="d-flex col-12 mt-2 mb-2">
+        <b-button
+          size="sm"
+          :variant="buttonColor(singleRoll)"
+          class="text-monospace"
+          v-for="(singleRoll, index) in roll.slice(10, 20)"
+          :key="index"
+          v-b-popover.hover.top="''"
+          :title="singleRoll"
+        >
+          {{ singleRoll }}
+        </b-button>
+      </b-button-group>
+
+    
       <b-table
         class="m-0 p-0"
         small
@@ -18,7 +43,7 @@
         ref="table"
       >
         <template #cell(difficulty)="data">
-          {{ data.index + 1 }}
+          <small>{{ data.index + 1 }}</small>
         </template>
 
         <template #cell(d1)="data">
@@ -62,7 +87,14 @@
         </template>
       </b-table>
 
-      <b-card class="m-2" v-for="singleRoll in rolls.slice().reverse()" :key="singleRoll.time" head>
+      <b-card
+        class="m-2"
+        v-for="(singleRoll, index) in rolls
+          .slice(Math.max(rolls.length - 5, 0), rolls.length)
+          .reverse()"
+        :key="'Historic' + index"
+        head
+      >
         <template #header>
           <h4 class="mb-0">{{ singleRoll.time }}</h4>
         </template>
@@ -188,6 +220,27 @@ export default {
         return "success";
       }
     },
+    buttonColor(value) {
+      if (value <= 1) {
+        return "danger";
+      }
+
+      if (value <= 3) {
+        return "warning";
+      }
+
+      if (value <= 6) {
+        return "primary";
+      }
+
+      if (value <= 9) {
+        return "info";
+      }
+
+      if (value <= 10) {
+        return "success";
+      }
+    },
     makeRoll() {
       var newRoll = [];
       var today = new Date();
@@ -217,8 +270,6 @@ export default {
           this.results[dice]["_cellVariants"][columnName] = this.cellColor(
             result
           );
-
-          console.log(this.results);
         }
       }
 
@@ -255,6 +306,8 @@ a {
 table {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace !important;
+    padding: 0px;
+    margin: 0px;
 }
 .card-header {
   padding: 0px;

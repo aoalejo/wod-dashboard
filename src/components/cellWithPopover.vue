@@ -33,9 +33,7 @@ export default {
         return "+"
       }
 
-      if(text < 0){
-        return String(text).replace("-","")
-      }
+    
 
       return text
 
