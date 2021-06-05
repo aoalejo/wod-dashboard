@@ -1,19 +1,39 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      <b-navbar toggleable="lg" type="dark" variant="info">
+        <b-navbar-brand href="#">WoD Dashboard</b-navbar-brand>
+
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto">
+            <b-button v-b-toggle.sidebar-1>Open Help</b-button>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
+
+      <b-sidebar id="sidebar-1" title="Rolls" shadow class="p-0" >
+        <!--Ayuda-->
+      </b-sidebar>
+    </div>
+    <div class="d-flex">
+      <Rolls class="col-lg-4 col-xl-3 col-md-6 col-sm-12 col-12"/>
+      <Rolls />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Rolls from "./components/Rolls.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Rolls,
+  },
+};
 </script>
 
 <style>
@@ -23,6 +43,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
