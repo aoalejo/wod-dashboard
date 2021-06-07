@@ -11,7 +11,7 @@
           <Header :info="sheet.info" />
         </div>
         <div class="col-9 m-0 p-0 d-flex flex-wrap">
-          <Features class="col-12 m-0 p-0" :color="sheet.info.color" />
+          <Features class="col-12 m-0 p-0" :color="sheet.info.color"  :abilities="sheet.abilities" :attributes="sheet.attributes" :advantages="sheet.advantages" />
           <Consumables class="col-12" :consumables="sheet.consumables" />
         </div>
         <div class="col-1 m-0 p-0" align-self="stretch">

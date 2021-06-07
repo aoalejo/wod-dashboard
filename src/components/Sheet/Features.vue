@@ -10,17 +10,20 @@
     <b-tab
       title-item-class="featureTab"
       title-link-class="featureTab"
-      title="Attributes"
+      :title="attributes.name"
       lazy
       active
     >
       Tab contents 1
     </b-tab>
+
     <b-tab
       title-item-class="featureTab"
       title-link-class="featureTab"
+      v-for="(ability, index) in abilities"
+      :key="'abilityTab' + index"
       lazy
-      title="Habilities"
+      :title="ability.name"
     >
       Tab contents 2
     </b-tab>
@@ -29,25 +32,7 @@
       title-item-class="featureTab"
       title-link-class="featureTab"
       lazy
-      title="Advantages"
-    >
-      Tab contents 3
-    </b-tab>
-
-    <b-tab
-      title-item-class="featureTab"
-      title-link-class="featureTab"
-      lazy
-      title="Merits/Defects"
-    >
-      Tab contents 3
-    </b-tab>
-
-    <b-tab
-      title-item-class="featureTab"
-      title-link-class="featureTab"
-      lazy
-      title="Consumables"
+      :title="advantages.name"
     >
       Tab contents 3
     </b-tab>
@@ -61,13 +46,8 @@ export default {
   props: {
     color: String,
     attributes: Object,
-    virtues: Object,
-    points: Array,
-    merits: Array,
-    defects: Array,
-    consumables: Array,
-    path: Object,
-    health: Object,
+    advantages: Array,
+    abilities: Array,
   },
 };
 </script>
