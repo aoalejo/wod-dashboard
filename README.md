@@ -1,5 +1,11 @@
 # wod-dashboard
 
+A World Of Darkness basic dashboard with dice roller (for now)
+
+see it in 
+
+https://wodd.netlify.app/
+
 ## Project setup
 ```
 npm install

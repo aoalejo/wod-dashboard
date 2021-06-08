@@ -259,8 +259,9 @@ export default {
     makeRoll() {
       var newRoll = [];
       var today = new Date();
-      var timeStr = today.toLocaleDateString() + ' ' + today.toLocaleTimeString();
-        //today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var timeStr =
+        today.toLocaleDateString() + " " + today.toLocaleTimeString();
+      //today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
       var i;
       for (i = 0; i < 20; i++) {
@@ -282,9 +283,8 @@ export default {
 
           this.results[dice][columnName] = result;
 
-          this.results[dice]["_cellVariants"][columnName] = this.cellColor(
-            result
-          );
+          this.results[dice]["_cellVariants"][columnName] =
+            this.cellColor(result);
         }
       }
 

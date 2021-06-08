@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div>
-      <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar toggleable="lg" type="dark" variant="info" class="w-100">
         <b-navbar-brand href="#">WoD Dashboard</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -14,20 +14,20 @@
         </b-collapse>
       </b-navbar>
 
-      <b-sidebar id="sidebar-1" title="Help" shadow class="p-0" >
+      <b-sidebar id="sidebar-1" title="Help" shadow class="p-0">
         <!--Ayuda-->
       </b-sidebar>
     </div>
-    <div class="row ">
-      <Rolls class="col-lg-4 col-xl-3 col-md-6 col-sm-12 col-12"/>
-      <Sheets class="col-lg-8 col-xl-9 col-md-6 col-sm-12 col-12" />
+    <div class="row justify-content-center p-0 m-0">
+      <Rolls class="col-lg-4 col-xl-3 col-md-12 col-sm-12 col-12 p-0" />
+      <Sheets class="col-lg-8 col-xl-9 col-md-12 col-sm-12 col-12 p-0" />
     </div>
   </div>
 </template>
 
 <script>
 import Rolls from "./components/Rolls.vue";
-import Sheets from './components/Sheets.vue';
+import Sheets from "./components/Sheets.vue";
 
 export default {
   name: "App",
@@ -39,6 +39,12 @@ export default {
 </script>
 
 <style>
+
+.col-auto {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
