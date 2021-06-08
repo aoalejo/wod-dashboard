@@ -2,7 +2,7 @@
   "info": {
     "name": "Karl",
     "player": "Atuel",
-    "color": "#fafafa",
+    "color": "#e63041",
     "values": [
       {
         "type": "Naturaleza",
@@ -43,21 +43,25 @@
   },
   "attributes": {
     "name": "Atributos",
+    "max": 6,
     "values": [
       {
         "name": "Fisicos",
         "values": [
           {
             "name": "Fuerza",
-            "value": 2
+            "value": 2,
+            "id": "STR"
           },
           {
             "name": "Destreza",
-            "value": 4
+            "value": 4,
+            "id": "DEX"
           },
           {
             "name": "Resistencia",
-            "value": 2
+            "value": 2,
+            "id": "CON"
           }
         ]
       },
@@ -66,15 +70,18 @@
         "values": [
           {
             "name": "Carisma",
-            "value": 5
+            "value": 5,
+            "id": "CHA"
           },
           {
             "name": "Manipulación",
-            "value": 2
+            "value": 2,
+            "id": "MAN"
           },
           {
             "name": "Apariencia",
-            "value": 3
+            "value": 3,
+            "id": "APP"
           }
         ]
       },
@@ -83,15 +90,18 @@
         "values": [
           {
             "name": "Percepción",
-            "value": 2
+            "value": 2,
+            "id": "PER"
           },
           {
             "name": "Inteligencia",
-            "value": 3
+            "value": 3,
+            "id": "INT"
           },
           {
             "name": "Astucia",
-            "value": 3
+            "value": 3,
+            "id": "WIS"
           }
         ]
       }
@@ -100,6 +110,7 @@
   "abilities": [
     {
       "name": "Talentos",
+      "max": 6,
       "values": [
         {
           "name": "Alerta",
@@ -142,17 +153,26 @@
           "value": 2
         },
         {
-          "name": "...",
-          "value": 0
+          "name": "Orfebreria",
+          "value": 5
         },
         {
-          "name": "...",
-          "value": 0
+          "name": "Orf. Avanzada",
+          "value": 4
+        },
+        {
+          "name": "Orf. extrema",
+          "value": 5
+        },
+        {
+          "name": "Orf. Freestyle",
+          "value": 3
         }
       ]
     },
     {
       "name": "Técnicas",
+      "max": 6,
       "values": [
         {
           "name": "Armas de Fuego",
@@ -206,6 +226,7 @@
     },
     {
       "name": "Conocimientos",
+      "max": 6,
       "values": [
         {
           "name": "Academicismo",
@@ -263,6 +284,7 @@
     "values": [
       {
         "name": "Disciplinas",
+        "max": 6,
         "values": [
           {
             "name": "Ofuscación",
@@ -278,6 +300,7 @@
       },
       {
         "name": "Virtudes",
+        "max": 5,
         "values": [
           {
             "name": "Consciencia",
@@ -298,6 +321,7 @@
       },
       {
         "name": "Trasfondos",
+        "max": 5,
         "values": [
           {
             "name": "Generación",
@@ -313,7 +337,13 @@
             "name": "Aliados",
             "value": 3,
             "description": "compañeros humanos, normalmente familiares o amigos."
-          },
+          }
+        ]
+      },
+      {
+        "name": "Trasfondos",
+        "max": 5,
+        "values": [
           {
             "name": "Recursos",
             "value": 1,
@@ -323,6 +353,7 @@
       },
       {
         "name": "Meritos",
+        "max": 4,
         "values": [
           {
             "name": "Cara Amistosa",
@@ -338,6 +369,7 @@
       },
       {
         "name": "Defectos",
+        "max": 4,
         "values": []
       }
     ]
@@ -375,6 +407,7 @@
     }
   ],
   "health": {
+    "name": "Vida",
     "max": 7,
     "damage": [
       1,
