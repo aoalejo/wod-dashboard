@@ -23,11 +23,11 @@
 </template>
 
 <script>
-import Header from "./sheet/Header.vue";
-import Consumables from "./sheet/Consumables.vue";
-import Footer from "./sheet/Footer.vue";
+import Header from "./Sheet/Header.vue";
+import Consumables from "./Sheet/Consumables.vue";
+import Footer from "./Sheet/Footer.vue";
 import data from "../../public/dataSheets/karl.json";
-import Features from "./sheet/Features.vue";
+import Features from "./Sheet/Features.vue";
 
 export default {
   components: { Header, Consumables, Features, Footer },
