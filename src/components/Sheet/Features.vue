@@ -5,6 +5,9 @@
     align-self="stretch"
     active-nav-item-class="featureTabSelected"
     active-tab-class="featureTabSelected"
+    class="row d-flex flex-nowrap mb-1"
+    nav-wrapper-class="col-2"
+    content-class="col-10 overflow-auto content-class-custom"
     :style="'.nav-link.active {background-color:' + color + '}'"
   >
     <b-tab
@@ -14,7 +17,32 @@
       lazy
       active
     >
-      Tab contents 1
+      <div class="row flex-nowrap">
+        <b-card
+          border-variant="dark"
+          header-bg-variant="dark"
+          header-text-variant="white"
+          style="min-width: 175px; "
+          no-body
+          class="ml-1 mr-1 flex-fill p-0"
+          :header="attr.name"
+          v-for="(attr, index) in attributes.values"
+          :key="'attr' + attr.name + index"
+        >
+          <b-list-group>
+            <b-list-group-item
+              v-for="value in attr.values"
+              :key="'attrVal' + attr.name + value.name"
+              class="d-flex justify-content-between align-items-center"
+            >
+              <span>{{ value.name }} </span>
+              <span
+                ><strong>{{ value.value }}</strong></span
+              >
+            </b-list-group-item>
+          </b-list-group>
+        </b-card>
+      </div>
     </b-tab>
 
     <b-tab
@@ -25,7 +53,34 @@
       lazy
       :title="ability.name"
     >
-      Tab contents 2
+      <div class="row flex-nowrap">
+        <b-card
+          border-variant="dark"
+          header-bg-variant="dark"
+          header-text-variant="white"
+          style="min-width: 175px"
+          v-for="index in Math.ceil(ability.values.slice().length / 4)"
+          :key="'abilityCard' + index"
+          no-body
+          class="ml-1 mr-1 flex-fill p-0"
+        >
+          <b-list-group>
+            <b-list-group-item
+              v-for="value in ability.values.slice(
+                (index - 1) * 4,
+                (index - 1) * 4 + 4
+              )"
+              :key="'abilityVal' + value.name + value.name"
+              class="d-flex justify-content-between align-items-center"
+            >
+              <span>{{ value.name }} </span>
+              <span
+                ><strong>{{ value.value }}</strong></span
+              >
+            </b-list-group-item>
+          </b-list-group>
+        </b-card>
+      </div>
     </b-tab>
 
     <b-tab
@@ -34,7 +89,34 @@
       lazy
       :title="advantages.name"
     >
-      Tab contents 3
+      <div class="row flex-nowrap">
+        <b-card
+          border-variant="dark"
+          header-bg-variant="dark"
+          header-text-variant="white"
+          :header="advCat.name"
+          style="min-width: 175px"
+          v-for="(advCat, index) in advantages.values"
+          :key="'advCat' + advCat.name + index"
+          no-body
+          class="ml-1 mr-1 flex-fill p-0"
+        >
+          <b-list-group>
+            <b-list-group-item
+              v-for="value in advCat.values"
+              :key="'advVal' + value.name + value.name"
+              class="d-flex justify-content-between align-items-center"
+              v-b-popover.hover.top="value.description"
+              :title="value.name"
+            >
+              <span>{{ value.name }} </span>
+              <span
+                ><strong>{{ value.value }}</strong></span
+              >
+            </b-list-group-item>
+          </b-list-group>
+        </b-card>
+      </div>
     </b-tab>
   </b-tabs>
 </template>
@@ -46,12 +128,22 @@ export default {
   props: {
     color: String,
     attributes: Object,
-    advantages: Array,
+    advantages: Object,
     abilities: Array,
   },
 };
 </script>
 <style>
+.content-class-custom{
+  overflow-x: scroll !important;
+}
+
+.list-group-item {
+  padding: 8px !important;
+}
+.card-header {
+  padding: 5px !important;
+}
 .featureTab {
   font-size: small;
   border-top-left-radius: 0rem !important;
