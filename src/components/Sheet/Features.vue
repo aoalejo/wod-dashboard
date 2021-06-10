@@ -60,18 +60,19 @@
           border-variant="dark"
           header-bg-variant="dark"
           header-text-variant="white"
-          style="min-width: 175px"
-          v-for="index in Math.ceil(ability.values.slice().length / 4)"
+          style="min-width: 175px"    
+          v-for="index in Math.ceil(
+            ability.values.filter(checkIfZero).slice().length / 4
+          )"
           :key="'abilityCard' + index"
           no-body
-          class="ml-1 mr-1 flex-fill p-0"
+          class="ml-1 mr-1 flex-fill p-0 col-4"
         >
           <b-list-group>
             <b-list-group-item
-              v-for="value in ability.values.slice(
-                (index - 1) * 4,
-                (index - 1) * 4 + 4
-              )"
+              v-for="value in ability.values
+                .filter(checkIfZero)
+                .slice((index - 1) * 4, (index - 1) * 4 + 4)"
               v-b-popover.hover.top="value.description"
               :title="value.name"
               :key="'abilityVal' + value.name + value.name"
@@ -108,7 +109,7 @@
             v-for="index in Math.ceil(advCat.values.slice().length / 3)"
             :key="'advCatSliced' + index"
             no-body
-            class="ml-1 mr-1 flex-fill p-0"
+            class="flex-fill p-0 mr-1 ml-1"
           >
             <b-list-group>
               <b-list-group-item
@@ -143,6 +144,11 @@ export default {
     attributes: Object,
     advantages: Object,
     abilities: Array,
+  },
+  methods: {
+    checkIfZero(value) {
+      return value.value != 0;
+    },
   },
 };
 </script>

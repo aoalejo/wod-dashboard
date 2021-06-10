@@ -188,7 +188,7 @@
         },
         {
           "name": "Orf. Freestyle",
-          "value": 3,
+          "value": 0,
           "description": ""
         }
       ]
@@ -427,7 +427,7 @@
       "perTurn": 1,
       "value": {
         "max": 8,
-        "now": 7
+        "now": 8
       },
       "description": "La Fuerza de Voluntad mide la motivación interior del personaje y su capacidad para superar situaciones adversas. Al final el personaje utilizará todos sus puntos, por lo que no será capaz de esforzarse tanto como antes. Un personaje con su reserva agotada estará exhausto mental, física y espiritualmente, y tendrá dificultades para hacer cualquier cosa, ya que le faltará la confianza necesaria para tomar decisiones."
     },
@@ -436,8 +436,8 @@
       "color": "danger",
       "perTurn": 3,
       "value": {
-        "max": 8,
-        "now": 6
+        "max": 15,
+        "now": 15
       },
       "description": "-"
     },
