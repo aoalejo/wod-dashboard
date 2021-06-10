@@ -22,7 +22,7 @@
           border-variant="dark"
           header-bg-variant="dark"
           header-text-variant="white"
-          style="min-width: 175px; "
+          style="min-width: 175px"
           no-body
           class="ml-1 mr-1 flex-fill p-0"
           :header="attr.name"
@@ -32,6 +32,8 @@
           <b-list-group>
             <b-list-group-item
               v-for="value in attr.values"
+              v-b-popover.hover.top="value.description"
+              :title="value.name"
               :key="'attrVal' + attr.name + value.name"
               class="d-flex justify-content-between align-items-center"
             >
@@ -70,6 +72,8 @@
                 (index - 1) * 4,
                 (index - 1) * 4 + 4
               )"
+              v-b-popover.hover.top="value.description"
+              :title="value.name"
               :key="'abilityVal' + value.name + value.name"
               class="d-flex justify-content-between align-items-center"
             >
@@ -90,32 +94,41 @@
       :title="advantages.name"
     >
       <div class="row flex-nowrap">
-        <b-card
-          border-variant="dark"
-          header-bg-variant="dark"
-          header-text-variant="white"
-          :header="advCat.name"
-          style="min-width: 175px"
+        <div
+          class="row flex-nowrap ml-1 mr-1"
           v-for="(advCat, index) in advantages.values"
           :key="'advCat' + advCat.name + index"
-          no-body
-          class="ml-1 mr-1 flex-fill p-0"
         >
-          <b-list-group>
-            <b-list-group-item
-              v-for="value in advCat.values"
-              :key="'advVal' + value.name + value.name"
-              class="d-flex justify-content-between align-items-center"
-              v-b-popover.hover.top="value.description"
-              :title="value.name"
-            >
-              <span>{{ value.name }} </span>
-              <span
-                ><strong>{{ value.value }}</strong></span
+          <b-card
+            border-variant="dark"
+            header-bg-variant="dark"
+            header-text-variant="white"
+            :header="advCat.name"
+            style="min-width: 175px"
+            v-for="index in Math.ceil(advCat.values.slice().length / 3)"
+            :key="'advCatSliced' + index"
+            no-body
+            class="ml-1 mr-1 flex-fill p-0"
+          >
+            <b-list-group>
+              <b-list-group-item
+                v-for="value in advCat.values.slice(
+                  (index - 1) * 3,
+                  (index - 1) * 3 + 3
+                )"
+                :key="'advVal' + value.name + value.name"
+                class="d-flex justify-content-between align-items-center"
+                v-b-popover.hover.top="value.description"
+                :title="value.name"
               >
-            </b-list-group-item>
-          </b-list-group>
-        </b-card>
+                <span>{{ value.name }} </span>
+                <span
+                  ><strong>{{ value.value }}</strong></span
+                >
+              </b-list-group-item>
+            </b-list-group>
+          </b-card>
+        </div>
       </div>
     </b-tab>
   </b-tabs>
@@ -134,7 +147,7 @@ export default {
 };
 </script>
 <style>
-.content-class-custom{
+.content-class-custom {
   overflow-x: scroll !important;
 }
 

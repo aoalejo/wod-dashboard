@@ -11,11 +11,21 @@
           <Header :info="sheet.info" />
         </div>
         <div class="col-9 m-0 p-0 d-flex flex-wrap">
-          <Features class="col-12 m-0 p-0" :color="sheet.info.color"  :abilities="sheet.abilities" :attributes="sheet.attributes" :advantages="sheet.advantages" />
-          <Consumables class="col-12" :consumables="sheet.consumables" />
+          <Features
+            class="col-12 m-0 p-0"
+            :color="sheet.info.color"
+            :abilities="sheet.abilities"
+            :attributes="sheet.attributes"
+            :advantages="sheet.advantages"
+          />
+          <Consumables
+            class="col-12"
+            :consumables="sheet.consumables"
+            :info="sheet.info"
+          />
         </div>
         <div class="col-1 m-0 p-0" align-self="stretch">
-          <Footer :info="sheet.info" :health="sheet.health"/>
+          <Footer :info="sheet.info" :health="sheet.health" />
         </div>
       </div>
     </b-card>
@@ -26,7 +36,8 @@
 import Header from "./Sheet/Header.vue";
 import Consumables from "./Sheet/Consumables.vue";
 import Footer from "./Sheet/Footer.vue";
-import data from "../../public/dataSheets/karl.json";
+import karl from "../../public/dataSheets/karl.json";
+import phillippe from "../../public/dataSheets/Phillippe.json";
 import Features from "./Sheet/Features.vue";
 
 export default {
@@ -41,12 +52,8 @@ export default {
     };
   },
   mounted() {
-    this.sheets.push(data);
-    this.sheets.push(data);
-    this.sheets.push(data);
-    this.sheets.push(data);
-    this.sheets.push(data);
-    this.sheets.push(data);
+    this.sheets.push(karl);
+    this.sheets.push(phillippe);
   },
 };
 </script>

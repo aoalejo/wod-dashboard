@@ -1,0 +1,455 @@
+{
+  "info": {
+    "name": "Philippe",
+    "player": "Julian",
+    "color": "#28036a",
+    "values": [
+      {
+        "type": "Naturaleza",
+        "name": "Protector",
+        "description": "Todo el mundo necesita consuelo y un hombro en el que poder llorar. El Protector encuentra satisfacción consolando a los demás, y la gente a menudo acude a él para contarle sus problemas. Los vampiros con este Arquetipo suelen hacer todo lo posible por proteger a los mortales de los que se alimentan. Las enfermeras, doctores y psiquiatras son ejemplos de posibles Protectores. Los Vástagos Protectores a menudo son el estereotipo trágico que Abrazan a los mortales que amaban en vida tratando de suavizar su pérdida, o incluso los que crean situaciones de dolor para poder intervenir y así conseguir mérito ante sí mismos. —Recupera un punto de Fuerza de Voluntad cada vez que logres proteger o consolar a alguien."
+      },
+      {
+        "type": "Conducta",
+        "name": "Soldado",
+        "description": "El Soldado no es un seguidor ciegamente leal. Aunque existe para recibir órdenes, no las acepta incondicionalmente. Más independiente que un Conformista pero demasiado vinculado a la idea del mando para ser un Solitario, el Soldado aplica sus propias técnicas a los objetivos de otros, aunque quizás algún día –o una noche– busque el mando. Sus ambiciones se encuentran dentro de la jerarquía y estructura establecida. El Soldado no tiene escrúpulos a la hora de usar los medios necesarios para hacer lo que tiene que hacerse, mientras las órdenes vengan del sitio adecuado. Los Vástagos Soldados a menudo son valiosos a las órdenes de figuras de autoridad, pero también pueden ser líderes capaces, dispuestos a hacer lo necesario –o lo que consideran necesario– para mantener el orden. —Recupera un punto de Fuerza de Voluntad cuando consigas los objetivos de tus órdenes. Cuanto más difíciles sean de cumplir las órdenes mejor te sientes al llevarlas a   cabo. Según el criterio del Narrador, la obtención de un éxito espectacular o el cumplimiento de una misión larga pueden valer la concesión de puntos de Fuerza de Voluntad adicionales."
+      },
+      {
+        "type": "Concepto",
+        "name": "Mercenario",
+        "description": "guardaespaldas, mercenario, soldado de fortuna, asesino a sueldo"
+      },
+      {
+        "type": "Clan",
+        "name": "Caitiff",
+        "description": "sin ningún clan al que asociarse, los Caitiff no exhiben características comunes y a menudo son rechazados por los vampiros con un linaje establecido."
+      },
+      {
+        "type": "Generación",
+        "name": "8 va",
+        "description": ""
+      },
+      {
+        "type": "Sire",
+        "name": "Desconocido",
+        "description": ""
+      },
+      {
+        "type": "Debilidad",
+        "name": "Paria",
+        "description": "No puede comprar Estatus. Dif. +2 a las tiradas Sociales con no Caitiff si no está asentado en la comunidad. No transmite rasgos de Clan a sus chiquillos."
+      }
+    ]
+  },
+  "attributes": {
+    "name": "Atributos",
+    "max": 6,
+    "values": [
+      {
+        "name": "Fisicos",
+        "values": [
+          {
+            "name": "Fuerza",
+            "value": 3,
+            "id": "STR",
+            "description": ""
+          },
+          {
+            "name": "Destreza",
+            "value": 3,
+            "id": "DEX",
+            "description": ""
+          },
+          {
+            "name": "Resistencia",
+            "value": 4,
+            "id": "CON",
+            "description": "Duro como el acero: Cuando absorve daño, los 10 valen x2 y se lanza de vuelta"
+          }
+        ]
+      },
+      {
+        "name": "Social",
+        "values": [
+          {
+            "name": "Carisma",
+            "value": 2,
+            "id": "CHA",
+            "description": ""
+          },
+          {
+            "name": "Manipulación",
+            "value": 2,
+            "id": "MAN",
+            "description": ""
+          },
+          {
+            "name": "Apariencia",
+            "value": 2,
+            "id": "APP",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Mental",
+        "values": [
+          {
+            "name": "Percepción",
+            "value": 3,
+            "id": "PER",
+            "description": ""
+          },
+          {
+            "name": "Inteligencia",
+            "value": 2,
+            "id": "INT",
+            "description": ""
+          },
+          {
+            "name": "Astucia",
+            "value": 3,
+            "id": "WIS",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Talentos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Alerta",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Atletismo",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Callejeo",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Consciencia",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Empatía",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Expresión",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Intimidación",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Liderazgo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Pelea",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Subterfugio",
+          "value": 2,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Técnicas",
+      "max": 6,
+      "values": [
+        {
+          "name": "Armas de Fuego",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Artesanía",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Conducir",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Etiqueta",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Interpretación",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Latrocinio",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Pelea con Armas",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Sigilo",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Supervivencia",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "T.c. Animales",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Conocimientos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Academicismo",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Ciencias",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Finanzas",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Informática",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Investigación",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Leyes",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Medicina",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Ocultismo",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Política",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Tecnología",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "advantages": {
+    "name": "Ventajas",
+    "values": [
+      {
+        "name": "Disciplinas",
+        "max": 6,
+        "values": [
+          {
+            "name": "Celeridad",
+            "value": 1,
+            "description": ""
+          },
+          {
+            "name": "Fortaleza",
+            "value": 1,
+            "description": ""
+          },
+          {
+            "name": "Protean",
+            "value": 1,
+            "description": "Los Ojos de la Bestia: El vampiro ve perfectamente en la oscuridad total: no necesita luz para percibir detalles incluso en la cueva o en el sótano más oscuro. Sistema: el personaje debe declarar su deseo de invocar los Ojos. No hace falta tirada, pero el cambio tarda un turno completo en realizarse. Mientras los Ojos estén manifestados se sufrirá un + 1 a la dificultad de las tiradas Sociales con mortales, salvo que tome alguna medida para ocultarlos (las gafas de sol son la solución más sencilla). Un vampiro sin este poder que se encuentre sumergido en la oscuridad total sufre las penalizaciones de Lucha a Ciegas"
+          }
+        ]
+      },
+      {
+        "name": "Virtudes",
+        "max": 5,
+        "values": [
+          {
+            "name": "Consciencia",
+            "value": 2,
+            "description": ""
+          },
+          {
+            "name": "Auto control",
+            "value": 3,
+            "description": ""
+          },
+          {
+            "name": "Coraje",
+            "value": 5,
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Trasfondos",
+        "max": 5,
+        "values": [
+          {
+            "name": "Generación",
+            "value": 5,
+            "description": "lo alejado que se encuentra el personaje de Caín"
+          },
+          {
+            "name": "Arsenal",
+            "value": 4,
+            "description": "los recipientes a los que el personaje tiene acceso libre y seguro."
+          },
+          {
+            "name": "Recursos",
+            "value": 3,
+            "description": "Acomodado. Eres un miembro destacado y establecido de tu comunidad, con terrenos y viviendo en propiedad, y tienes una reputación que te permite obtener un crédito en términos muy generosos. Probablemente tengas más propiedades inmuebles que dinero líquido. Puedes mantener un modo de vida de un nivel de un punto de Recursos donde quieras y durante tanto tiempo como quieras."
+          }
+        ]
+      },
+      {
+        "name": "Meritos",
+        "max": 4,
+        "values": [
+          {
+            "name": "Invinculable",
+            "value": 5,
+            "description": "Eres inmune al Vínculo de Sangre. Los vampiros Tremere no pueden adquirir este Mérito."
+          },
+          {
+            "name": "Idioma",
+            "value": 1,
+            "description": "Conoces un idioma además de tu lengua materna. Puedes adquirir este Mérito varias veces, cada vez para un idioma diferente."
+          },
+          {
+            "name": "Ambidiestro",
+            "value": 1,
+            "description": "Tienes una gran destreza con la “mano mala” y puedes realizar acciones con ella sin penalización. Seguirás teniendo que emplear las reglas para acciones múltiples, pero no sufrirás una penalización adicional si, por ejemplo, empleas dos armas o te ves obligado a emplear la mala."
+          }
+        ]
+      },
+      {
+        "name": "Defectos",
+        "max": 4,
+        "values": [
+          {
+            "name": "Excl. de Presa",
+            "value": 1,
+            "description": "(Niños) Te niegas a cazar un determinado tipo de presa. Podrías evitar a los traficantes de droga, los policías, los contables, los ricos, etc. Si por accidente llegaras a beber su sangre entrarías automáticamente en frenesí y deberías tirar para evitar una pérdida de Humanidad (dificultad 7). Ver a otro vampiro alimentarse del objeto de tu exclusión también puede provocar un frenesí, a discreción del Narrador. Los Ventrue, que se deben a la limitación impuesta por su debilidad, no pueden adquirir este Defecto."
+          },
+          {
+            "name": "T. Mascarada",
+            "value": 2,
+            "description": "En tus primeras noches como miembro de la Estirpe, rompiste accidentalmente la Mascarada –y te vieron haciéndolo. Alguien tapó tu error, pero se guarda el favor. Ahora vives temeroso de que se revele tu error. Mientras tanto, tu “salvador” se aprovecha de ti despiadadamente. Este Defecto sólo puede ser adquirido por vampiros de Sectas o Clanes que respeten la Mascarada."
+          },
+          {
+            "name": "Secreto Oscuro",
+            "value": 1,
+            "description": "Guardas algún tipo de secreto que, de ser descubierto, representaría un inmenso problema para ti y te convertiría en un paria de la sociedad vampírica local. Podría ser cualquier cosa, desde haber asesinado a un antiguo hasta pertenecer a los Anarquistas."
+          },
+          {
+            "name": "Impaciente",
+            "value": 1,
+            "description": "No tienes paciencia para quedarte y esperar. Quieres hacer las cosas ya, y que el Diablo se lleve al último. Cada vez que te ves obligado a esperar en vez de actuar, es necesaria una tirada de Autocontrol para ver si te largas por tu cuenta."
+          },
+          {
+            "name": "Resp. Especial",
+            "value": 1,
+            "description": "Poco después de tu Abrazo te presentaste voluntario para una tarea para conseguir respeto y aprobación de los vampiros que te rodean. ¡Ahora deseas no haber abierto nunca tu puta boca! Aunque no recibes ningún mérito especial por cumplir con tu deber, perderías un montón de respeto si alguna vez renunciaras. La naturaleza y los detalles de tu obligación deberían ser acordados con el Narrador previamente Entre algunos ejemplos puede ser prestar dinero a otros vampiros, actuar como mensajero o posiblemente conseguir víctimas para los ritae (como los Festines de Sangre). "
+          }
+        ]
+      }
+    ]
+  },
+  "consumables": [
+    {
+      "name": "Fuerza de voluntad",
+      "color": "success",
+      "perTurn": 1,
+      "value": {
+        "max": 9,
+        "now": 9
+      },
+      "description": "-"
+    },
+    {
+      "name": "Reserva de sangre",
+      "color": "danger",
+      "perTurn": 3,
+      "value": {
+        "max": 15,
+        "now": 15
+      },
+      "description": "-"
+    },
+    {
+      "name": "Humanidad",
+      "color": "info",
+      "perTurn": 1,
+      "value": {
+        "max": 10,
+        "now": 6
+      },
+      "description": "-"
+    }
+  ],
+  "health": {
+    "name": "Vida",
+    "max": 7,
+    "damage": [
+      1
+    ],
+    "types": [
+      "",
+      "C - Contundente",
+      "NL - No letal",
+      "L - Letal",
+      "A - Agravado"
+    ]
+  }
+}

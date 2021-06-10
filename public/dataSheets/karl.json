@@ -51,17 +51,20 @@
           {
             "name": "Fuerza",
             "value": 2,
-            "id": "STR"
+            "id": "STR",
+            "description": ""
           },
           {
             "name": "Destreza",
             "value": 4,
-            "id": "DEX"
+            "id": "DEX",
+            "description": ""
           },
           {
             "name": "Resistencia",
             "value": 2,
-            "id": "CON"
+            "id": "CON",
+            "description": ""
           }
         ]
       },
@@ -71,17 +74,20 @@
           {
             "name": "Carisma",
             "value": 5,
-            "id": "CHA"
+            "id": "CHA",
+            "description": ""
           },
           {
             "name": "Manipulación",
             "value": 2,
-            "id": "MAN"
+            "id": "MAN",
+            "description": ""
           },
           {
             "name": "Apariencia",
             "value": 3,
-            "id": "APP"
+            "id": "APP",
+            "description": ""
           }
         ]
       },
@@ -91,17 +97,20 @@
           {
             "name": "Percepción",
             "value": 2,
-            "id": "PER"
+            "id": "PER",
+            "description": ""
           },
           {
             "name": "Inteligencia",
             "value": 3,
-            "id": "INT"
+            "id": "INT",
+            "description": ""
           },
           {
             "name": "Astucia",
             "value": 3,
-            "id": "WIS"
+            "id": "WIS",
+            "description": ""
           }
         ]
       }
@@ -114,59 +123,73 @@
       "values": [
         {
           "name": "Alerta",
-          "value": 2
+          "value": 2,
+          "description": ""
         },
         {
           "name": "Atletismo",
-          "value": 1
+          "value": 1,
+          "description": ""
         },
         {
           "name": "Callejeo",
-          "value": 1
+          "value": 1,
+          "description": ""
         },
         {
           "name": "Consciencia",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Empatía",
-          "value": 2
+          "value": 2,
+          "description": ""
         },
         {
           "name": "Expresión",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Intimidación",
-          "value": 3
+          "value": 3,
+          "description": ""
         },
         {
           "name": "Liderazgo",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Pelea",
-          "value": 2
+          "value": 2,
+          "description": ""
         },
         {
           "name": "Subterfugio",
-          "value": 2
+          "value": 2,
+          "description": ""
         },
         {
           "name": "Orfebreria",
-          "value": 5
+          "value": 5,
+          "description": ""
         },
         {
           "name": "Orf. Avanzada",
-          "value": 4
+          "value": 4,
+          "description": ""
         },
         {
           "name": "Orf. extrema",
-          "value": 5
+          "value": 5,
+          "description": ""
         },
         {
           "name": "Orf. Freestyle",
-          "value": 3
+          "value": 3,
+          "description": ""
         }
       ]
     },
@@ -176,51 +199,63 @@
       "values": [
         {
           "name": "Armas de Fuego",
-          "value": 3
+          "value": 3,
+          "description": ""
         },
         {
           "name": "Artesanía",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Conducir",
-          "value": 1
+          "value": 1,
+          "description": ""
         },
         {
           "name": "Etiqueta",
-          "value": 1
+          "value": 1,
+          "description": ""
         },
         {
           "name": "Interpretación",
-          "value": 3
+          "value": 3,
+          "description": ""
         },
         {
           "name": "Latrocinio",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Pelea con Armas",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Sigilo",
-          "value": 3
+          "value": 3,
+          "description": ""
         },
         {
           "name": "Supervivencia",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "T.c. Animales",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "...",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "...",
-          "value": 0
+          "value": 0,
+          "description": ""
         }
       ]
     },
@@ -230,51 +265,63 @@
       "values": [
         {
           "name": "Academicismo",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Ciencias",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Finanzas",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Informática",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Investigación",
-          "value": 3
+          "value": 3,
+          "description": ""
         },
         {
           "name": "Leyes",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Medicina",
-          "value": 1
+          "value": 1,
+          "description": ""
         },
         {
           "name": "Ocultismo",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "Política",
-          "value": 1
+          "value": 1,
+          "description": ""
         },
         {
           "name": "Tecnología",
-          "value": 1
+          "value": 1,
+          "description": ""
         },
         {
           "name": "...",
-          "value": 0
+          "value": 0,
+          "description": ""
         },
         {
           "name": "...",
-          "value": 0
+          "value": 0,
+          "description": ""
         }
       ]
     }
@@ -337,19 +384,18 @@
             "name": "Aliados",
             "value": 3,
             "description": "compañeros humanos, normalmente familiares o amigos."
-          }
-        ]
-      },
-      {
-        "name": "Trasfondos",
-        "max": 5,
-        "values": [
+          },
           {
             "name": "Recursos",
             "value": 1,
             "description": "riquezas, pertenencias e ingresos del personaje."
           }
         ]
+      },
+      {
+        "name": "Trasfondos",
+        "max": 5,
+        "values": []
       },
       {
         "name": "Meritos",
@@ -383,7 +429,7 @@
         "max": 8,
         "now": 7
       },
-      "description": "-"
+      "description": "La Fuerza de Voluntad mide la motivación interior del personaje y su capacidad para superar situaciones adversas. Al final el personaje utilizará todos sus puntos, por lo que no será capaz de esforzarse tanto como antes. Un personaje con su reserva agotada estará exhausto mental, física y espiritualmente, y tendrá dificultades para hacer cualquier cosa, ya que le faltará la confianza necesaria para tomar decisiones."
     },
     {
       "name": "Reserva de sangre",
