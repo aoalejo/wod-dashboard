@@ -153,8 +153,13 @@ export default {
 };
 </script>
 <style>
+
 .content-class-custom {
   overflow-x: scroll !important;
+}
+
+.nav-tabs{
+  overflow: hidden;
 }
 
 .list-group-item {
@@ -170,8 +175,10 @@ export default {
   border-bottom-right-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
   text-orientation: initial !important;
+  overflow: hidden;
+  text-overflow: clip;
   align-self: end;
-  width: 100%;
+  max-lines: 1;
   text-align: initial;
 }
 
