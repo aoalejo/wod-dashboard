@@ -8,9 +8,13 @@
     >
       <div class="row m-0 p-0 row-eq-height">
         <div class="col-2 m-0 p-0" align-self="stretch">
-          <Header :info="sheet.info" />
+          <Header :info="sheet.info" :sheet="sheet" />
         </div>
-        <div class="col-9 m-0 p-0 d-flex flex-wrap">
+        <div
+          :class="
+            (sheet.health ? ' col-9 ' : ' col-10 ') + ' m-0 p-0 d-flex flex-wrap'
+          "
+        >
           <Features
             class="col-12 m-0 p-0"
             :color="sheet.info.color"
@@ -25,7 +29,11 @@
           />
         </div>
         <div class="col-1 m-0 p-0" align-self="stretch">
-          <Footer :info="sheet.info" :health="sheet.health" />
+          <Footer
+            :info="sheet.info"
+            :health="sheet.health"
+            v-if="sheet.health"
+          />
         </div>
       </div>
     </b-card>
@@ -36,9 +44,11 @@
 import Header from "./Sheet/Header.vue";
 import Consumables from "./Sheet/Consumables.vue";
 import Footer from "./Sheet/Footer.vue";
+import Features from "./Sheet/Features.vue";
+
 import karl from "../../public/dataSheets/karl.json";
 import phillippe from "../../public/dataSheets/Phillippe.json";
-import Features from "./Sheet/Features.vue";
+import test from "../../public/dataSheets/Test.json";
 
 export default {
   components: { Header, Consumables, Features, Footer },
@@ -54,6 +64,7 @@ export default {
   mounted() {
     this.sheets.push(karl);
     this.sheets.push(phillippe);
+    this.sheets.push(test);
   },
 };
 </script>

@@ -6,14 +6,34 @@
     :style="'background: ' + info.color"
   >
     <h3>
-      <b-badge variant="light" class="m-2 d-flex flex-fill text-center justify-content-center">
+      <b-badge
+        variant="light"
+        class="m-2 d-flex flex-fill text-center justify-content-center"
+        v-b-modal="'HeaderSheetModal' + index + info.color + info.name"
+      >
         <strong>
           {{ info.name }}
         </strong>
+        <b-modal
+          size="xl"
+          hide-backdrop
+          :id="'HeaderSheetModal' + index + info.color + info.name"
+        >
+          <FeaturesPopup
+            class="col-12 m-0 p-0"
+            :color="sheet.info.color"
+            :abilities="sheet.abilities"
+            :attributes="sheet.attributes"
+            :advantages="sheet.advantages"
+          />
+        </b-modal>
       </b-badge>
     </h3>
     <h5>
-      <b-badge variant="light" class="m-2 d-flex flex-fill text-center justify-content-center">
+      <b-badge
+        variant="light"
+        class="m-2 d-flex flex-fill text-center justify-content-center"
+      >
         {{ info.player }}
       </b-badge>
     </h5>
@@ -22,11 +42,22 @@
       <b-badge
         class="flex-fill m-1"
         v-for="(val, index) in info.values"
-        :key="'HeaderInfo' + index"
-        v-b-popover.hover.top="val.description"
+        :key="'HeaderInfo' + index + info.color + info.name"
+        v-b-popover.hover.top="
+          val.description.length > 200
+            ? val.description.slice(0, 200) + '... (click para ver completo)'
+            : val.description.slice(0, 200)
+        "
+        v-b-modal="'HeaderInfoModal' + index + info.color + info.name"
         :title="val.type + ': ' + val.name"
       >
         {{ val.name }}
+        <b-modal
+          size="xl"
+          hide-backdrop
+          :id="'HeaderInfoModal' + index + info.color + info.name"
+          >{{ val.description }}</b-modal
+        >
       </b-badge>
     </div>
   </b-alert>
@@ -70,10 +101,14 @@
     ]
   },
 <script>
+import FeaturesPopup from "./FeaturesPopup.vue";
+
 export default {
+  components: { FeaturesPopup },
   name: "Header",
   props: {
     info: Object,
+    sheet: Object,
   },
 };
 </script>

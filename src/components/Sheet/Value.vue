@@ -1,8 +1,7 @@
 <template>
   <div>
     <b-input-group size="sm" :prepend="value.name" :append="value.value">
-      <b-form-rating
-        v-if="showRaiting"
+      <b-form-rating       
         :value="value.value"
         class="m-0"
         :stars="max"

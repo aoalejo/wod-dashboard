@@ -1,7 +1,7 @@
 {
   "info": {
-    "name": "Philippe",
-    "player": "Julian",
+    "name": "test",
+    "player": "asd",
     "color": "#28036a",
     "values": [
       {
@@ -46,7 +46,7 @@
     "max": 6,
     "values": [
       {
-        "name": "Fisicos",
+        "name": "Atributos",
         "values": [
           {
             "name": "Fuerza",
@@ -65,12 +65,7 @@
             "value": 4,
             "id": "CON",
             "description": "Duro como el acero: Cuando absorve daño, los 10 valen x2 y se lanza de vuelta"
-          }
-        ]
-      },
-      {
-        "name": "Social",
-        "values": [
+          },
           {
             "name": "Carisma",
             "value": 2,
@@ -88,12 +83,7 @@
             "value": 2,
             "id": "APP",
             "description": ""
-          }
-        ]
-      },
-      {
-        "name": "Mental",
-        "values": [
+          },
           {
             "name": "Percepción",
             "value": 3,
@@ -422,34 +412,20 @@
       "color": "danger",
       "perTurn": 3,
       "value": {
-        "max": 18,
+        "max": 15,
         "now": 15
       },
       "description": "-"
     },
     {
-      "name": "Humanidad",
-      "color": "info",
+      "name": "Vida",
+      "color": "success",
       "perTurn": 1,
       "value": {
-        "max": 10,
-        "now": 6
+        "max": 1500,
+        "now": 1400
       },
       "description": "-"
     }
-  ],
-  "health": {
-    "name": "Vida",
-    "max": 7,
-    "damage": [
-      1
-    ],
-    "types": [
-      "",
-      "C - Contundente",
-      "NL - No letal",
-      "L - Letal",
-      "A - Agravado"
-    ]
-  }
+  ]
 }

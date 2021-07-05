@@ -18,32 +18,41 @@
       active
     >
       <div class="row flex-nowrap">
-        <b-card
-          border-variant="dark"
-          header-bg-variant="dark"
-          header-text-variant="white"
-          style="min-width: 175px"
-          no-body
-          class="ml-1 mr-1 flex-fill p-0"
-          :header="attr.name"
-          v-for="(attr, index) in attributes.values"
-          :key="'attr' + attr.name + index"
+        <div
+          class="row mx-0"
+          v-for="(advCat, index) in attributes.values"
+          :key="'advCat' + advCat.name + index"
         >
-          <b-list-group>
-            <b-list-group-item
-              v-for="value in attr.values"
-              v-b-popover.hover.top="value.description"
-              :title="value.name"
-              :key="'attrVal' + attr.name + value.name"
-              class="d-flex justify-content-between align-items-center"
-            >
-              <span>{{ value.name }} </span>
-              <span
-                ><strong>{{ value.value }}</strong></span
+          <b-card
+            border-variant="dark"
+            header-bg-variant="dark"
+            header-text-variant="white"
+            :header="advCat.name"
+            style="min-width: 175px"
+            v-for="index in Math.ceil(advCat.values.slice().length / 3)"
+            :key="'advCatSliced' + index"
+            no-body
+            class="flex-fill mx-1"
+          >
+            <b-list-group>
+              <b-list-group-item
+                v-for="value in advCat.values.slice(
+                  (index - 1) * 3,
+                  (index - 1) * 3 + 3
+                )"
+                :key="'advVal' + value.name + value.name"
+                class="d-flex justify-content-between align-items-center"
+                v-b-popover.hover.top="value.description"
+                :title="value.name"
               >
-            </b-list-group-item>
-          </b-list-group>
-        </b-card>
+                <span>{{ value.name }} </span>
+                <span
+                  ><strong>{{ value.value }}</strong></span
+                >
+              </b-list-group-item>
+            </b-list-group>
+          </b-card>
+        </div>
       </div>
     </b-tab>
 
@@ -60,7 +69,7 @@
           border-variant="dark"
           header-bg-variant="dark"
           header-text-variant="white"
-          style="min-width: 175px"    
+          style="min-width: 175px"
           v-for="index in Math.ceil(
             ability.values.filter(checkIfZero).slice().length / 4
           )"
@@ -153,12 +162,11 @@ export default {
 };
 </script>
 <style>
-
 .content-class-custom {
   overflow-x: scroll !important;
 }
 
-.nav-tabs{
+.nav-tabs {
   overflow: hidden;
 }
 
