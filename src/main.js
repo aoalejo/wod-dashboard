@@ -3,6 +3,7 @@ import 'mutationobserver-shim'
 import Vue from 'vue'
 import './plugins/bootstrap-vue'
 import App from './App.vue'
+import JsonEditor from 'vue-json-edit'
 
 Vue.config.productionTip = false
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -15,6 +16,9 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+
+// Visual JSON Editor built as an vue component. Provides a basic GUI
+Vue.use(JsonEditor)
 
 new Vue({
   render: h => h(App),

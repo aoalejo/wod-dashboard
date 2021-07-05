@@ -440,9 +440,14 @@
   ],
   "health": {
     "name": "Vida",
-    "max": 7,
     "damage": [
-      1
+      "C - Contundente",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
     "types": [
       "",

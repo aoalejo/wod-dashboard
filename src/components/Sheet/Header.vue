@@ -15,10 +15,11 @@
           {{ info.name }}
         </strong>
         <b-modal
-          size="xl"
+          size="lg"
           hide-backdrop
           :id="'HeaderSheetModal' + index + info.color + info.name"
         >
+
           <FeaturesPopup
             class="col-12 m-0 p-0"
             :color="sheet.info.color"

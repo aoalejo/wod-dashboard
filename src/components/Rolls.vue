@@ -1,7 +1,9 @@
 <template>
   <div class="rolls">
     <b-card no-body class="m-2">
-      <b-button class="flex-fill" v-on:click="makeRoll">Make Roll!</b-button>
+      <b-button class="flex-fill" v-on:click="makeRoll(20)"
+        >Make Roll!</b-button
+      >
 
       <b-button-group class="d-flex col-12 mt-2">
         <b-button
@@ -121,6 +123,8 @@
 
 <script>
 import cellWithPopover from "./cellWithPopover.vue";
+import EventBus from "../eventBus";
+
 export default {
   components: { cellWithPopover },
   name: "Rolls",
@@ -128,6 +132,7 @@ export default {
     return {
       roll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       rolls: [],
+      featuresSelected: [],
       columns: [
         // A virtual column that doesn't exist in items
         { key: "difficulty", stickyColumn: true, label: "" },
@@ -166,9 +171,24 @@ export default {
     };
   },
   mounted() {
-    this.makeRoll();
+    this.makeRoll(20);
+    EventBus.$on("featureTapped", this.featureTapHandler);
   },
   methods: {
+    featureTapHandler(feature) {
+      this.featuresSelected.push(feature);
+      console.log(this.featuresSelected);
+
+      if (this.featuresSelected.length == 2) {
+        var count = 0;
+        this.featuresSelected.forEach((feature) => {
+          count = count + feature.value;
+        });
+
+        this.makeRoll(count);
+        this.featuresSelected = [];
+      }
+    },
     labelForTable(index) {
       return "(" + this.roll[index] + ")";
     },
@@ -256,7 +276,7 @@ export default {
         return "success";
       }
     },
-    makeRoll() {
+    makeRoll(numDices) {
       var newRoll = [];
       var today = new Date();
       var timeStr =
@@ -264,7 +284,7 @@ export default {
       //today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
       var i;
-      for (i = 0; i < 20; i++) {
+      for (i = 0; i < numDices; i++) {
         var newDice = this.rando(1, 10);
         newRoll.push(newDice);
       }
@@ -279,12 +299,20 @@ export default {
         for (diff = 0; diff < 9; diff++) {
           var columnName = "d" + (diff + 2);
 
-          var result = this.passed(diff + 2, dice + 1, newRoll);
+          if (numDices != 20 && dice != numDices - 1) {
+            this.results[dice][columnName] = "-";
+          } else {
+            if (dice >= numDices) {
+              this.results[dice][columnName] = "-";
+            } else {
+              var result = this.passed(diff + 2, dice + 1, newRoll);
 
-          this.results[dice][columnName] = result;
+              this.results[dice][columnName] = result;
 
-          this.results[dice]["_cellVariants"][columnName] =
-            this.cellColor(result);
+              this.results[dice]["_cellVariants"][columnName] =
+                this.cellColor(result);
+            }
+          }
         }
       }
 

@@ -12,10 +12,11 @@
       {{ health.name }}
     </b-badge>
     <b-form-select
-      v-for="i in health.max"
-      :key="'HealthValue' + i"
+      v-for="(damage, index) in health.damage"
+      :key="'HealthValue' + index"
       :options="health.types"
-      :v-model="health.damage[i]"
+      :v-model="damage"
+      :value="damage"
       size="sm"
       class="mt-0"
     ></b-form-select>
@@ -27,6 +28,14 @@ export default {
   props: {
     info: Object,
     health: Object,
+  },
+  mounted() {
+    this.health.damage.forEach((damage) => {
+      console.log(damage);
+    });
+  },
+  methods: {
+    addDamage() {},
   },
 };
 </script>

@@ -18,26 +18,19 @@
           class="flex-fill p-0 mx-1"
         >
           <b-list-group>
-            <b-list-group-item
+            <Value
               v-for="value in advCat.values.slice(
                 (index - 1) * 3,
                 (index - 1) * 3 + 3
               )"
               :key="'advVal' + value.name + value.name"
-              class="d-flex justify-content-between align-items-center"
-              v-b-popover.hover.top="value.description"
-              :title="value.name"
-            >
-              <span>{{ value.name }} </span>
-              <span
-                ><strong>{{ value.value }}</strong></span
-              >
-            </b-list-group-item>
+              :value="value"
+            />
           </b-list-group>
         </b-card>
       </div>
     </div>
-   
+
     <div class="row col-12 mx-1">
       <b-card
         class="ml-1 mr-1 flex-fill p-0 mt-2"
@@ -54,18 +47,11 @@
       >
         <div class="flex-nowrap">
           <b-list-group>
-            <b-list-group-item
+            <Value
               v-for="value in ability.values"
-              v-b-popover.hover.top="value.description"
-              :title="value.name"
               :key="'abilityVal' + value.name + value.name"
-              class="d-flex justify-content-between align-items-center"
-            >
-              <span>{{ value.name }} </span>
-              <span
-                ><strong>{{ value.value }}</strong></span
-              >
-            </b-list-group-item>
+              :value="value"
+            />
           </b-list-group>
         </div>
       </b-card>
@@ -95,18 +81,11 @@
             class="flex-fill p-0 mr-1 ml-1"
           >
             <b-list-group>
-              <b-list-group-item
+              <Value
                 v-for="value in advCat.values"
                 :key="'advVal' + value.name + value.name"
-                class="d-flex justify-content-between align-items-center"
-                v-b-popover.hover.top="value.description"
-                :title="value.name"
-              >
-                <span>{{ value.name }} </span>
-                <span
-                  ><strong>{{ value.value }}</strong></span
-                >
-              </b-list-group-item>
+                :value="value"
+              />
             </b-list-group>
           </b-card>
         </div>
@@ -116,8 +95,10 @@
 </template>
 
 <script>
+import Value from "./Value";
+
 export default {
-  components: {},
+  components: { Value },
   name: "FeaturesPopup",
   props: {
     color: String,

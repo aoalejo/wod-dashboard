@@ -35,21 +35,14 @@
             class="flex-fill mx-1"
           >
             <b-list-group>
-              <b-list-group-item
+              <Value
                 v-for="value in advCat.values.slice(
                   (index - 1) * 3,
                   (index - 1) * 3 + 3
                 )"
                 :key="'advVal' + value.name + value.name"
-                class="d-flex justify-content-between align-items-center"
-                v-b-popover.hover.top="value.description"
-                :title="value.name"
-              >
-                <span>{{ value.name }} </span>
-                <span
-                  ><strong>{{ value.value }}</strong></span
-                >
-              </b-list-group-item>
+                :value="value"
+              />
             </b-list-group>
           </b-card>
         </div>
@@ -78,20 +71,13 @@
           class="ml-1 mr-1 flex-fill p-0 col-4"
         >
           <b-list-group>
-            <b-list-group-item
+            <Value
               v-for="value in ability.values
                 .filter(checkIfZero)
                 .slice((index - 1) * 4, (index - 1) * 4 + 4)"
-              v-b-popover.hover.top="value.description"
-              :title="value.name"
               :key="'abilityVal' + value.name + value.name"
-              class="d-flex justify-content-between align-items-center"
-            >
-              <span>{{ value.name }} </span>
-              <span
-                ><strong>{{ value.value }}</strong></span
-              >
-            </b-list-group-item>
+              :value="value"
+            />
           </b-list-group>
         </b-card>
       </div>
@@ -121,21 +107,14 @@
             class="flex-fill p-0 mr-1 ml-1"
           >
             <b-list-group>
-              <b-list-group-item
+              <Value
                 v-for="value in advCat.values.slice(
                   (index - 1) * 3,
                   (index - 1) * 3 + 3
                 )"
                 :key="'advVal' + value.name + value.name"
-                class="d-flex justify-content-between align-items-center"
-                v-b-popover.hover.top="value.description"
-                :title="value.name"
-              >
-                <span>{{ value.name }} </span>
-                <span
-                  ><strong>{{ value.value }}</strong></span
-                >
-              </b-list-group-item>
+                :value="value"
+              />
             </b-list-group>
           </b-card>
         </div>
@@ -145,8 +124,11 @@
 </template>
 
 <script>
+import EventBus from "../../eventBus";
+import Value from "./Value";
+
 export default {
-  components: {},
+  components: { Value },
   name: "Features",
   props: {
     color: String,
@@ -157,6 +139,9 @@ export default {
   methods: {
     checkIfZero(value) {
       return value.value != 0;
+    },
+    featureTapped(feature) {
+      EventBus.$emit("featureTapped", feature);
     },
   },
 };
