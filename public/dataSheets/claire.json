@@ -1,0 +1,465 @@
+{
+  "info": {
+    "name": "Claire",
+    "player": "Griselda",
+    "color": "#e63041",
+    "values": [
+      {
+        "type": "Naturaleza",
+        "name": "Hedonista",
+        "description": "El Vividor sabe que la vida –y la no vida– está vacía y carece de sentido alguno, por lo que ha decidido disfrutar al máximo de su existencia. No es necesariamente un irresponsable, simplemente se encuentra predispuesto a pasar un buen rato siempre que pueda. Casi todos los Vividores suelen tener bajas puntuaciones de Autocontrol, ya que se sienten atraídos por el exceso. Los hedonistas, sibaritas y diletantes son ejemplos del Arquetipo Vividor. Un Vástago Vividor puede crear una progenie de chiquillos aduladores, o puede pasar el tiempo paladeando la sangre de drogadictos para disfrutar de la sensación. —Recupera un punto de Fuerza de Voluntad cada vez que disfrutes al máximo y puedas expresar totalmente tu placer. A opción del Narrador, una fiesta especialmente salvaje podría proporcionar más puntos de Fuerza de Voluntad."
+      },
+      {
+        "type": "Conducta",
+        "name": "Solitario",
+        "description": "Incluso en una multitud el Solitario destaca, ya que resulta evidente que se encuentra fuera de lugar. Otros lo ven como un paria remoto y aislado pero en realidad prefiere su propia compañía a la de los demás. Por cualquier motivo desdeña a la gente, y el sentimiento suele ser recíproco. Los criminales, radicales y librepensadores suelen ser de Arquetipo Solitario. Los Vástagos Solitarios a menudo proceden de clanes toscos e individualistas como los Gangrel y Ravnos, y tienden a convertirse en Autarkis al no importarles una mierda lo que diga sobre la ley un Príncipe relamido o un Arzobispo capullo. —Recupera un punto de Fuerza de Voluntad cuando logres algo por tu cuenta que además beneficie de algún modo a la cuadrilla. Un éxito realmente impresionante enfrentado a una gran oposición puede permitirte recuperardos puntos de Fuerza de Voluntad."
+      },
+      {
+        "type": "Concepto",
+        "name": "Terrateniente",
+        "description": "Mafioso, Terrateniente"
+      },
+      {
+        "type": "Clan",
+        "name": "Gangrel",
+        "description": "Nominalmente los Gangrel pertenecen a la Camarilla, pero en el Clan siempre ha existido una facción independiente que rechaza la pertenencia a cualquier secta. Esta facción afirma que los juegos políticos y las estructuras sociales no sirven de nada a los verdaderos Gangrel."
+      },
+      {
+        "type": "Generación",
+        "name": "10 va",
+        "description": "10ª generación: reserva de sangre de 13 puntos, puedes gastar 1 puntos de sangre por turno."
+      },
+      {
+        "type": "Sire",
+        "name": "Adrienne Crépin",
+        "description": "Un gangrel"
+      },
+      {
+        "type": "Debilidad",
+        "name": "Frenesi Animal",
+        "description": "Cada vez que un Gangrel cae en frenesí adquiere una característica animal temporalmente (que puede sustituir a una característica temporal ya existente). Un mechón de pelaje, un breve letargo tras alimentarse, o nerviosismo entre las multitudes, pueden aparecer en un Extranjero después del frenesí. Las características adquiridas en los frenesíes de los Gangrel no tienen por qué ser físicas, también pueden afectar a la conducta. Los jugadores deberían colaborar con el Narrador para determinar cuál es el nuevo rasgo animal que adquieren sus personajes –si el frenesí se produjo en un impulso de lucha o de huida puede ser importante. Con el tiempo, o en una situación excepcional, un rasgo animal en particular puede volverse permanente, y el siguiente frenesí hará surgir un nuevo rasgo. Una buena guía es requerir que cada rasgo obtenido durante un frenesí tenga algún tipo de efecto sobre los términos del sistema –como la reducción temporal de puntos en Atributos Sociales o una pérdida permanente de Humanidad, aunque algunos Narradores pueden permitir sólo rasgos narrativos que afecten a la historia."
+      }
+    ]
+  },
+  "attributes": {
+    "name": "Atributos",
+    "max": 6,
+    "values": [
+      {
+        "name": "Fisicos",
+        "values": [
+          {
+            "name": "Fuerza",
+            "value": 3,
+            "id": "STR",
+            "description": ""
+          },
+          {
+            "name": "Destreza",
+            "value": 4,
+            "id": "DEX",
+            "description": ""
+          },
+          {
+            "name": "Resistencia",
+            "value": 3,
+            "id": "CON",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Social",
+        "values": [
+          {
+            "name": "Carisma",
+            "value": 2,
+            "id": "CHA",
+            "description": ""
+          },
+          {
+            "name": "Manipulación",
+            "value": 2,
+            "id": "MAN",
+            "description": ""
+          },
+          {
+            "name": "Apariencia",
+            "value": 2,
+            "id": "APP",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Mental",
+        "values": [
+          {
+            "name": "Percepción",
+            "value": 3,
+            "id": "PER",
+            "description": ""
+          },
+          {
+            "name": "Inteligencia",
+            "value": 2,
+            "id": "INT",
+            "description": ""
+          },
+          {
+            "name": "Astucia",
+            "value": 3,
+            "id": "WIS",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Talentos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Alerta",
+          "value": 4,
+          "description": ""
+        },
+        {
+          "name": "Atletismo",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Callejeo",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Consciencia",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Empatía",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Expresión",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Intimidación",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Liderazgo",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Pelea",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Subterfugio",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Técnicas",
+      "max": 6,
+      "values": [
+        {
+          "name": "Armas de Fuego",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Artesanía",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Conducir",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Etiqueta",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Interpretación",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Latrocinio",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Pelea con Armas",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Sigilo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Supervivencia",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "T.c. Animales",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Conocimientos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Academicismo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Ciencias",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Finanzas",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Informática",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Investigación",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Leyes",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Medicina",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Ocultismo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Política",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Tecnología",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "advantages": {
+    "name": "Ventajas",
+    "values": [
+      {
+        "name": "Disciplinas",
+        "max": 6,
+        "values": [
+          {
+            "name": "Fortaleza",
+            "value": 1,
+            "description": "la puntuación de Fortaleza de un personaje se suma a su Resistencia a la hora de absorber el daño normal (contundente y letal). Un vampiro con esta Disciplina también puede emplear sus círculos en ella para absorber daño agravado (normalmente los vampiros no pueden absorber cosas como mordiscos de vampiros, garras de hombres lobo, efectos mágicos, fuego, luz solar o traumas físicos masivos). Por tanto, un Vástago con Fortaleza 3 podrá  tirar tres dados para absorber daño agravado. Consulta la  página 272 para las reglas sobre la absorción y el dañoisión."
+          },
+          {
+            "name": "P1 Los Ojos de la Bestia",
+            "value": 2,
+            "description": "el personaje debe declarar su deseo de invocar los Ojos. No hace falta tirada, pero el cambio tarda un turno completo en realizarse. Mientras los Ojos estén manifestados se sufrirá un + 1 a la dificultad de las tiradas Sociales con mortales, salvo que tome alguna medida para ocultarlos (las gafas de sol son la solución más sencilla). Un vampiro sin este poder que se encuentre sumergido en la oscuridad total sufre las penalizaciones de Lucha a Ciegas"
+          },
+          {
+            "name": "P2 Garras Salvajes",
+            "value": 3,
+            "description": "las garras crecen automáticamente como respuesta al deseo del personaje, pudiendo surgir en las manos y en los pies. La transformación requiere del gasto de un punto de sangre, tarda un turno en completarse y dura una escena. El personaje atacará normalmente, pero las garras infligirán un daño agravado de Fuerza +1. Las demás criaturas sobrenaturales no podrán absorber este daño, salvo que se empleen poderes como Fortaleza. Además, la dificultad de todas las escaladas se reducirá en -2."
+          },
+          {
+            "name": "P3 Fusión con la Tierra",
+            "value": 4,
+            "description": "no es necesario tirar dados, pero el personaje tiene que gastar un punto de sangre. La inmersión en la tierra es automática y tarda un turno en completarse. Durante este tiempo el personaje entrará en un estado ligeramente superior al letargo, sintiendo su entorno solo de forma confusa. Para que el vampiro pueda levantarse antes del momento deseado y responder así a alguna emergencia, el jugador tendrá que hacer una tirada de Humanidad o Senda (dificultad 6)."
+          },
+          {
+            "name": "P4 Forma de la Bestia",
+            "value": 0,
+            "description": "el personaje gasta un punto de sangre y sume la forma deseada. La transformación tarda tres turnos en completarse (el gasto de puntos de sangre adicionales reduce el tiempo en un turno por punto, hasta un mínimo de uno). El vampiro conservará su forma hasta el siguiente amanecer, salvo que desee cambiar antes. Las ropas y los pequeños objetos personales se transformarán con él."
+          }
+        ]
+      },
+      {
+        "name": "Virtudes",
+        "max": 5,
+        "values": [
+          {
+            "name": "Consciencia",
+            "value": 3,
+            "description": ""
+          },
+          {
+            "name": "Auto control",
+            "value": 4,
+            "description": ""
+          },
+          {
+            "name": "Coraje",
+            "value": 5,
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Trasfondos",
+        "max": 5,
+        "values": [
+          {
+            "name": "Generación",
+            "value": 2,
+            "description": "lo alejado que se encuentra el personaje de Caín"
+          },
+          {
+            "name": "Contactos",
+            "value": 1,
+            "description": "Conoces a gente por toda la ciudad, y cuando te pones a hacer llamadas telefónicas puedes lograr una enorme cantidad de información. Los Contactos son gente a la que puedes sobornar, manipular o amenazar para que te haga favores, pero también puede tratarse de conocidos importantes, amigos con los que puedes contar para que te ayuden en sus especialidades. Deberías describir cada contacto importante antes del comienzo del juego. Un contacto importante"
+          },
+          {
+            "name": "Mentor",
+            "value": 3,
+            "description": "Este Rasgo representa a un antiguo (y puede que a más de uno) que cuida de ti y que de vez en cuando te ofrece su guía. Un Mentor puede ser muy poderoso, pero sus capacidades no tienen porqué ser directas. Dependiendo del número de círculos en el Trasfondo podría no ser más que un vampiro con una importante red de informadores, o una criatura centenaria con una tremenda influencia y vastos poderes sobrenaturales. Podría ofrecer consejo, hablar con el Príncipe: Tu mentor es muy influyente, como un miembro de la Primogenitura o un Obispo."
+          }
+        ]
+      },
+      {
+        "name": "Meritos",
+        "max": 4,
+        "values": [
+          {
+            "name": "Color Saludable",
+            "value": 2,
+            "description": "Pareces más saludable que los demás vampiros, lo que te permite mezclarte con los humanos con mayor facilidad. Aún conservas el color de los vivos, y tu piel solo es un poco fría al tacto."
+          }
+        ]
+      },
+      {
+        "name": "Defectos",
+        "max": 4,
+        "values": [
+          {
+            "name": "Confusión de identidad",
+            "value": 1,
+            "description": "Te pareces a otro vampiro, lo que puede provocar confusiones. Este Defecto puede dar pie a situaciones incómodas o incluso peligrosas, especialmente si tu “gemelo” tiene una pésima reputación o es buscado por algún crimen."
+          },
+          {
+            "name": "Prescindible",
+            "value": 1,
+            "description": "Alguien en el poder quiere quitarte de en medio. Quizá quiera un territorio que poseas, o está celoso de la atención que estás obteniendo de uno de sus criados mortales preferidos –los detalles quedan fuera de lugar. Lo que sí importa es que tiene el poder de meterte en situaciones peligrosas “por el bien de la Secta,” y no tiene escrúpulos al hacerlo."
+          }
+        ]
+      }
+    ]
+  },
+  "consumables": [
+    {
+      "name": "Fuerza de voluntad",
+      "color": "success",
+      "perTurn": 1,
+      "value": {
+        "max": 7,
+        "now": 7
+      },
+      "description": "La Fuerza de Voluntad mide la motivación interior del personaje y su capacidad para superar situaciones adversas. Al final el personaje utilizará todos sus puntos, por lo que no será capaz de esforzarse tanto como antes. Un personaje con su reserva agotada estará exhausto mental, física y espiritualmente, y tendrá dificultades para hacer cualquier cosa, ya que le faltará la confianza necesaria para tomar decisiones."
+    },
+    {
+      "name": "Reserva de sangre",
+      "color": "danger",
+      "perTurn": 3,
+      "value": {
+        "max": 10,
+        "now": 10
+      },
+      "description": "-"
+    },
+    {
+      "name": "Humanidad",
+      "color": "info",
+      "perTurn": 1,
+      "value": {
+        "max": 10,
+        "now": 7
+      },
+      "description": "-"
+    }
+  ],
+  "health": {
+    "name": "Vida",
+    "damage": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "types": [
+      "",
+      "C - Contundente",
+      "NL - No letal",
+      "L - Letal",
+      "A - Agravado"
+    ]
+  }
+}

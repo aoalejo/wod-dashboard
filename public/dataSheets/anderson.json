@@ -1,0 +1,443 @@
+{
+  "info": {
+    "name": "Anderson",
+    "player": "Alejandro",
+    "color": "#e63041",
+    "values": [
+      {
+        "type": "Naturaleza",
+        "name": "Capitalista",
+        "description": "Eres el mercenario definitivo y te das cuenta de que siempre hay un mercado que aprovechar –todo puede ser una mercancía. Tienes una comprensión innata de cómo manipular al ganado y a los Cainitas para que crean que necesitan determinados bienes o servicios. El aspecto y la influencia son vitales para cerrar una gran venta, aunque usarás cualquier ventaja disponible. Los vendedores, soldados de fortuna y lameculos se adhieren al Arquetipo Capitalista. Un Vástago Capitalista se desenvuelve como pez en el agua en las intrigas e intercambio de favores que surgen de la Yihad. —Recuperar un punto de Fuerza de Voluntad cuando consigues hacer una “venta” o cuando intercambies un producto. Las “mercancías” no tienen por qué ser objetos físicos; también pueden ser servicios, favores, información y otras cosas intangibles."
+      },
+      {
+        "type": "Conducta",
+        "name": "Capitalista",
+        "description": "Eres el mercenario definitivo y te das cuenta de que siempre hay un mercado que aprovechar –todo puede ser una mercancía. Tienes una comprensión innata de cómo manipular al ganado y a los Cainitas para que crean que necesitan determinados bienes o servicios. El aspecto y la influencia son vitales para cerrar una gran venta, aunque usarás cualquier ventaja disponible. Los vendedores, soldados de fortuna y lameculos se adhieren al Arquetipo Capitalista. Un Vástago Capitalista se desenvuelve como pez en el agua en las intrigas e intercambio de favores que surgen de la Yihad. —Recuperar un punto de Fuerza de Voluntad cuando consigues hacer una “venta” o cuando intercambies un producto. Las “mercancías” no tienen por qué ser objetos físicos; también pueden ser servicios, favores, información y otras cosas intangibles."
+      },
+      {
+        "type": "Concepto",
+        "name": "Matón",
+        "description": "Criminal: fugitivo, mafioso, camello, proxeneta, ladrón de coches, matón, ratero, perista."
+      },
+      {
+        "type": "Clan",
+        "name": "Brujah",
+        "description": "la Chusma está formada por rebeldes e insurgentes que luchan apasionadamente por sus causas dispares. Los Brujah luchan contra la tiranía y en ocasiones incluso contra la suya."
+      },
+      {
+        "type": "Generación",
+        "name": "10 va",
+        "description": "10ª generación: reserva de sangre de 13 puntos, puedes gastar 1 puntos de sangre por turno."
+      },
+      {
+        "type": "Sire",
+        "name": "!",
+        "description": "Un Brujah"
+      },
+      {
+        "type": "Debilidad",
+        "name": "Frenesi Dificil",
+        "description": "+2 a la dificultad de todas las tiradas para resistir o controlar el Frenesí."
+      }
+    ]
+  },
+  "attributes": {
+    "name": "Atributos",
+    "max": 6,
+    "values": [
+      {
+        "name": "Fisicos",
+        "values": [
+          {
+            "name": "Fuerza",
+            "value": 4,
+            "id": "STR",
+            "description": ""
+          },
+          {
+            "name": "Destreza",
+            "value": 3,
+            "id": "DEX",
+            "description": ""
+          },
+          {
+            "name": "Resistencia",
+            "value": 3,
+            "id": "CON",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Social",
+        "values": [
+          {
+            "name": "Carisma",
+            "value": 4,
+            "id": "CHA",
+            "description": ""
+          },
+          {
+            "name": "Manipulación",
+            "value": 2,
+            "id": "MAN",
+            "description": ""
+          },
+          {
+            "name": "Apariencia",
+            "value": 2,
+            "id": "APP",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Mental",
+        "values": [
+          {
+            "name": "Percepción",
+            "value": 2,
+            "id": "PER",
+            "description": ""
+          },
+          {
+            "name": "Inteligencia",
+            "value": 2,
+            "id": "INT",
+            "description": ""
+          },
+          {
+            "name": "Astucia",
+            "value": 2,
+            "id": "WIS",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Talentos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Alerta",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Atletismo",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Callejeo",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Consciencia",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Empatía",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Expresión",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Intimidación",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Liderazgo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Pelea",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Subterfugio",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Técnicas",
+      "max": 6,
+      "values": [
+        {
+          "name": "Armas de Fuego",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Artesanía",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Conducir",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Etiqueta",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Interpretación",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Latrocinio",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Pelea con Armas",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Sigilo",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Supervivencia",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "T.c. Animales",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Conocimientos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Academicismo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Ciencias",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Finanzas",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Informática",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Investigación",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Leyes",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Medicina",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Ocultismo",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Política",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Tecnología",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "advantages": {
+    "name": "Ventajas",
+    "values": [
+      {
+        "name": "Disciplinas",
+        "max": 6,
+        "values": [
+          {
+            "name": "Celeridad",
+            "value": 1,
+            "description": "Cada punto de Celeridad añade un dado a todas las tiradas de dados relacionadas con la Destreza. Además, el jugador puede gastar un punto de sangre para realizar una acción extra por cada punto que tenga en Celeridad al principio de cada turno; este gasto puede ir más allá del máximo normal permitido por Generación. Sin embargo, cualquier punto utilizado para realizar acciones extra ya no se pueden utilizar para añadirlos a las tiradas relacionadas con la Destreza durante ese turno. Las acciones adicionales deben ser físicas (por ejemplo, el vampiro no puede utilizar una Disciplina mental como Dominación varias veces en el mismo turno) y las acciones añadidas tendrán lugar al final del turno (la acción normal del vampiro tiene lugar en función de lo que determine su tirada de iniciativa)."
+          },
+          {
+            "name": "Potencia",
+            "value": 3,
+            "description": "Cada punto de Potencia que posea el vampiro añade un dado a todas las tiradas relacionadas con Fuerza. Además, el jugador puede gastar un punto de sangre y cambiar su reserva de Potencia en un número igual de éxitos automáticos para todas las tiradas relacionadas con Potencia durante ese turno. En combate cuerpo a cuerpo con armas o sin ellas los éxitos de Potencia (tirados o automáticos) si aplican a los resultados de la tirada de daño."
+          },
+          {
+            "name": "Precencia",
+            "value": 0,
+            "description": "Cualquiera puede resistir la Presencia durante un turno gastando un punto de Fuerza de Voluntad y superando una tirada del mismo Rasgo (dificultad 8), pero habrá que seguir realizando este gasto cada turno hasta librarse de la mirada del vampiro (o, en el caso de Invocación, hasta que desaparezca el efecto). Los vampiros de tres o más generaciones inferiores que el usuario sólo necesitan gastar un punto de Fuerza de Voluntad para ignorar el poder durante toda la noche y no necesitan realizar ninguna tirada para hacerlo. El principal inconveniente de esta Disciplina es que solo controla las emociones. Puede hacer que los demás tengan determinados sentimientos hacia el vampiro, pero no otorga un control directo sobre ellos. Aunque la gente tendrá muy en cuenta cualquier orden recibida del vampiro, sus actos serán suyos. Las directivas suicidas o ridículas no parecerán más lógicas solo porque las realice alguien especialmente fascinante. Sin embargo, una elocuencia inspirada o una gran fortuna empleadas junto a esta Disciplina pueden lograr que todos vayan por el camino marcado."
+          },
+          {
+            "name": "P1 Fascinación",
+            "value": 1,
+            "description": "el jugador tira Carisma + Interpretación (dificultad 7). El número de éxitos obtenidos determina cuánta gente se ve afectada, tal y como se indica en la tabla siguiente. Si hay más gente presente de la que el vampiro puede afectar, Fascinación actuará primero sobre aquellos de menor Fuerza de Voluntad. El poder permanecerá en efecto el resto de la escena, o hasta que el personaje decida cancelarlo. Éxitos Resultado 1 éxito Una persona 2 éxitos Dos personas 3 éxitos Seis personas 4 éxitos Veinte personas 5 éxitos Todos los que se encuentran cerca del vampiro (un auditorio, una turba). Quienes sean afectados pueden utilizar puntos de Fuerza de Voluntad para superar el efecto, pero deben continuar gastando Fuerza de Voluntad cada escena mientras permanezcan en el mismo lugar que el vampiro. Tan pronto como el individuo gaste un número de puntos de Fuerza de Voluntad igual que los éxitos obtenidos, se libera de la Fascinación completamente y no es afectado durante el resto de la noche."
+          },
+          {
+            "name": "P2 Mirada Aterradora",
+            "value": 0,
+            "description": "el jugador tira Carisma + Intimidación (la dificultad es la Astucia + Coraje de la víctima). Un éxito indica que el objetivo es amedrentado, mientras que un fallo significa que queda sorprendido, pero no aterrorizado. Tres o más éxitos hacen que la víctima huya despavorida. Los que no tengan dónde escapar preferirán arañar las paredes para abrir un túnel antes que contemplar el rostro del vampiro. Además, cada éxito restará un dado a las reservas del objetivo del próximo turno. Se puede intentar emplear este poder una vez por turno, aunque también se puede utilizar con una tirada extendida, sumando los éxitos para subyugar completamente a la víctima. Cuando ésta haya perdido tantos dados que no pueda realizar acción alguna, estará tan aterrada que caerá al suelo en posición fetal y empezará a llorar. Un fallo en esta acción extendida representa una ruptura de la concentración: se perderán todos los éxitos acumulados y se deberá empezar de nuevo el tuno siguiente, pudiendo actuar la víctima con normalidad. Un fracaso en cualquier momento significa que el objetivo no quedará impresionado en modo alguno (quizá llegue a considerar cómicos los gestos del Vástago) y que será inmune a cualquier nuevo uso de Presencia por parte del personaje durante el resto de la historia."
+          }
+        ]
+      },
+      {
+        "name": "Virtudes",
+        "max": 5,
+        "values": [
+          {
+            "name": "Consciencia",
+            "value": 2,
+            "description": ""
+          },
+          {
+            "name": "Auto control",
+            "value": 3,
+            "description": ""
+          },
+          {
+            "name": "Coraje",
+            "value": 4,
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Trasfondos",
+        "max": 5,
+        "values": [
+          {
+            "name": "Generación",
+            "value": 2,
+            "description": "lo alejado que se encuentra el personaje de Caín"
+          },
+          {
+            "name": "Recursos",
+            "value": 3,
+            "description": "Los Recursos son bienes valiosos que se encuentran a disposición de tu personaje. Puede que se trate de dinero, pero a medida que la puntuación de este Trasfondo se incrementa, es más probable que se trate de inversiones, propiedades o algún tipo de capital. Acomodado. Eres un miembro destacado y establecido de tu comunidad, con terrenos y viviendo en propiedad, y tienes una reputación que te permite obtener un crédito en términos muy generosos. Probablemente tengas más propiedades inmuebles que dinero líquido. Puedes mantener un modo de vida de un nivel de un punto de Recursos donde quieras y durante tanto tiempo como quieras."
+          }
+        ]
+      },
+      {
+        "name": "Meritos",
+        "max": 4,
+        "values": []
+      },
+      {
+        "name": "Defectos",
+        "max": 4,
+        "values": []
+      }
+    ]
+  },
+  "consumables": [
+    {
+      "name": "Fuerza de voluntad",
+      "color": "success",
+      "perTurn": 1,
+      "value": {
+        "max": 5,
+        "now": 5
+      },
+      "description": "La Fuerza de Voluntad mide la motivación interior del personaje y su capacidad para superar situaciones adversas. Al final el personaje utilizará todos sus puntos, por lo que no será capaz de esforzarse tanto como antes. Un personaje con su reserva agotada estará exhausto mental, física y espiritualmente, y tendrá dificultades para hacer cualquier cosa, ya que le faltará la confianza necesaria para tomar decisiones."
+    },
+    {
+      "name": "Reserva de sangre",
+      "color": "danger",
+      "perTurn": 3,
+      "value": {
+        "max": 13,
+        "now": 13
+      },
+      "description": "-"
+    },
+    {
+      "name": "Humanidad",
+      "color": "info",
+      "perTurn": 1,
+      "value": {
+        "max": 10,
+        "now": 5
+      },
+      "description": "-"
+    }
+  ],
+  "health": {
+    "name": "Vida",
+    "damage": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "types": [
+      "",
+      "C - Contundente",
+      "NL - No letal",
+      "L - Letal",
+      "A - Agravado"
+    ]
+  }
+}

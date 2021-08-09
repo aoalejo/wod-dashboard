@@ -1,0 +1,474 @@
+{
+  "info": {
+    "name": "Jonathan E Reid",
+    "player": "Tommy",
+    "color": "#a31008",
+    "values": [
+      {
+        "type": "Naturaleza",
+        "name": "Protector",
+        "description": "Todo el mundo necesita consuelo y un hombro en el que poder llorar. El Protector encuentra satisfacción consolando a los demás, y la gente a menudo acude a él para contarle sus problemas. Los vampiros con este Arquetipo suelen hacer todo lo posible por proteger a los mortales de los que se alimentan. Las enfermeras, doctores y psiquiatras son ejemplos de posibles Protectores. Los Vástagos Protectores a menudo son el estereotipo trágico que Abrazan a los mortales que amaban en vida tratando de suavizar su pérdida, o incluso los que crean situaciones de dolor para poder intervenir y así conseguir mérito ante sí mismos. —Recupera un punto de Fuerza de Voluntad cada vez que logres proteger o consolar a alguien."
+      },
+      {
+        "type": "Conducta",
+        "name": "Protector",
+        "description": "Todo el mundo necesita consuelo y un hombro en el que poder llorar. El Protector encuentra satisfacción consolando a los demás, y la gente a menudo acude a él para contarle sus problemas. Los vampiros con este Arquetipo suelen hacer todo lo posible por proteger a los mortales de los que se alimentan. Las enfermeras, doctores y psiquiatras son ejemplos de posibles Protectores. Los Vástagos Protectores a menudo son el estereotipo trágico que Abrazan a los mortales que amaban en vida tratando de suavizar su pérdida, o incluso los que crean situaciones de dolor para poder intervenir y así conseguir mérito ante sí mismos. —Recupera un punto de Fuerza de Voluntad cada vez que logres proteger o consolar a alguien."
+      },
+      {
+        "type": "Concepto",
+        "name": "Doctor",
+        "description": "Doctor"
+      },
+      {
+        "type": "Clan",
+        "name": "Tremere",
+        "description": "El Clan Tremere se considera uno de los pilares de la Camarilla. Se rumorea que en el pasado realizaron un ritual que eliminó a todos los miembros del linaje que no eran leales a la Torre de Marfil, y por extensión a la jerarquía piramidal del Clan."
+      },
+      {
+        "type": "Generación",
+        "name": "8 va",
+        "description": "8ª generación: reserva de sangre de 15 puntos, puedes gastar 3 puntos de sangre por turno."
+      },
+      {
+        "type": "Sire",
+        "name": "N/N",
+        "description": "Un tremere sin renombre"
+      },
+      {
+        "type": "Debilidad",
+        "name": "Vinculación Fácil",
+        "description": "La dependencia de los Tremere de la sangre es más acentuada que la de otros Vástagos. Un Brujo sólo necesita beber en dos ocasiones de otro Vástago para quedar Vinculado por Sangre en lugar de las tres habituales –la primera vez cuenta como si el Tremere hubiera bebido dos veces (Para más información sobre el Vínculo de Sangre consulta la pág. 286). Los antiguos del Clan lo saben y tratan de imponer lealtad en el linaje obligando a todos los Brujos neonatos a beber poco después de su Abrazo de la sangre transmitida mediante transustanciación de los siete antiguos Tremere que dirigen el Clan."
+      }
+    ]
+  },
+  "attributes": {
+    "name": "Atributos",
+    "max": 6,
+    "values": [
+      {
+        "name": "Fisicos",
+        "values": [
+          {
+            "name": "Fuerza",
+            "value": 3,
+            "id": "STR",
+            "description": ""
+          },
+          {
+            "name": "Destreza",
+            "value": 5,
+            "id": "DEX",
+            "description": ""
+          },
+          {
+            "name": "Resistencia",
+            "value": 2,
+            "id": "CON",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Social",
+        "values": [
+          {
+            "name": "Carisma",
+            "value": 2,
+            "id": "CHA",
+            "description": ""
+          },
+          {
+            "name": "Manipulación",
+            "value": 2,
+            "id": "MAN",
+            "description": ""
+          },
+          {
+            "name": "Apariencia",
+            "value": 2,
+            "id": "APP",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Mental",
+        "values": [
+          {
+            "name": "Percepción",
+            "value": 2,
+            "id": "PER",
+            "description": ""
+          },
+          {
+            "name": "Inteligencia",
+            "value": 4,
+            "id": "INT",
+            "description": ""
+          },
+          {
+            "name": "Astucia",
+            "value": 2,
+            "id": "WIS",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Talentos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Alerta",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Atletismo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Callejeo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Consciencia",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Empatía",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Expresión",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Intimidación",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Liderazgo",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Pelea",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Subterfugio",
+          "value": 3,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Técnicas",
+      "max": 6,
+      "values": [
+        {
+          "name": "Armas de Fuego",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Artesanía",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Conducir",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Etiqueta",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Interpretación",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Latrocinio",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Pelea con Armas",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Sigilo",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "Supervivencia",
+          "value": 1,
+          "description": ""
+        },
+        {
+          "name": "T.c. Animales",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Conocimientos",
+      "max": 6,
+      "values": [
+        {
+          "name": "Academicismo",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Ciencias",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Finanzas",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Informática",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Investigación",
+          "value": 2,
+          "description": ""
+        },
+        {
+          "name": "Leyes",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Medicina",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Ocultismo",
+          "value": 3,
+          "description": ""
+        },
+        {
+          "name": "Política",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "Tecnología",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        },
+        {
+          "name": "...",
+          "value": 0,
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "advantages": {
+    "name": "Ventajas",
+    "values": [
+      {
+        "name": "Disciplinas",
+        "max": 6,
+        "values": [
+          {
+            "name": "T SS1: El Sabor de la Sangre",
+            "value": 1,
+            "description": "Sistema: el número de éxitos obtenidos en la tirada determina cuánta información logra el taumaturgo, así como su precisión."
+          },
+          {
+            "name": "T SS2: La Furia de la Sangre",
+            "value": 2,
+            "description": "Sistema: cada éxito obliga al objetivo a gastar un punto de sangre inmediatamente del modo que desee el atacante. Los puntos gastados de este modo pueden exceder el límite normal por turno indicado para la Generación de la víctima. Cada éxito también aumenta en +1 la dificultad de las tiradas para resistirse al frenesí. El taumaturgo no puede utilizar la Furia de la Sangre sobre sí mismo para exceder sus propios límites generacionales."
+          },
+          {
+            "name": "T SS3: La Sangre del Poder",
+            "value": 3,
+            "description": "los éxitos logrados en una tirada de Fuerza de Voluntad deben gastarse tanto para disminuir la Generación del vampiro como para mantener el cambio. Un éxito permite reducir en uno la Generación durante una hora. Cada éxito adicional otorga al Vástago bien un descenso más de Generación o una hora más de efecto. Si el vampiro es víctima de la diablerie estando el poder en efecto, el cambio de Generación desaparecerá inmediatamente y el diabolista ganará poder de acuerdo a la Generación real del taumaturgo. Además, cualquier mortal Abrazado por el vampiro nacerá teniendo en cuenta la verdadera generación de su sire (por ejemplo, un Tremere de 10ª Generación que la hubiera reducido a la 8ª seguiría creando chiquillos de la 11ª). Una vez pasa el efecto, cualquier sangre que exceda la reserva máxima del personaje se diluirá, dejando al personaje en su máximo habitual. Por tanto, si un Tremere de 12ª Generación (reserva de sangre máxima 11) la bajara hasta la 9ª (reserva máxima 14), ingiriera los 14 puntos y los conservara cuando el efecto desapareciera, su reserva bajaría inmediatamente a 11."
+          },
+          {
+            "name": "T SS4: Robo de Vitae",
+            "value": 4,
+            "description": "el número de éxitos determina cuántos puntos de sangre consigue transferir el taumaturgo. La víctima debe estar a la vista y a menos de 50 pies (15 metros). Usar este poder es como beber del objetivo, por lo que si se usa tres veces en el mismo Vástago se creará un Vínculo de Sangre. Este poder es, evidentemente, bastante espectacular y obvio, así que los Príncipes de la Camarilla consideran con buen criterio que su uso en público es una ruptura de la Mascarada."
+          },
+          {
+            "name": "Senda de la Viscicitud",
+            "value": 0,
+            "description": "El jugador hace una tirada de Destreza + Artesanias (D6) Dependiendo de esto será la calidad del arma lograda (Fuerza, 1-2 0, 3-4 +1, 5+, +2). Luego se realiza una tirada de medicina + Astucia (D7), y el vampiro recibirá un daño de 3 menos la cantidad de éxitos. Estos daños pueden recuperarse normalmente."
+          },
+          {
+            "name": "Senda de la Viscicitud 1",
+            "value": 1,
+            "description": "El vampiro puede gastar hasta 1 punto de sangre para crear armas. El arma hace daño letal"
+          },
+          {
+            "name": "Senda de la Viscicitud 2",
+            "value": 2,
+            "description": "El vampiro puede gastar todos los puntos de sangre que pueda usar por turno para crear armas. El arma hace daño letal"
+          },
+          {
+            "name": "Senda de la Viscicitud 3",
+            "value": 2,
+            "description": "El vampiro puede gastar todos los puntos de sangre que pueda usar por turno para crear armas. El arma hace daño agravado"
+          }
+        ]
+      },
+      {
+        "name": "Virtudes",
+        "max": 5,
+        "values": [
+          {
+            "name": "Consciencia",
+            "value": 3,
+            "description": ""
+          },
+          {
+            "name": "Auto control",
+            "value": 4,
+            "description": ""
+          },
+          {
+            "name": "Coraje",
+            "value": 3,
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "Trasfondos",
+        "max": 5,
+        "values": [
+          {
+            "name": "Generación",
+            "value": 5,
+            "description": "lo alejado que se encuentra el personaje de Caín"
+          },
+          {
+            "name": "Rebaño",
+            "value": 1,
+            "description": "los recipientes a los que el personaje tiene acceso libre y seguro."
+          },
+          {
+            "name": "Recursos",
+            "value": 1,
+            "description": "riquezas, pertenencias e ingresos del personaje."
+          }
+        ]
+      },
+      {
+        "name": "Meritos",
+        "max": 4,
+        "values": []
+      },
+      {
+        "name": "Defectos",
+        "max": 4,
+        "values": [
+          {
+            "name": "Victima de la mascarada",
+            "value": 1,
+            "description": "La maquina propagandística de la Camarilla hizo un buen trabajo contigo. Incluso después de tu Abrazo te negabas a creer que eras un vampiro. Sigues convencido que hay una explicación lógica para tu estado, y empleas todo el tiempo que puedes buscándola. También tienes problemas alimentándote, y puedes insistir en tratar de ingerir comida normal. Ninguno de estos hábitos hace que seas una compañía excesivamente agradable para los demás Vástagos. Este Defecto debe interpretarse en todas ocasiones y por lo general lo adquieren los vampiros de la Camarilla."
+          },
+          {
+            "name": "Vengativo",
+            "value": 1,
+            "description": "Tienes una cuenta pendiente, ya sea de tus días mortales o posterior al Abrazo. Estás obsesionado con vengarte de la persona o grupo responsable y es tu principal prioridad en cualquier situación en la que te encuentres con el causante. Podrás resistir temporalmente estos impulsos gastando un punto de Fuerza de Voluntad."
+          }
+        ]
+      }
+    ]
+  },
+  "consumables": [
+    {
+      "name": "Fuerza de voluntad",
+      "color": "success",
+      "perTurn": 1,
+      "value": {
+        "max": 5,
+        "now": 5
+      },
+      "description": "La Fuerza de Voluntad mide la motivación interior del personaje y su capacidad para superar situaciones adversas. Al final el personaje utilizará todos sus puntos, por lo que no será capaz de esforzarse tanto como antes. Un personaje con su reserva agotada estará exhausto mental, física y espiritualmente, y tendrá dificultades para hacer cualquier cosa, ya que le faltará la confianza necesaria para tomar decisiones."
+    },
+    {
+      "name": "Reserva de sangre",
+      "color": "danger",
+      "perTurn": 3,
+      "value": {
+        "max": 20,
+        "now": 20
+      },
+      "description": "-"
+    },
+    {
+      "name": "Humanidad",
+      "color": "info",
+      "perTurn": 1,
+      "value": {
+        "max": 10,
+        "now": 6
+      },
+      "description": "-"
+    }
+  ],
+  "health": {
+    "name": "Vida",
+    "damage": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "types": [
+      "",
+      "C - Contundente",
+      "NL - No letal",
+      "L - Letal",
+      "A - Agravado"
+    ]
+  }
+}

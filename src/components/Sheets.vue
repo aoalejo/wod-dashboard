@@ -12,7 +12,8 @@
         </div>
         <div
           :class="
-            (sheet.health ? ' col-9 ' : ' col-10 ') + ' m-0 p-0 d-flex flex-wrap'
+            (sheet.health ? ' col-9 ' : ' col-10 ') +
+            ' m-0 p-0 d-flex flex-wrap'
           "
         >
           <Features
@@ -48,7 +49,9 @@ import Features from "./Sheet/Features.vue";
 
 import karl from "../../public/dataSheets/karl.json";
 import phillippe from "../../public/dataSheets/Phillippe.json";
-import test from "../../public/dataSheets/Test.json";
+import jonathan from "../../public/dataSheets/jonathan.json";
+import claire from "../../public/dataSheets/claire.json";
+import anderson from "../../public/dataSheets/anderson.json";
 
 export default {
   components: { Header, Consumables, Features, Footer },
@@ -64,7 +67,9 @@ export default {
   mounted() {
     this.sheets.push(karl);
     this.sheets.push(phillippe);
-    this.sheets.push(test);
+    this.sheets.push(jonathan);
+    this.sheets.push(claire);
+    this.sheets.push(anderson);
   },
 };
 </script>

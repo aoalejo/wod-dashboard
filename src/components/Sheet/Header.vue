@@ -19,6 +19,10 @@
           hide-backdrop
           :id="'HeaderSheetModal' + index + info.color + info.name"
         >
+          <template #modal-header="{}" class="p-0 m-0">
+            <!-- Emulate built in modal header close button action -->
+            <div class="p-0 m-0" />
+          </template>
 
           <FeaturesPopup
             class="col-12 m-0 p-0"
