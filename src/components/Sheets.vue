@@ -22,6 +22,7 @@
             :abilities="sheet.abilities"
             :attributes="sheet.attributes"
             :advantages="sheet.advantages"
+            :sheet="sheet"
           />
           <Consumables
             class="col-12"
@@ -47,12 +48,6 @@ import Consumables from "./Sheet/Consumables.vue";
 import Footer from "./Sheet/Footer.vue";
 import Features from "./Sheet/Features.vue";
 
-import karl from "../../public/dataSheets/karl.json";
-import phillippe from "../../public/dataSheets/Phillippe.json";
-import jonathan from "../../public/dataSheets/jonathan.json";
-import claire from "../../public/dataSheets/claire.json";
-import anderson from "../../public/dataSheets/anderson.json";
-
 export default {
   components: { Header, Consumables, Features, Footer },
 
@@ -61,16 +56,11 @@ export default {
     return {
       roll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       rolls: [],
-      sheets: [],
     };
   },
-  mounted() {
-    this.sheets.push(karl);
-    this.sheets.push(phillippe);
-    this.sheets.push(jonathan);
-    this.sheets.push(claire);
-    this.sheets.push(anderson);
-  },
+  props: {
+    sheets: Array,
+  }
 };
 </script>
 

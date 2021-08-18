@@ -4,7 +4,10 @@
       class="d-flex justify-content-between align-items-center"
       v-on:click="featureTapped(value)"
       :title="value.name"
-      :id="'ValueInfoPopOver' + hashOf(value.description)"
+      :id="
+        'ValueInfoPopOver' +
+        hashOf(value.description + value.name + sheet.info.color)
+      "
     >
       <span>{{ value.name }} </span>
       <span
@@ -13,11 +16,18 @@
       <b-modal
         size="xl"
         hide-backdrop
-        :id="'ValueInfoModal' + hashOf(value.description)"
+        :id="
+          'ValueInfoModal' +
+          hashOf(value.description + value.name + sheet.info.color)
+        "
         >{{ value.description }}</b-modal
       >
       <b-popover
-        :target="'ValueInfoPopOver' + hashOf(value.description)"
+        v-if="value.description.length > 1"
+        :target="
+          'ValueInfoPopOver' +
+          hashOf(value.description + value.name + sheet.info.color)
+        "
         triggers="hover"
         placement="top"
         boundary="viewport"
@@ -36,7 +46,10 @@
               variant="info"
               v-on:click="restTo(index)"
               v-if="value.description.length > 200"
-              v-b-modal="'ValueInfoModal' + hashOf(value.description)"
+              v-b-modal="
+                'ValueInfoModal' +
+                hashOf(value.description + value.name + sheet.info.color)
+              "
               >Ver completo
             </b-button>
           </b-button-group>
@@ -62,7 +75,7 @@ export default {
       }, 0);
     },
     featureTapped(feature) {
-      EventBus.$emit("featureTapped", feature);
+      EventBus.$emit("featureTapped", feature, this.sheet);
     },
   },
 };

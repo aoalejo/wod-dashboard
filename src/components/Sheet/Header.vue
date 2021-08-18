@@ -9,7 +9,7 @@
       <b-badge
         variant="light"
         class="m-2 d-flex flex-fill text-center justify-content-center"
-        v-b-modal="'HeaderSheetModal' + index + info.color + info.name"
+        v-b-modal="'HeaderSheetModal' + info.color + info.name"
       >
         <strong>
           {{ info.name }}
@@ -17,7 +17,7 @@
         <b-modal
           size="lg"
           hide-backdrop
-          :id="'HeaderSheetModal' + index + info.color + info.name"
+          :id="'HeaderSheetModal' + info.color + info.name"
         >
           <template #modal-header="{}" class="p-0 m-0">
             <!-- Emulate built in modal header close button action -->
@@ -30,6 +30,7 @@
             :abilities="sheet.abilities"
             :attributes="sheet.attributes"
             :advantages="sheet.advantages"
+            :sheet="sheet"
           />
         </b-modal>
       </b-badge>

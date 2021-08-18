@@ -23,8 +23,9 @@
                 (index - 1) * 3,
                 (index - 1) * 3 + 3
               )"
-              :key="'advVal' + value.name + value.name"
+              :key="'advVal' + value.name + color"
               :value="value"
+              :sheet="sheet"
             />
           </b-list-group>
         </b-card>
@@ -49,8 +50,9 @@
           <b-list-group>
             <Value
               v-for="value in ability.values"
-              :key="'abilityVal' + value.name + value.name"
+              :key="'abilityVal' + value.name + color + Math.random()"
               :value="value"
+              :sheet="sheet"
             />
           </b-list-group>
         </div>
@@ -83,8 +85,9 @@
             <b-list-group>
               <Value
                 v-for="value in advCat.values"
-                :key="'advVal' + value.name + value.name"
+                :key="'advVal' + value.name + color"
                 :value="value"
+                :sheet="sheet"
               />
             </b-list-group>
           </b-card>
@@ -105,6 +108,7 @@ export default {
     attributes: Object,
     advantages: Object,
     abilities: Array,
+    sheet: Object,
   },
   methods: {
     checkIfZero(value) {

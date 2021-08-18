@@ -1,9 +1,42 @@
 <template>
   <div class="rolls">
     <b-card no-body class="m-2">
-      <b-button class="flex-fill" v-on:click="makeRoll(20)"
-        >Make Roll!</b-button
+      <b-alert
+        class="p-0 m-0 h-100"
+        align-self="stretch"
+        show
+        :style="'background: ' + player.color"
+        v-if="player"
       >
+        <b-badge
+          variant="light"
+          class="m-2 d-flex flex-fill text-center justify-content-center"
+        >
+          <strong>
+            {{ player.name }}
+          </strong>
+        </b-badge>
+
+        <div class="d-flex m-0 p-0">
+          <b-badge
+            variant="light"
+            v-for="(feature, index) in featuresSelected"
+            :key="'featureRoll' + index"
+            class="m-2 d-flex flex-fill text-center justify-content-center"
+          >
+            <strong> {{ feature.name }} ({{ feature.value }}) </strong>
+          </b-badge>
+        </div>
+      </b-alert>
+
+      <b-button-group>
+        <b-button class="flex-fill" v-on:click="makeRoll(20)"
+          >Make Roll!</b-button
+        >
+        <b-button variant="info" v-if="player" v-on:click="rollForAll()"
+          >Roll for all!</b-button
+        >
+      </b-button-group>
 
       <b-button-group class="d-flex col-12 mt-2">
         <b-button
@@ -133,6 +166,7 @@ export default {
       roll: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       rolls: [],
       featuresSelected: [],
+      player: null,
       columns: [
         // A virtual column that doesn't exist in items
         { key: "difficulty", stickyColumn: true, label: "" },
@@ -170,12 +204,41 @@ export default {
       ],
     };
   },
+  props: {
+    sheets: Array,
+  },
   mounted() {
     this.makeRoll(20);
     EventBus.$on("featureTapped", this.featureTapHandler);
   },
   methods: {
-    featureTapHandler(feature) {
+    rollForAll() {
+      this.featuresSelected.forEach((feature) => {
+        console.log(feature.name);
+        this.sheets.forEach((sheet) => {
+          //Search on attributes
+          sheet.attributes.values.forEach((attributeCat) => {
+            attributeCat.values.forEach((attribute) => {
+              if (attribute.name == feature.name) {
+                console.log(
+                  "found! " + feature.name + " on " + sheet.info.name
+                );
+              }
+            });
+          });
+        });
+      });
+    },
+    featureTapHandler(feature, sheet) {
+      if (this.featuresSelected.length >= 2) {
+        this.featuresSelected = [];
+      }
+
+      if (this.player != sheet.info) {
+        this.player = sheet.info;
+        this.featuresSelected = [];
+      }
+
       this.featuresSelected.push(feature);
       console.log(this.featuresSelected);
 
@@ -186,7 +249,6 @@ export default {
         });
 
         this.makeRoll(count);
-        this.featuresSelected = [];
       }
     },
     labelForTable(index) {

@@ -42,6 +42,7 @@
                 )"
                 :key="'advVal' + value.name + value.name"
                 :value="value"
+                :sheet="sheet"
               />
             </b-list-group>
           </b-card>
@@ -75,8 +76,9 @@
               v-for="value in ability.values
                 .filter(checkIfZero)
                 .slice((index - 1) * 4, (index - 1) * 4 + 4)"
-              :key="'abilityVal' + value.name + value.name"
+              :key="'abilityVal' + value.name + value.name + Math.random()"
               :value="value"
+              :sheet="sheet"
             />
           </b-list-group>
         </b-card>
@@ -114,6 +116,7 @@
                 )"
                 :key="'advVal' + value.name + value.name"
                 :value="value"
+                :sheet="sheet"
               />
             </b-list-group>
           </b-card>
@@ -135,13 +138,14 @@ export default {
     attributes: Object,
     advantages: Object,
     abilities: Array,
+    sheet: Object,
   },
   methods: {
     checkIfZero(value) {
       return value.value != 0;
     },
     featureTapped(feature) {
-      EventBus.$emit("featureTapped", feature);
+      EventBus.$emit("featureTapped", feature, this.sheet);
     },
   },
 };
