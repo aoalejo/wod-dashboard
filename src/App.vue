@@ -35,11 +35,11 @@
 import Rolls from "./components/Rolls.vue";
 import Sheets from "./components/Sheets.vue";
 
-import karl from "../public/dataSheets/karl.json";
 import phillippe from "../public/dataSheets/Phillippe.json";
 import jonathan from "../public/dataSheets/jonathan.json";
 import claire from "../public/dataSheets/claire.json";
 import anderson from "../public/dataSheets/anderson.json";
+import test from "../public/dataSheets/Test.json";
 
 export default {
   name: "App",
@@ -53,7 +53,7 @@ export default {
     };
   },
   mounted() {
-    this.sheets.push(karl);
+    this.sheets.push(test);
     this.sheets.push(phillippe);
     this.sheets.push(jonathan);
     this.sheets.push(claire);
