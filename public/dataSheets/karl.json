@@ -36,8 +36,8 @@
       },
       {
         "type": "Debilidad",
-        "name": "Esquizofrenia",
-        "description": "La esquizofrenia es un trastorno mental grave por el cual las personas interpretan la realidad de manera anormal. La esquizofrenia puede provocar una combinación de alucinaciones, delirios y trastornos graves en el pensamiento y el comportamiento, que afecta el funcionamiento diario y puede ser incapacitante."
+        "name": "Paranoia",
+        "description": "Enfermedad mental que se caracteriza por la aparición de ideas fijas, obsesivas y absurdas, basadas en hechos falsos o infundados, junto a una personalidad bien conservada, sin pérdida de la conciencia ni alucinaciones."
       }
     ]
   },
@@ -334,12 +334,22 @@
         "max": 6,
         "values": [
           {
-            "name": "Ofuscación",
+            "name": "Ofuscación 1",
             "value": 1,
             "description": ""
           },
           {
-            "name": "Dementación",
+            "name": "Dementación 1",
+            "value": 2,
+            "description": ""
+          },
+          {
+            "name": "Dementación 2",
+            "value": 2,
+            "description": ""
+          },
+          {
+            "name": "Auspex 1",
             "value": 2,
             "description": ""
           }
