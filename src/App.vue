@@ -40,6 +40,7 @@ import jonathan from "../public/dataSheets/jonathan.json";
 import claire from "../public/dataSheets/claire.json";
 import anderson from "../public/dataSheets/anderson.json";
 import test from "../public/dataSheets/Test.json";
+import karl from "../public/dataSheets/karl.json";
 
 export default {
   name: "App",
@@ -58,6 +59,7 @@ export default {
     this.sheets.push(jonathan);
     this.sheets.push(claire);
     this.sheets.push(anderson);
+    this.sheets.push(karl);
   },
 };
 </script>

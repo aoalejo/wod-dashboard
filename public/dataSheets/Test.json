@@ -29,8 +29,19 @@
         "name": "",
         "description": "",
         "levels": [
-          "Cain",
-          ""
+          "01. Cain",
+          "02. Segunda generación",
+          "03. Maximo puntaje: 10, Reserva de sangre: -, Sangre por turno: -",
+          "04. Maximo puntaje: 9, Reserva de sangre: 50, Sangre por turno: 10",
+          "05. Maximo puntaje: 8, Reserva de sangre: 40, Sangre por turno: 8",
+          "06. Maximo puntaje: 7, Reserva de sangre: 30, Sangre por turno: 6",
+          "07. Maximo puntaje: 6, Reserva de sangre: 20, Sangre por turno: 4",
+          "08. Maximo puntaje: 5, Reserva de sangre: 15, Sangre por turno: 3",
+          "09. Maximo puntaje: 5, Reserva de sangre: 14, Sangre por turno: 2",
+          "10. Maximo puntaje: 5, Reserva de sangre: 13, Sangre por turno: 1",
+          "11. Maximo puntaje: 5, Reserva de sangre: 12, Sangre por turno: 1",
+          "12. Maximo puntaje: 5, Reserva de sangre: 11, Sangre por turno: 1",
+          "13+ Maximo puntaje: 5, Reserva de sangre: 10, Sangre por turno: 1"
         ],
         "value": 0
       },
@@ -137,7 +148,7 @@
             "id": "PER",
             "description": "La Percepción mide la capacidad del personaje para observar sus alrededores. Puede tratarse de un esfuerzo consciente, como registrar una zona, pero normalmente es un acto intuitivo en el que los sentidos del personaje detectan algo fuera de lo normal.",
             "levels": [
-              "Malo: quizá estés totalmente absorto en ti mismo o simplemente seas estúpido; en cualquier caso ¡cuidado con ese coche! ",
+              "Malo: quizá estés totalmente absorto en ti mismo o simplemente seas estúpido, en cualquier caso ¡cuidado con ese coche! ",
               "Normal: lo sutil se te escapa pero eres capaz de captar el cuadro general. ",
               "Bueno: percibes ambientes texturas y cambios minúsculos en tu entorno. ",
               "Excepcional: prácticamente nada se te escapa. ",
@@ -472,7 +483,7 @@
     {
       "name": "Conocimientos",
       "max": 6,
-      "description": "Los Conocimientos dependen de la aplicación de la mente, no del cuerpo; por tanto, estas Habilidades suelen emparejarse con los Rasgos Mentales. Si no tienes círculos en estas Habilidades no podrás siquiera intentar una tirada, salvo que el Narrador dé su permiso expreso",
+      "description": "Los Conocimientos dependen de la aplicación de la mente, no del cuerpo, por tanto, estas Habilidades suelen emparejarse con los Rasgos Mentales. Si no tienes círculos en estas Habilidades no podrás siquiera intentar una tirada, salvo que el Narrador dé su permiso expreso",
       "values": [
         {
           "name": "Academicismo",
@@ -608,7 +619,7 @@
             "Licenciado: puedes ganarte la vida instalando o reparando. ",
             "Posgraduado: puedes diseñar nuevas tecnologías a partir de una serie de requisitos. ",
             "Doctorado: para ti la pregunta no es “¿Puede hacerse?” sino “¿Cómo se puede hacer?” ",
-            "Erudito: Un visionario en tu campo; cambias la forma en la que gente interactúa con el mundo mediante la tecnología. "
+            "Erudito: Un visionario en tu campo, cambias la forma en la que gente interactúa con el mundo mediante la tecnología. "
           ],
           "goesWithAttr": []
         }
@@ -681,10 +692,172 @@
         "max": 5,
         "values": [
           {
-            "name": "Example",
+            "name": "Aliados",
             "value": 0,
-            "description": "example",
-            "levels": []
+            "description": "Los Aliados son humanos que te ayudan: familiares, amigos o incluso una organización mortal que te deba lealtad. Aunque colaborarán contigo de buen grado sin tener que presionarles, no siempre estarán disponibles. Tienen sus propias vidas y hay límites que no están dispuestos a cruzar. También podrían tener algún Trasfondo propio de utilidad, ya que podrían proporcionarte un acceso indirecto a otros contactos, influencia y recursos. Los Aliados suele ser gente que ocupa posiciones importantes en tu ciudad, aunque siempre hay que pedir permiso al Narrador. Podrías tener como amigo a un trabajador de la morgue del distrito, el dueño de un blog importante, entre la alta sociedad o en un lugar en construcción. Tus Aliados podrían ser un clan de nómadas que se mueven en un campamento que recorre la zona o podría ser una familia de generaciones de oficiales de policía. Puede que cuentes incluso con el alcalde como tu amigo, dependiendo de cuántos puntos gastes en este Rasgo. Tus Aliados suelen ser fiables (aunque probablemente no sepan que eres o un vampiro, o incluso que tales cosas existan). Sin embargo, todo tiene su lado negativo: si terminas pidiendo favores a tus amigos en la Cosa Nostra lo más probable es que en el futuro quieran algo a cambio, lo que suele ser el principio de una historia... los Aliados pueden ser acumulados entre un grupo de personajes.",
+            "levels": [
+              "Un aliado de poder e influencia moderadas .",
+              "Dos aliados de poder moderado .",
+              "Tres aliados, uno muy influyente .",
+              "Cuatro aliados, uno muy influyente .",
+              "Cinco aliados, uno extremadamente influyente ."
+            ]
+          },
+          {
+            "name": "Contactos",
+            "value": 0,
+            "description": "Conoces a gente por toda la ciudad, y cuando te pones a hacer llamadas telefónicas puedes lograr una enorme cantidad de información. Los Contactos son gente a la que puedes sobornar, manipular o amenazar para que te haga favores, pero también puede tratarse de conocidos importantes, amigos con los que puedes contar para que te ayuden en sus especialidades. Deberías describir cada contacto importante antes del comienzo del juego. Además de tus contactos principales dispondrás de otros menores repartidos por toda la ciudad. Uno de los primeros podría ser el Fiscal del Distrito, y uno de los segundos un policía, un funcionario de tráfico, un portero de discoteca o incluso un vendedor de perritos calientes. No tienes porqué describir a todos estos “conocidos” antes de empezar la crónica. Para hablar con tus contactos menores te basta con tirar Contactos (dificultad 7), pudiendo acceder a uno de ellos por cada éxito, por supuesto, podrías tener que “convencerlos” para que te digan lo que buscas, asumiendo que puedan conseguir la información. Los Contactos pueden ser acumulados por el grupo de personajes.",
+            "levels": [
+              "Un contacto importante .",
+              "Dos contactos importantes .",
+              "Tres contactos importantes .",
+              "Cuatro contactos importantes .",
+              "Cinco contactos importantes ."
+            ]
+          },
+          {
+            "name": "Criados",
+            "value": 0,
+            "description": "Tus criados no son exactamente ni Aliados ni Contactos, sino sirvientes y ayudantes que te son leales. Muchos de los criados vampíricos son ghouls (página 496), ya que sus poderes sobrenaturales y su lealtad forzada por el vínculo de sangre los convierte en servidores perfectos. También puede ser gente a la que hayas Dominado tan repetidamente que hayan perdido el libre albedrío, o seguidores tan hechizados por tu Presencia que su lealtad bordee el fanatismo. Algunos vampiros, especialmente los que poseen la Disciplina Animalismo, utilizan “sabuesos infernales” (perros ghoul) y otros animales como criados. Debes mantener un cierto control sobre tus servidores, ya sea mediante el sueldo, el don de tu vitae o el uso de Disciplinas. Los criados nunca serán “leales hasta la muerte”. Si les tratas mal sin ejercer algún tipo de control se volverán contra ti. Pueden ser útiles, pero siempre representarán algún problema. Un ghoul poderoso podría ser rebelde, estúpido o carente de habilidades prácticas. Un mayordomo leal podría ser débil o carecer de toda iniciativa y creatividad. Este Trasfondo no es una excusa para crear un guardaespaldas imparable o un asesino amaestrado, sino para introducir otros personajes bien desarrollados en la crónica y reflejar a los seguidores por los que los Vástagos son famosos (por lo general los Criados son más similares a Renfield que a Anita Blake). Si el jugador y el Narrador están de acuerdo, un jugador puede crear un solo Criado más competente invirtiendo más puntos en este Trasfondo, o como dice el refrán, poniendo más huevos en la misma cesta. También es posible disponer de más Criados con un solo punto si se trata de criaturas especialmente pequeñas y limitadas. En cualquier caso, se debe contar con la aprobación del Narrador. Los jugadores pueden gastar puntos de Trasfondo Acumulados como Criados.",
+            "levels": [
+              "Un Criado .",
+              "Dos Criados .",
+              "Tres Criados .",
+              "Cuatro Criados .",
+              "Cinco Criados ."
+            ]
+          },
+          {
+            "name": "Dominio",
+            "value": 0,
+            "description": "Dominio es un territorio físico (normalmente dentro de la ciudad protagonista de la Crónica) en el que tu personaje controla el acceso a la hora de que los vampiros se alimenten. Algunos Vástagos se refieren a su Dominio como Territorios de Caza, y la mayoría lo protegen celosamente, incluso invocando la Tradición del mismo nombre para proteger sus derechos. Como parte de este Trasfondo, el derecho del personaje es reconocido por el Príncipe o la autoridad vampírica de la ciudad en la que se encuentra el Dominio. Un vampiro que posee un Dominio no puede evitar que sus habitantes vivos se dediquen a sus asuntos, ni puede ejercer ninguna influencia directa sobre ellos, pero puede vigilar y observar sus movimientos. También puede disponer de Aliados o Criados situados para buscar vampiros desconocidos y alertarle cuando encuentren a uno. Este Trasfondo se refiere específicamente al aspecto geográfico (en la mayoría de los casos un barrio o calle) y a la propiedad y derechos sobre el territorio, y no tanto a la gente que vive en él (que es el énfasis del Rebaño). Dominio constituye una parte importante de la sociedad de la Estirpe –los vampiros que carecen de un territorio importante raramente consiguen respeto– pero no proporciona automáticamente una Posición o un título entre los Condenados. Puedes dedicar uno o más puntos en Dominio para incrementar la seguridad del territorio del personaje en lugar de aumentar su tamaño. Cada punto asignado a su seguridad proporciona una penalización de +1 a todos los esfuerzos para infiltrarse en el territorio por parte de alguien a quien su propietario no haya dado permiso, y una dificultad de -1 a los esfuerzos del personaje para identificar y rastrear intrusos en el Dominio. Por ejemplo, un Dominio de un punto de tamaño y dos puntos de seguridad es pequeño pero se encuentra bastante protegido contra las intrusiones, frente a un Dominio de tres puntos de tamaño pero sin ningún tipo de seguridad. Cada nivel de Dominio reduce la dificultad de las tiradas de caza en -1 para tu personaje y quienes hayan recibido permiso para cazar. Su valor también se añade a tu Reserva de Sangre inicial (no puede superar el máximo). Si usas la opción de seguridad, cada punto en la seguridad del Dominio incrementa la dificultad de las tiradas de caza en +1 para los vampiros indeseados. Como se ha mencionado anteriormente, los personajes de un grupo pueden compartir sus Trasfondos de Dominio para mejorar sus resultados. Entre 6 y 8 puntos permiten asegurar una ciudad pequeña o una parte distintiva de una ciudad como Dominio. Entre 10 y 15 puntos aseguran un sector importante aunque no geográfico de una gran ciudad como “los puertos” o “Highland Park”. Toda una gran ciudad podría ser un Dominio de 100 puntos o más, como Atlanta, Bagdad, Dallas o Ginebra. Una metrópoli como Londres, Nueva York, París, Roma, Sao Paulo o Shangai requerirían muchos cientos de puntos de Dominio.",
+            "levels": [
+              "Un edificio pequeño, como una casa familiar o un establecimiento social —lo suficiente para un refugio normal .",
+              "Una iglesia, fábrica, almacén, un edificio de tamaño medio o alguna gran estructura, —una localización con acceso al exterior pero fácilmente controlable .",
+              "Un bloque de apartamentos o una intersección urbana importante —una localización o zona que ofrezca lugares donde ocultarse así como un acceso controlado .",
+              "Una sección de las alcantarillas, una red de túneles de servicio, una urbanización en una colina cerca de la ciudad —un lugar con límites de protección y acceso definidos, como una carretera aislada por las montañas, un puente o una fuerza de seguridad privada .",
+              "Todo un barrio, una subdivisión étnica como “Chinatown” o “Pequeña Italia” o todo un suburbio ."
+            ]
+          },
+          {
+            "name": "Fama",
+            "value": 0,
+            "description": "Disfrutas de un amplio reconocimiento en la sociedad mortal, quizá por ser un artista, un escritor o un atleta. La gente disfruta simplemente con verte, lo que te concede numerosos privilegios entre los humanos. Sin embargo, también puede atraer una atención no deseada ahora que ya no estás vivo. El arma más importante que proporciona la fama es la capacidad para afectar a la opinión pública, algo que los medios de comunicación modernos demuestran constantemente. La Fama no siempre está ligada con el entretenimiento o el mundo del espectáculo. Un terrible criminal con un juicio con cargos elevados posiblemente disponga de cierta Fama, así como un abogado o un científico que ha realizado un descubrimiento popular. Este Trasfondo es, evidentemente, un arma de doble filo. Puedes disfrutar de los privilegios de tu prestigio (consigues las mejores butacas, te invitan a lugares en los que no podrías entrar de otro modo, conoces a la gente importante), pero te pueden reconocer en los momentos más inoportunos. Tus enemigos no pueden hacerte desaparecer sin que se arme un gran revuelo, y en las zonas pobladas te es mucho más fácil alimentarte, ya que la gente se congrega a tu alrededor (reduce la dificultad de las tiradas de caza en uno por cada círculo de Fama). Además, el Narrador podría permitirte reducir la dificultad de las tiradas Sociales con gente especialmente impresionable.",
+            "levels": [
+              "Eres conocido en un determinado círculo de tu ciudad (pej, las discotecas locales, las páginas de internet, etc) .",
+              "La mayoría de la población reconoce tu cara, eres tanto una celebridad local como una fuente de noticias o incluso un criminal .",
+              "Tienes el reconocimiento de tu estado, quizá seas senador, o una estrella de interés local, o recibas cientos de miles de visitas en tus videos de youtube .",
+              "Famoso en todo el país: todos saben algo sobre ti .",
+              "Eres un icono mediático famoso en el mundo entero La gente bautiza a sus hijos con tu nombre ."
+            ]
+          },
+          {
+            "name": "Generación",
+            "value": 0,
+            "description": "Para decirlo de forma sencilla, este Trasfondo representa tu generación: la pureza de tu sangre y tu proximi dad al Primer Vampiro. Una puntuación elevada podría representar un sire poderoso o un gusto particularmente peligroso por la diablerie. Si no adquieres ningún círculo en este Trasfondo comenzarás como un vampiro de decimotercera generación. Consulta en la página 270 más información al respecto.",
+            "levels": [
+              "12ª generación: reserva de sangre de 11 puntos, puedes gastar 1 punto de sangre por turno .",
+              "11ª generación: reserva de sangre de 12 puntos, puedes gastar 1 punto de sangre por turno .",
+              "10ª generación: reserva de sangre de 13 puntos, puedes gastar 1 punto de sangre por turno .",
+              "9ª generación: reserva de sangre de 14 puntos, puedes gastar 2 puntos de sangre por turno .",
+              "8ª generación: reserva de sangre de 15 puntos, puedes gastar 3 puntos de sangre por turno ."
+            ]
+          },
+          {
+            "name": "Identidad Alternativa",
+            "value": 0,
+            "description": "Mantienes una Identidad Alternativa aparte de la tuya, y completa con papeles, certificados de nacimiento o cualquier otro tipo de documentación que desees. Muy pocos conocen tu verdadero nombre o identidad. Tu personalidad alternativa puede estar involucrada en el crimen organizado, ser miembro de una Secta enemiga, un timador que utiliza distintas identidades en su negocio, o simplemente puedes estar reuniendo información sobre el enemigo. Es posible que algunos vampiros te conozcan como un individuo mientras que otros crean que eres una persona completamente distinta.",
+            "levels": [
+              "Acabas de entrar en este juego A veces te despistas y olvidas tu otra identidad .",
+              "Dominas muy bien tu Identidad Alternativa Eres lo bastante convincente como para hacerte pasar por doctor, abogado, vendedor de pompas fúnebres, camello o espía .",
+              "Tienes una buena reputación como tu Identidad Alternativa, y te reconocen en la zona en la que te has infiltrado .",
+              "Tu nueva identidad tiene el respeto y la confianza de la zona infiltrada .",
+              "Tienes un gran respeto en tu zona de operaciones, y puedes haber llegado incluso a acumular posición Tienes la confianza (o al menos el reconocimiento) de muchas figuras poderosas "
+            ]
+          },
+          {
+            "name": "Influencia",
+            "value": 0,
+            "description": "Tienes a la comunidad mortal cogida por el mango, ya sea mediante tu dinero, tu prestigio, tu cargo, el chantaje o la manipulación sobrenatural. Los Vástagos con mucha Influencia pueden orientar, y en algunos casos controlar, los procesos políticos y sociales de la sociedad humana. La Influencia representa la suma de tu poder político en tu comunidad, especialmente en la policía y la burocracia. En algunos casos, cultivar Influencia es una forma de generar Recursos (consulta a continuación). Se puede utilizar la Influencia en alguna tirada sustituyendo a una Habilidad, sobre todo cuando se intenta controlar a los funcionarios menores. Por supuesto, siempre es más sencillo conseguir cambios de forma local que en el ámbito estatal (es relativamente fácil lograr la demolición de un edificio “abandonado”, pero no empezar una guerra contra otra nación). La Influencia puede utilizarse con puntos de Trasfondo Acumulados.",
+            "levels": [
+              "Moderadamente influyente, importante en la ciudad .",
+              "Buenos contactos, una fuerza en la política estatal .",
+              "Posición o influencia, un factor en la política regional .",
+              "Gran poder personal, influencia en toda la nación .",
+              "Enorme influencia, todo el mundo atiende tus palabras ."
+            ]
+          },
+          {
+            "name": "Mentor",
+            "value": 0,
+            "description": "Este Rasgo representa a un antiguo (y puede que a más de uno) que cuida de ti y que de vez en cuando te ofrece su guía. Un Mentor puede ser muy poderoso, pero sus capacidades no tienen porqué ser directas. Dependiendo del número de círculos en el Trasfondo podría no ser más que un vampiro con una importante red de informadores, o una criatura centenaria con una tremenda influencia y vastos poderes sobrenaturales. Podría ofrecer consejo, hablar con el Príncipe (o el Arzobispo) en tu favor, apartar a otros antiguos de tu camino o avisarte cuando te metas en problemas demasiado serios. A menudo tu Mentor es tu sire, pero podría ser igualmente cualquier Cainita interesado en tu bienestar. Una elevada puntuación de Mentor puede incluso representar a un grupo de vampiros con intereses comunes, como los antiguos de la capilla Tremere de la ciudad o una célula de la Mano Negra. Ten en cuenta que este rasgo no es una tarjeta de “Queda libre de la cárcel”, tu Mentor no llegará como la caballería cada vez que estés en peligro (y si lo hace puede que pierdas un punto en el Trasfondo tras haber intervenido de forma tan directa por ti), y a cambio de su mecenazgo podría esperar algún favor (lo que puede dar pie a interesantes historias). El Mentor suele ser distante y darte información y consejo por camaradería, pero te abandonará sin pensárselo dos veces si resultas ser un “aprendiz” problemático o indigno.",
+            "levels": [
+              "Tu mentor es un ancilla con poca influencia, o un Ductus o Sacerdote de Manada .",
+              "Tu mentor es respetado, un antiguo o un vampiro veterano y respetado, por ejemplo .",
+              "Tu mentor es muy influyente, como un miembro de la Primogenitura o un Obispo .",
+              "Tu mentor tiene un gran poder en la ciudad, podría ser Príncipe o Arzobispo .",
+              "Tu mentor es extraordinariamente poderoso, quizá un Justicar o Cardenal ."
+            ]
+          },
+          {
+            "name": "Miembro de la Mano Negra",
+            "value": 0,
+            "description": "Este Trasfondo sólo es para personajes del Sabbat. Eres miembro de la temida Mano Negra, el grupo de soldados y asesinos que sirven al Sabbat con fervor. Disponer de este Trasfondo indica que eres un miembro de pleno derecho de la organización, y que por lo tanto tienes todos los beneficios y responsabilidades correspondientes. Puedes solicitar la ayuda de otros miembros de la Mano Negra si lo necesitas. Por supuesto, los demás también pueden pedir tu apoyo en cualquier momento. Por tanto puedes verte encargado de asesinatos, se te puede solicitar asistencia militar o que ayudes a cumplir los objetivos políticos de la Mano como diplomático o espía. También puede que tengas que participar en cruzadas que te alejen de tus compañeros de manada. Todos los miembros de la Mano Negra deben responder a la llamada de sus camaradas, especialmente si se trata de un superior. Ser miembro de esta organización es todo un prestigio, ya que el resto del Sabbat respeta a tu grupo. Si al tratar con los demás haces pública tu afiliación, podrás sumar tu posición en este Rasgo a cualquier reserva social, incluso después de haber tenido en cuenta cualquier otra Posición o Habilidad. Sin embargo, la mayoría prefiere no revelar su alianza. La Mano Negra es especialmente efectiva cazando a vampiros del Sabbat que realmente no pertenecen a la secta. Cuidado, mentirosos...",
+            "levels": [
+              "Eres un soldado, puedes llamar a un miembro de la Mano Negra una vez por historia .",
+              "Eres conocido y respetado en la Mano Negra, puedes llamar a otros dos miembros una vez por historia .",
+              "La Mano Negra te tiene en gran estima, puedes llamar a cinco miembros una vez por historia .",
+              "Eres un héroe dentro de la Mano Negra, puedes llamar hasta a siete miembros dos veces por historia (pero más te vale tener motivos, si los demás te creen blando puedes comenzar a perder puntos en este Trasfondo) También puedes liderar a grandes grupos de asesinos en caso de necesidad .",
+              "Ya formas parte de la leyenda de la Mano Negra, puedes llamar hasta a doce miembros dos veces por historia (recuerda la precaución anterior) También puedes dirigir a grandes grupos a la acción si fuera necesario Los Serafines llegan a pedirte consejo en asuntos importantes ."
+            ]
+          },
+          {
+            "name": "Posición",
+            "value": 0,
+            "description": "Tienes una cierta reputación y posición (merecidas o no) en la comunidad vampírica local. La posición dentro de la Camarilla suele derivarse de la de tu sire y del respeto que se tenga a tu linaje. Dentro del Sabbat es consecuencia de la reputación de tu manada o de tu celo personal. Los antiguos son conocidos por tener poco respeto hacia los jóvenes, pero este Trasfondo puede mitigar en cierto modo esta limitación. Una posición elevada en la Camarilla no tiene efecto en el Sabbat, y viceversa (en realidad te convierte en un blanco aún más apetecible para tus rivales). Del mismo modo, se puede considerar que los Autarcas tienen Posición cero, salvo que de algún modo hayan ganado el poder y la atención suficientes como para que se les tome en serio. Puedes tener ocasión de tirar Posición junto a tus Rasgos Sociales, lo que refleja los efectos positivos de tu prestigio. Nota que los Caitiff no pueden comprar Posición durante la creación del personaje. Son lo más bajo que existe, y cualquier respeto deberán ganárselo en el transcurso de la crónica.",
+            "levels": [
+              "Conocido: un neonato / un Sacerdote de Manada .",
+              "Respetado: un ancilla / un Ductus respetado .",
+              "Influyente: un antiguo / un Templario .",
+              "Poderoso: un miembro de la Primogenitura / un Obispo .",
+              "Luminaria: un príncipe / un Arzobispo ."
+            ]
+          },
+          {
+            "name": "Rebaño",
+            "value": 0,
+            "description": "Has creado un grupo de mortales de los que puedes alimentarte sin miedo. Un rebaño puede tomar muchas formas, desde grupos de aficionados a las discotecas hasta auténticos cultos construidos alrededor de tu figura divina. Además de proporcionar alimento, los miembros de tu rebaño pueden ser útiles en asuntos menores, aunque por lo general no es fácil controlarlos, no tienen una gran relación mutua y no son especialmente hábiles (si quieres peones más útiles adquiere Aliados o Contactos). La puntuación del Rebaño se suma a tus tiradas para cazar, ver más detalles en la página 258. Los jugadores pueden adquirir un Rebaño Acumulado con sus puntos de Trasfondo.",
+            "levels": [
+              "Tres recipientes .",
+              "Siete recipientes .",
+              "Quince recipientes .",
+              "Treinta recipientes .",
+              "Sesenta recipientes ."
+            ]
+          },
+          {
+            "name": "Recursos",
+            "value": 0,
+            "description": "Los Recursos son bienes valiosos que se encuentran a disposición de tu personaje. Puede que se trate de dinero, pero a medida que la puntuación de este Trasfondo se incrementa, es más probable que se trate de inversiones, propiedades o algún tipo de capital –terrenos, acciones industriales, valores, inventarios comerciales, infraestructuras criminales, bienes de contrabando, e incluso tributos o tasas. Recuerda que los vampiros no necesitan gastar en ningún tipo de alimento salvo la sangre y sus necesidades (no así sus deseos) de refugio son muy sencillas de satisfacer. Los vampiros suelen dedicar sus Recursos a pagar sus lujos y los gastos asociados al desarrollo y mantenimiento de Influencia, Posición y otros Trasfondos. Un personaje sin puntos en Recursos puede simplemente tener ropa y lo suficiente para ir tirando, o puede sobrevivir en la miseria durmiendo en un cajón refrigerador bajo un paso a nivel. Cada mes recibes unos ingresos según tu puntuación. Asegúrate de describir exactamente de dónde procede el dinero, ya sea de un empleo, un fondo de inversiones o dividendos. (los Narradores deberían decidir en función de la localidad y el tiempo qué cantidad es adecuada para estos ingresos mensuales). Después de todo, tu fortuna podría secarse en el transcurso de la crónica, dependiendo de tu habilidad para defenderla. Si necesitas dinero en metálico puedes vender tus activos menos líquidos, pero dependiendo de su naturaleza puede llevarte semanas, o incluso meses. Los compradores de arte no aparecen de debajo de las piedras. Los jugadores pueden adquirir Recursos para sus personajes con puntos de Trasfondo Acumulados.",
+            "levels": [
+              "Suficiente Puedes mantener establemente una típica residencia de clase trabajadora aunque de cuando en cuando aparezcan gastos adicionales .",
+              "Moderado Puedes considerarte en una buena posición en la clase media, con comprar y gasto ocasionales de una persona de una clase más alta Puedes mantener un empleado o contratar ayuda especializada si es necesario Una parte de tus Recursos son convertibles en dinero como propiedades transportables (como joyas o muebles) y también puedes disponer de otras posesiones (como un coche o una casa modesta) que te permiten mantener un modo de vida a un nivel de 1 punto en otro lugar que quieras hasta seis meses .",
+              "Acomodado Eres un miembro destacado y establecido de tu comunidad, con terrenos y viviendo en propiedad, y tienes una reputación que te permite obtener un crédito en términos muy generosos Probablemente tengas más propiedades inmuebles que dinero líquido Puedes mantener un modo de vida de un nivel de un punto de Recursos donde quieras y durante tanto tiempo como quieras.",
+              "Rico Raramente usas el dinero, pues casi todas tus posesiones existen en formas más tangibles, valiosas y estables que el papel moneda Tienes más riqueza que muchos de tus iguales (si se les puede llamar así) Cuando no dedicas atención suficiente a tus Recursos puedes mantener una existencia de tres puntos de Recursos durante un año y una existencia de dos indefinidamente .",
+              "Asquerosamente rico Eres el modelo que los demás aspiran a alcanzar, por lo menos en la mentalidad popular Programas de televisión, artículos en las revistas y páginas webs de cotilleos se dedican a especular sobre tu forma de vestir, los invitados que entran en tus casas y el lujo de tus medios de transporte Tienes inversiones enormes y ampliamente distribuidas, quizás unidas al destino de naciones enteras, con cientos de empleados y conexiones en todos los niveles de la sociedad de una región Viajas con un mínimo de comodidad de tres puntos de Recursos, y más con poco esfuerzo A veces empresas y gobiernos recurren a ti y te compran acciones o fondos de inversión ."
+            ]
+          },
+          {
+            "name": "Rituales",
+            "value": 0,
+            "description": "Este Trasfondo sólo es para personajes del Sabbat. Conoces los ritae y ritos del Sabbat, y sabes como realizar muchos de ellos. Este Trasfondo es importante para ser un Sacerdote de Manada –sin este Trasfondo, los ritae no funcionan. Se trata de una inversión sobrenatural, utilizando la magia creada por los antiguos hechiceros Tzimisce. Los vampiros del Sabbat que no son Sacerdotes de Manada necesitan una buena razón para adquirir este Trasfondo, pues los Sacerdotes de Manada son reacios a compartir sus secretos con los miembros más “laicos” de la Secta. Algunos ejemplos de ritos incluyen la Vaulderie (pág. 288) así como los que aparecen en el Apéndice (pág. 507).",
+            "levels": [
+              "Conoces unos pocos auctoritas ritae de tu elección.",
+              "Conoces algunos de los auctoritas ritae y unos pocos ignoblis ritae de tu elección .",
+              "Conoces todos los auctoritas ritae y algunos ignoblis ritae de tu elección También puedes crear tus propios ignoblis ritae con suficiente tiempo (consulta a tu Narrador para determinar el tiempo de desarrollo y sus efectos en el juego) .",
+              "Conoces todos los auctoritas ritae y muchos ignoblis ritae de tu elección También puedes crear tus propios ignoblis ritae con suficiente tiempo (consulta a tu Narrador para determinar el tiempo de desarrollo y sus efectos en el juego) Además estás familiarizado con las funciones de numerosos ignoblis ritae regionales y específicos de ciertas manadas, aunque no puedas realizarlos .",
+              "Conoces todos los auctoritas ritae y muchísimos ignoblis ritae de tu elección También puedes crear tus propios ignoblis ritae con suficiente tiempo (consulta a tu Narrador para determinar el tiempo de desarrollo y sus efectos en el juego) Además estás familiarizado con el funcionamiento de casi todos los ignoblis ritae regionales y específicos de manadas, aunque no puedes realizarlos, si han sido escritos o transmitidos en el Sabbat, por lo menos has oído hablar de ellos ."
+            ]
           }
         ]
       },
