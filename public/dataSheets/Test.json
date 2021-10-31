@@ -1,43 +1,59 @@
 {
   "info": {
-    "name": "test",
-    "player": "asd",
+    "name": "planilla_en_blanco",
+    "player": "test",
     "color": "#28036a",
     "values": [
       {
         "type": "Naturaleza",
-        "name": "Protector",
-        "description": "Todo el mundo necesita consuelo y un hombro en el que poder llorar. El Protector encuentra satisfacción consolando a los demás, y la gente a menudo acude a él para contarle sus problemas. Los vampiros con este Arquetipo suelen hacer todo lo posible por proteger a los mortales de los que se alimentan. Las enfermeras, doctores y psiquiatras son ejemplos de posibles Protectores. Los Vástagos Protectores a menudo son el estereotipo trágico que Abrazan a los mortales que amaban en vida tratando de suavizar su pérdida, o incluso los que crean situaciones de dolor para poder intervenir y así conseguir mérito ante sí mismos. —Recupera un punto de Fuerza de Voluntad cada vez que logres proteger o consolar a alguien."
-      },
-      {
-        "type": "Conducta",
-        "name": "Soldado",
-        "description": "El Soldado no es un seguidor ciegamente leal. Aunque existe para recibir órdenes, no las acepta incondicionalmente. Más independiente que un Conformista pero demasiado vinculado a la idea del mando para ser un Solitario, el Soldado aplica sus propias técnicas a los objetivos de otros, aunque quizás algún día –o una noche– busque el mando. Sus ambiciones se encuentran dentro de la jerarquía y estructura establecida. El Soldado no tiene escrúpulos a la hora de usar los medios necesarios para hacer lo que tiene que hacerse, mientras las órdenes vengan del sitio adecuado. Los Vástagos Soldados a menudo son valiosos a las órdenes de figuras de autoridad, pero también pueden ser líderes capaces, dispuestos a hacer lo necesario –o lo que consideran necesario– para mantener el orden. —Recupera un punto de Fuerza de Voluntad cuando consigas los objetivos de tus órdenes. Cuanto más difíciles sean de cumplir las órdenes mejor te sientes al llevarlas a   cabo. Según el criterio del Narrador, la obtención de un éxito espectacular o el cumplimiento de una misión larga pueden valer la concesión de puntos de Fuerza de Voluntad adicionales."
-      },
-      {
-        "type": "Concepto",
-        "name": "Mercenario",
-        "description": "guardaespaldas, mercenario, soldado de fortuna, asesino a sueldo"
-      },
-      {
-        "type": "Clan",
-        "name": "Caitiff",
-        "description": "sin ningún clan al que asociarse, los Caitiff no exhiben características comunes y a menudo son rechazados por los vampiros con un linaje establecido."
-      },
-      {
-        "type": "Generación",
-        "name": "8 va",
+        "name": "",
         "description": ""
       },
       {
+        "type": "Conducta",
+        "name": "",
+        "description": ""
+      },
+      {
+        "type": "Concepto",
+        "name": "",
+        "description": ""
+      },
+      {
+        "type": "Clan",
+        "name": "",
+        "description": ""
+      },
+      {
+        "type": "Generación",
+        "name": "",
+        "description": "",
+        "levels": [
+          "01. Cain",
+          "02. Segunda generación",
+          "03. Maximo puntaje: 10, Reserva de sangre: -, Sangre por turno: -",
+          "04. Maximo puntaje: 9, Reserva de sangre: 50, Sangre por turno: 10",
+          "05. Maximo puntaje: 8, Reserva de sangre: 40, Sangre por turno: 8",
+          "06. Maximo puntaje: 7, Reserva de sangre: 30, Sangre por turno: 6",
+          "07. Maximo puntaje: 6, Reserva de sangre: 20, Sangre por turno: 4",
+          "08. Maximo puntaje: 5, Reserva de sangre: 15, Sangre por turno: 3",
+          "09. Maximo puntaje: 5, Reserva de sangre: 14, Sangre por turno: 2",
+          "10. Maximo puntaje: 5, Reserva de sangre: 13, Sangre por turno: 1",
+          "11. Maximo puntaje: 5, Reserva de sangre: 12, Sangre por turno: 1",
+          "12. Maximo puntaje: 5, Reserva de sangre: 11, Sangre por turno: 1",
+          "13+ Maximo puntaje: 5, Reserva de sangre: 10, Sangre por turno: 1"
+        ],
+        "value": 0
+      },
+      {
         "type": "Sire",
-        "name": "Desconocido",
+        "name": "",
         "description": ""
       },
       {
         "type": "Debilidad",
-        "name": "Paria",
-        "description": "No puede comprar Estatus. Dif. +2 a las tiradas Sociales con no Caitiff si no está asentado en la comunidad. No transmite rasgos de Clan a sus chiquillos."
+        "name": "",
+        "description": ""
       }
     ]
   },
@@ -50,57 +66,120 @@
         "values": [
           {
             "name": "Fuerza",
-            "value": 3,
+            "value": 0,
             "id": "STR",
-            "description": ""
+            "description": "La Fuerza es la potencia física en bruto de un personaje. Determina el peso que éste puede levantar o empujar y se emplea para comprobar el efecto de sus golpes sobre cualquier criatura u objeto.",
+            "levels": [
+              "Malo: Puedes levantar 40 libras (unos 20 kg.) ",
+              "Normal: Puedes levantar 100 libras (cerca de unos 50 kg.) ",
+              "Bueno: Puedes levantar 250 libras (un poco más de 100 kg.) ",
+              "Excepcional: Puedes levantar 400 libras (cerca de 200 kg.) ",
+              "Sobresaliente: Puedes levantar 650 libras (casi 300 kg) y aplastar cráneos como si fueran higos. "
+            ]
           },
           {
             "name": "Destreza",
-            "value": 3,
+            "value": 0,
             "id": "DEX",
-            "description": ""
+            "description": "El Atributo Destreza determina la agilidad física general del personaje. Incluye su rapidez, sus reflejos y su velocidad general, además de indicar su capacidad para manipular objetos con control y precisión.El Atributo Destreza determina la agilidad física general del personaje. Incluye su rapidez, sus reflejos y su velocidad general, además de indicar su capacidad para manipular objetos con control y precisión.",
+            "levels": [
+              "Malo: eres bastante torpe. Baja esa pistola antes de que te hagas daño. ",
+              "Normal: no eres patoso pero tampoco una bailarina. ",
+              "Bueno: tienes un cierto potencial atlético. ",
+              "Excepcional: si quisieras podrías ser acróbata. ",
+              "Sobresaliente: tus movimientos son líquidos e hipnóticos casi sobrehumanos. "
+            ]
           },
           {
             "name": "Resistencia",
-            "value": 4,
+            "value": 0,
             "id": "CON",
-            "description": "Duro como el acero: Cuando absorve daño, los 10 valen x2 y se lanza de vuelta"
+            "description": "El Rasgo de Resistencia refleja la salud, dureza y vigor de un personaje. Indica hasta qué punto puede forzarse y cuánto castigo es capaz de soportar antes de sufrir un trauma físico grave.",
+            "levels": [
+              "Malo: no soportas un viento fuerte. ",
+              "Normal: estás en buena forma y puedes aguantar un par de puñetazos. ",
+              "Bueno: tu condición física es muy buena y apenas padeces enfermedades. ",
+              "Excepcional: podrías correr –y quizá ganar– un maratón. ",
+              "Sobresaliente: tu constitución es realmente hercúlea."
+            ]
           },
           {
             "name": "Carisma",
-            "value": 2,
+            "value": 0,
             "id": "CHA",
-            "description": ""
+            "description": "El Carisma es la capacidad de un personaje para agradar a los demás mediante su personalidad. Este Atributo se emplea cuando un personaje trata de ganarse la simpatía de otro, o cuando intenta que los demás confíen en él. No indica necesariamente una lengua de plata o la habilidad para avasallar a los demás, ya que puede tratarse simplemente de encanto personal.",
+            "levels": [
+              "Malo: hay algo un poco asqueroso en ti. Si dejaras de meterte el dedo en la nariz... ",
+              "Normal: sueles caer bien y tienes algunos amigos. ",
+              "Bueno: la gente siempre confía en ti. ",
+              "Excepcional: posees un gran magnetismo personal. ",
+              "Sobresaliente: culturas enteras podrían seguir tu luz. "
+            ]
           },
           {
             "name": "Manipulación",
-            "value": 2,
+            "value": 0,
             "id": "MAN",
-            "description": ""
+            "description": "La Manipulación mide la capacidad de un personaje para conseguir de un modo u otro que los demás compartan sus puntos de vista o sigan sus deseos. En resumen, sirve para que los demás hagan lo que uno quiera.",
+            "levels": [
+              "Malo: una persona de pocas (e ineficaces) palabras. ",
+              "Normal: a veces puedes engañar a algunas personas como casi todo el mundo. ",
+              "Bueno: siempre consigues descuentos. ",
+              "Excepcional: podrías ser político o líder de una secta. ",
+              "Sobresaliente: “¡Por supuesto! ¡Le diré al Príncipe que fui yo quien le clavó la estaca!” "
+            ]
           },
           {
             "name": "Apariencia",
-            "value": 2,
+            "value": 0,
             "id": "APP",
-            "description": ""
+            "description": "El Atributo de Apariencia es una medida del atractivo del personaje, la primera impresión que causa. Puede ser un atractivo “convencional”, pero también puede ser el efecto de unos rasgos determinados, un aspecto exótico, un aire de confianza, una pose distintiva, una elegancia innata para vestir bien –cualquier elemento destacado en una observación inicial puede contribuir a la Apariencia de un personaje.",
+            "levels": [
+              "0: -Solo Nosferatu-,Malo: tus ropas apestan la gente se aparta a tu paso o simplemente eres condenadamente feo. ",
+              "Normal: no resaltas en una multitud par bien o para mal. ",
+              "Bueno: los extraños te invitan en los bares. ",
+              "Excepcional: la gente se te acerca para darse a conocer. ",
+              "Sobresaliente: la gente nunca te olvida. "
+            ]
           },
           {
             "name": "Percepción",
-            "value": 3,
+            "value": 0,
             "id": "PER",
-            "description": ""
+            "description": "La Percepción mide la capacidad del personaje para observar sus alrededores. Puede tratarse de un esfuerzo consciente, como registrar una zona, pero normalmente es un acto intuitivo en el que los sentidos del personaje detectan algo fuera de lo normal.",
+            "levels": [
+              "Malo: quizá estés totalmente absorto en ti mismo o simplemente seas estúpido, en cualquier caso ¡cuidado con ese coche! ",
+              "Normal: lo sutil se te escapa pero eres capaz de captar el cuadro general. ",
+              "Bueno: percibes ambientes texturas y cambios minúsculos en tu entorno. ",
+              "Excepcional: prácticamente nada se te escapa. ",
+              "Sobresaliente: observas inmediatamente cosas casi imperceptibles para los sentidos humanos. "
+            ]
           },
           {
             "name": "Inteligencia",
-            "value": 2,
+            "value": 0,
             "id": "INT",
-            "description": ""
+            "description": "El Atributo de Inteligencia se refiere a la capacidad del personaje para retener hechos y conocimientos. También gobierna la capacidad del personaje para razonar, resolver problemas y evaluar situaciones. El nombre no hace justicia al Atributo, ya que también incluye el pensamiento crítico y flexible.",
+            "levels": [
+              "Malo: no eres el cuchillo más afilado del cajón (CI 80). ",
+              "Normal: lo suficientemente listo como para considerarte normal (CI 100). ",
+              "Bueno: más iluminado que las masas (CI 120). ",
+              "Excepcional: no sólo eres listo sino realmente brillante (CI 140). ",
+              "Sobresaliente: genio certificado (CI 160 +)."
+            ]
           },
           {
             "name": "Astucia",
-            "value": 3,
+            "value": 0,
             "id": "WIS",
-            "description": ""
+            "description": "El Rasgo de astucia mide la habilidad del personaje para pensar y reaccionar rápidamente en una situación dada. También refleja el ingenio general. Los personajes con una Astucia baja serán algo torpes y de mente aletargada, o quizás crédulos y poco sofisticados. Por otra parte, con una puntuación elevada casi siempre se tiene un plan preparado y es posible adaptarse rápidamente al entorno. Estos personajes también logran mantener la calma en situaciones tensas.",
+            "levels": [
+              "Malo: ¡Tírame del dedo! ",
+              "Normal: sabes cuándo apostar y cuándo plantarte en el póquer. ",
+              "Bueno: no suelen sorprenderte ni dejarte sin palabras. ",
+              "Excepcional: eres de esos tipos que hacen que al día siguiente todos piensen: “Ooh debería haberle dicho...” ",
+              "Sobresaliente: reaccionas a la velocidad del pensamiento. "
+            ]
           }
         ]
       }
@@ -110,168 +189,439 @@
     {
       "name": "Talentos",
       "max": 6,
+      "description": "Los Talentos describen lo que conoces de forma intuitiva, lo que puedes hacer sin adiestramiento o instrucción. El único modo de mejorar tus Talentos es mediante la experiencia directa.\n\n Si intentas una acción con un Talento que no posees no habrá penalización a la reserva de dados de tu Atributo",
       "values": [
         {
           "name": "Alerta",
-          "value": 3,
-          "description": ""
+          "value": 0,
+          "description": "Ésta es tu capacidad básica para notar las cosas que suceden a tu alrededor, aunque no las estés observando conscientemente. Alerta indica la atención que prestas al mundo exterior, estés ocupado o no.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: no eres un alelado. ",
+            "Practicante: cotilla ocasional. ",
+            "Competente: siempre prestas atención a lo que sucede a tu alrededor. ",
+            "Experto: ya sea por paranoia o por buen juicio raramente te cogen con la guardia baja. ",
+            "Maestro: tus sentidos están a la par con los de un animal salvaje. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Atletismo",
-          "value": 3,
-          "description": ""
+          "value": 0,
+          "description": "Este Talento representa tus capacidades atléticas básicas, así como cualquier entrenamiento que hayas podido tener en deporte y otras actividades relacionadas.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: tuviste una infancia activa. ",
+            "Practicante: atleta de instituto. ",
+            "Competente: atleta aficionado de talento. ",
+            "Experto: atleta profesional. ",
+            "Maestro: medallista olímpico. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Callejeo",
-          "value": 2,
-          "description": ""
+          "value": 0,
+          "description": "Las calles pueden proporcionar información o dinero a aquéllos que conocen el lenguaje adecuado. Callejeo te permite mezclarte sin llamar la atención en la escena local, conseguir información, comprender bien la jerga e incluso participar en actividades criminales.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: sabes quién está trapicheando. ",
+            "Practicante: se te respeta en las calles. ",
+            "Competente: podrías dirigir tu propia banda. ",
+            "Experto: no tienes nada que temer ni en los peores barrios. ",
+            "Maestro: si no lo has oído es que no lo han pasado. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Consciencia",
           "value": 0,
-          "description": ""
+          "description": "La Consciencia es una reacción instintiva ante la presencia de lo sobrenatural. Se diferencia de la Alerta (que mide la sensibilidad a los eventos mundanos) y el Ocultismo (que abarca el conocimiento de lo sobrenatural).",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: de vez en cuando tienes la sensación de que algo no va bien. ",
+            "Practicante: a veces sientes vibraciones extrañas de una dirección en particular o de una zona vaga (como un edificio). ",
+            "Competente: puedes entrar en una habitación y saber que algo inusual está ocurriendo. ",
+            "Experto: si te concentras puedes sentir si alguien o algo en un grupo de personas o en una colección de objetos es sobrenatural. ",
+            "Maestro: sabes instintivamente si alguien o algo es mundano o sobrenatural. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Empatía",
           "value": 0,
-          "description": ""
+          "description": "Comprendes las emociones de los demás y eres capaz de ponerte en su lugar, fingir simpatía o jugar con esos sentimientos. Se te da bien discernir las motivaciones y sabes cuándo te mienten.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: sueles prestar el hombro para que lloren. ",
+            "Practicante: a veces puedes sentir literalmente el sufrimiento ajeno. ",
+            "Competente: comprendes las motivaciones de la gente. ",
+            "Experto: es casi imposible mentirte. ",
+            "Maestro: el alma humana no tiene secretos para ti. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Expresión",
           "value": 0,
-          "description": ""
+          "description": "Ésta es tu habilidad para conseguir expresarte correctamente mediante la conversación, en un poema o en un mensaje de correo electrónico. Los personajes con una puntuación elevada pueden exponer sus opiniones y creencias de formas que no pueden ser ignoradas",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: tu talento ha superado la fase de las poesías cutres en un cuaderno. ",
+            "Practicante: podrías dirigir el grupo de debate de la universidad. ",
+            "Competente: podrías ser un escritor de éxito. ",
+            "Experto: tu obra es carne de Pulitzer. ",
+            "Maestro: un visionario como tú solo surge una vez cada generación. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Intimidación",
           "value": 0,
-          "description": ""
+          "description": "La Intimidación puede adoptar muchas formas, desde las amenazas directas y la violencia física hasta la mera fuerza de la personalidad. No es necesario ser un desalmado o un abusón",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: matón adolescente. ",
+            "Practicante: atracador. ",
+            "Competente: sargento de instrucción. ",
+            "Experto: tu aire de autoridad amedrenta a los transeúntes ocasionales. ",
+            "Maestro: puedes hacer huir a los animales salvajes. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Liderazgo",
           "value": 0,
-          "description": ""
+          "description": "Eres un ejemplo para los demás y puedes inspirarles para que hagan lo que tú quieras. El Liderazgo tiene menos que ver con la manipulación de los deseos que con la presentación de uno como el tipo de persona al que querrían seguir.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: capitán de equipo infantil. ",
+            "Practicante: delegado estudiantil. ",
+            "Competente: ejecutivo eficaz. ",
+            "Experto: presidenciable. ",
+            "Maestro: podrías ser el amado dictador de una nación. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Pelea",
-          "value": 3,
-          "description": ""
+          "value": 0,
+          "description": "El Talento de Pelea representa tu capacidad de combate con garras y colmillos. Es tu habilidad en el combate sin armas, ya provenga de un estudio de las artes marciales o de simple experiencia, y te convierte en un adversario peligroso.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: te pegabas de pequeño. ",
+            "Practicante: has participado en alguna pelea de bar. ",
+            "Competente: peleas de forma habitual saliendo casi siempre mejor parado que tu oponente. ",
+            "Experto: podrías ser un serio contrincante en un circuito de boxeo. ",
+            "Maestro: puedes matar a tres hombres en cuatro segundos. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Subterfugio",
-          "value": 2,
-          "description": ""
+          "value": 0,
+          "description": "Sabes cómo ocultar tus motivaciones y proyectar la imagen que deseas dar. Además, eres capaz de discernir los objetivos de los demás y usarlos en su contra.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: cuentas alguna mentirijilla ocasional. ",
+            "Practicante: un vampiro. ",
+            "Competente: abogado criminalista. ",
+            "Experto: agente encubierto. ",
+            "Maestro: eres la última persona de la que se sospecharía. "
+          ],
+          "goesWithAttr": []
         }
       ]
     },
     {
       "name": "Técnicas",
       "max": 6,
+      "description": "Las Técnicas son Habilidades obtenidas mediante el entrenamiento, el aprendizaje y la instrucción. Si tratas de realizar una acción con una Técnica en la que no tienes puntuación la dificultad aumentará en uno.",
       "values": [
         {
-          "name": "Armas de Fuego",
-          "value": 3,
-          "description": ""
+          "name": "Armas Cuerpo a Cuerpo",
+          "value": 0,
+          "description": "Como dice la máxima vampírica, las pistolas no valen de nada contra un corazón sin vida. Las espadas suelen ser mucho más útiles, igual que la habilidad para emplearlas adecuadamente.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: sabes cómo blandir un cuchillo. ",
+            "Practicante: te has metido en alguna pelea callejera. ",
+            "Competente: podrías participar en el equipo de esgrima de la escuela. ",
+            "Experto: podrías mantener el orden en una corte. ",
+            "Maestro: tus enemigos prefieren enfrentarse a los SWAT que a tu espada."
+          ],
+          "goesWithAttr": []
         },
         {
-          "name": "Artesanía",
+          "name": "Armas de Fuego",
           "value": 0,
-          "description": ""
+          "description": "Si ejecutas a un mortal con una espada comienzan las investigaciones. Si desmiembras a alguien con tus garras fuerzas los límites de la Mascarada. Por eso los Cainitas se han adaptado y muchos han dedicado sus energías a aprender a matar con pistolas.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: de niño tenías una pistola de aire comprimido. ",
+            "Practicante: te pasas a veces por el club de tiro. ",
+            "Competente: has sobrevivido a un par de tiroteos. ",
+            "Experto: podrías ganarte la vida cargándote gente. ",
+            "Maestro: llevas practicando desde que apareció el Winchester. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Conducir",
           "value": 0,
-          "description": ""
+          "description": "Sabes conducir un coche y probablemente otros vehículos. Esta Técnica no te proporciona automáticamente una familiaridad con artefactos más complicados como tanques o camiones de 18 ruedas, y las dificultades pueden variar dependiendo de los vehículos con los que hayas tenido experiencia.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: te manejas con la transmisión automática. ",
+            "Practicante: saber conducir un cambio manual. ",
+            "Competente: camionero. ",
+            "Experto: temerario del NASCAR o conductor de tanque. ",
+            "Maestro: Si es un Fiat o un Ferrari los puedes hacer cantar. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Etiqueta",
           "value": 0,
-          "description": ""
+          "description": "Comprendes los detalles del comportamiento correcto, tanto en la sociedad mortal como en la cultura vampírica. En muchos casos, saber cómo manejar un tema es tan importante como la propia discusión y una persona con una mala etiqueta nunca tendrá la oportunidad de hacerse oír porque no sabe cuándo o cómo intervenir.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: sabes cuándo tener la boca cerrada. ",
+            "Practicante: has ido a un par de fiestas de etiqueta. ",
+            "Competente: sabes manejarte hasta con la cubertería más complicada. ",
+            "Experto: Su Majestad te consideraría encantador. ",
+            "Maestro: si la gente adecuada fuera a tu casa a cenar podrías detener guerras... o comenzarlas. "
+          ],
+          "goesWithAttr": []
+        },
+        {
+          "name": "Hurto",
+          "value": 0,
+          "description": "Esta Técnica incluye la familiaridad con las herramientas y técnicas habitualmente relacionadas con la actividad criminal. Abrir cerraduras, desactivar alarmas, hacer puentes en los vehículos e incluso abrir cajas fuertes",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: puedes abrir una cerradura sencilla. ",
+            "Practicante: sabes hacer un puente. ",
+            "Competente: puedes superar o desactivar las alarmas de las casas. ",
+            "Experto: puedes “retocar” un pasaporte o tarjeta de identificación. ",
+            "Maestro: puedes entrar (o salir) en la cámara acorazada central de un banco multinacional. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Interpretación",
           "value": 0,
-          "description": ""
+          "description": "La Técnica Interpretación representa tu habilidad para acometer empeños artísticos como cantar, bailar, actuar o tocar un instrumento musical.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: podrías cantar en el coro de la iglesia. ",
+            "Practicante: tus videos de internet han recibido cientos de miles de visitas. ",
+            "Competente: casi siempre tienes una actuación programada. ",
+            "Experto: tienes talento para ser una sensación nacional. ",
+            "Maestro: eres un virtuoso sin competencia. "
+          ],
+          "goesWithAttr": []
         },
         {
-          "name": "Latrocinio",
+          "name": "Pericias/Artesanias",
           "value": 0,
-          "description": ""
-        },
-        {
-          "name": "Pelea con Armas",
-          "value": 3,
-          "description": ""
+          "description": "Esta Técnica incluye tu habilidad para construir o arreglar cosas con tus manos. Pericias te permite realizar diversos trabajos de carpintería, marroquinería, costura o incluso habilidades mecánicas como reparar un coche.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: manualidades de instituto. ",
+            "Practicante: estás comenzando a desarrollar tu propio estilo. ",
+            "Competente: puedes comenzar tu propio negocio. ",
+            "Experto: escribes manuales de instrucciones sobre tu especialización. ",
+            "Maestro: tu artesanía y habilidad no tienen igual. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Sigilo",
-          "value": 3,
-          "description": ""
+          "value": 0,
+          "description": "Esta Técnica es la habilidad para evitar ser detectado, ya estés quieto o en movimiento. Normalmente a esta Técnica se le opone la Percepción + Alerta del observador. Sigilo es muy útil, evidentemente, a la hora de perseguir a una presa.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: puedes ocultarte en una habitación oscura. ",
+            "Practicante: puedes seguir a alguien yendo de farola en farola.",
+            "Competente: no tienes dificultad encontrando presas. ",
+            "Experto: sabes moverte en silencio sobre hojas secas. ",
+            "Maestro: antiguo Nosferatu. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Supervivencia",
-          "value": 1,
-          "description": ""
+          "value": 0,
+          "description": "Aunque los vampiros no tienen que temer demasiado por la inanición y los elementos, el mundo sigue siendo peligroso para ellos. Esta Técnica permite encontrar refugio, abrirse paso hasta la civilización, seguir presas y puede que hasta evitar amenazas sobrenaturales",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: puedes sobrevivir a una noche al raso. ",
+            "Practicante: acampabas con regularidad.",
+            "Competente: distingues las setas venenosas de las comestibles. ",
+            "Experto: puedes vivir meses en cualquier terreno de tu elección. ",
+            "Maestro: te podrían tirar desnudo en los Andes y lograrías sobrevivir. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "T.c. Animales",
           "value": 0,
-          "description": ""
+          "description": "Puedes comprender los patrones de comportamiento de las bestias. Esta Técnica te permite predecir el modo en el que reaccionaría un animal en una situación determinada, domar a una criatura doméstica o incluso intentar calmar a una fiera.",
+          "levels": [
+            "Malo: no posees esta habilidad",
+            "Novato: puedes conseguir que un caballo amaestrado te deje cuidarle. ",
+            "Practicante: puedes domar a un cachorrito. ",
+            "Competente: podrías entrenar a un perro de vigilancia. ",
+            "Experto: domador de circo. ",
+            "Maestro: puedes domar a las bestias salvajes sin poder sobrenatural alguno. "
+          ],
+          "goesWithAttr": []
         }
       ]
     },
     {
       "name": "Conocimientos",
       "max": 6,
+      "description": "Los Conocimientos dependen de la aplicación de la mente, no del cuerpo, por tanto, estas Habilidades suelen emparejarse con los Rasgos Mentales. Si no tienes círculos en estas Habilidades no podrás siquiera intentar una tirada, salvo que el Narrador dé su permiso expreso",
       "values": [
         {
           "name": "Academicismo",
-          "value": 1,
-          "description": ""
+          "value": 0,
+          "description": "Este Conocimiento general determina la erudición del personaje en las “humanidades”: literatura, historia, arte, filosofía y otras ciencias “liberales”. Un vampiro con círculos en Academicismo suele tener una base sólida en estos campos, y en los niveles superiores podría ser considerado un experto en una o varias áreas de estudio.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: sabes que 1066 es algo más que el código de Beverly Hills. ",
+            "Licenciado: puedes citar a los clásicos identificar los principales movimientos culturales y hablar sobre las diferencias entre Ming y Moghul. ",
+            "Posgraduado: podrías conseguir que te publicaran un artículo en el periódico de la universidad.,Doctorado: profesor emérito. ",
+            "Erudito: los sabios de todo el mundo te reconocen como uno de los mayores expertos de tu tiempo. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Ciencias",
           "value": 0,
-          "description": ""
+          "description": "Tienes una comprensión básica de casi todas las ciencias “físicas”, como la química, la biología, la física y la geología. Este Conocimiento tiene todo tipo de aplicaciones prácticas.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: conoces lo básico de muchas ciencias. ",
+            "Licenciado: conoces las principales teorías. ",
+            "Posgraduado: podrías enseñar en el instituto. ",
+            "Doctorado: eres capaz de avanzar los conocimientos en tu campo. ",
+            "Erudito: el Nobel te está esperando... "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Finanzas",
           "value": 0,
-          "description": ""
+          "description": "Conoces todos los trucos del comercio, desde la evaluación del valor relativo de las cosas hasta los tipos de cambio. Este Conocimiento es imprescindible a la hora de vender, jugar con los números o invertir en bolsa.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: has dado algunas clases de Economía. ",
+            "Licenciado: tienes experiencia práctica y puedes mantener los libros en orden. ",
+            "Posgraduado: serías un buen agente de bolsa. ",
+            "Doctorado: las corporaciones siguen tus dictados. ",
+            "Erudito: podrías convertir un billete de 20 en una fortuna."
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Informática",
           "value": 0,
-          "description": ""
+          "description": "Este Conocimiento representa la habilidad de manejar y programar ordenadores, así como la de mantenerse informado de los últimos adelantos. También proporcionar cierta habilidad para manejarse con internet y su conocimiento.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: señala y cliquea. ",
+            "Licenciado: puedes procesar datos con facilidad y desenvolverte con las aplicaciones de internet. ",
+            "Posgraduado: puedes diseñar programas. ",
+            "Doctorado: puedes ganarte bien la vida como consultor. ",
+            "Erudito: eres lo mejor de lo mejor y conoces los diversos lenguajes de programación. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Investigación",
-          "value": 2,
-          "description": ""
+          "value": 0,
+          "description": "Has aprendido a detectar detalles que otros pasarían por alto, lo que te convierte en un detective admirable. Este Conocimiento representa no solo un buen ojo para los detalles, sino también la habilidad de investigar y seguir pistas.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: has leído mucho a Agatha Christie. ",
+            "Licenciado: oficial del policía. ",
+            "Posgraduado: detective privado. ",
+            "Doctorado: agente federal. ",
+            "Erudito: Sherlock Holmes. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Leyes",
           "value": 0,
-          "description": ""
+          "description": "El Conocimiento de Leyes representa un conocimiento tanto de los estatutos legales como de los procedimientos para presentarlos. Las Leyes pueden servir para realizar demandas, evitarlas o salir de la cárcel.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: ya has pagado una multa de tráfico y sabrás si declararte culpable no culpable o nolo contendere la próxima vez. ",
+            "Licenciado: estás estudiando o acabas de pasar los exámenes. ",
+            "Posgraduado: puedes vivir de la práctica y probablemente lo hagas. ",
+            "Doctorado: si aún no estás asociado pronto lo estarás. ",
+            "Erudito: serías capaz de encontrar fallos en un pacto con el Diablo. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Medicina",
           "value": 0,
-          "description": ""
+          "description": "Comprendes el funcionamiento del cuerpo humano y, hasta cierto punto, también del vampírico. Esta Habilidad incluye conocimientos de medicina, enfermedades, primeros auxilios y diagnosis.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: has dado un curso de RCP. ",
+            "Licenciado: enfermero. ",
+            "Posgraduado: médico general. ",
+            "Doctorado: puedes realizar transplantes. ",
+            "Erudito: eres respetado en la comunidad médica como un Esculapio moderno. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Ocultismo",
-          "value": 2,
-          "description": ""
+          "value": 0,
+          "description": "Conoces algunas disciplinas ocultistas, como el misticismo, las maldiciones, la magia, el folclore y, especialmente, la cultura vampírica. Al contrario que otros Conocimientos, Ocultismo no tiene porqué representar el dominio de una determinada información real",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: hojeas en la sección Nueva Era de Waldenbooks. ",
+            "Licenciado: parece que detrás de los rumores hay algunas verdades inquietantes. ",
+            "Posgraduado: has oído muchas cosas y has presenciado algunas personalmente. ",
+            "Doctorado: puedes reconocer las falsedades evidentes y hacer suposiciones correctas sobre el resto. ",
+            "Erudito: conoces casi todas las verdades básicas sobre el mundo de lo oculto. "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Política",
           "value": 0,
-          "description": ""
+          "description": "Estás familiarizado con la política del momento, incluyendo la gente que está al mando y el modo en que llegaron allí. Este Conocimiento puede ayudarte a influir en políticos mortales, o incluso ofrecerte un cierto conocimiento de la estructura del poder Cainita local.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: activista. Puedes pagar una entrada online. ",
+            "Licenciado: estudiante de Ciencias Políticas. Puedes rellenar un impreso. ",
+            "Posgraduado: director de campaña o de tertulia radiofónica.,Doctorado: senador. El funcionario te ayudará a rellenar los formularios que necesitas completar y te dirá a quién tienes que entregar los duplicados.. ",
+            "Erudito: podrías elegir al próximo presidente de los Estados Unidos. “Aquí tiene las llaves de la morgue. Apague la luz cuando se marche.” "
+          ],
+          "goesWithAttr": []
         },
         {
           "name": "Tecnología",
           "value": 0,
-          "description": ""
+          "description": "El Conocimiento de Tecnología representa una amplia experiencia con la electrónica, la informática y dispositivos más elaborados que las simples “máquinas”, que caen mas bien bajo el ámbito de la Técnica: Pericias.",
+          "levels": [
+            "Malo: No posees esta habilidad",
+            "Estudiante: puedes realizar modificaciones o reparaciones sencillas. ",
+            "Licenciado: puedes ganarte la vida instalando o reparando. ",
+            "Posgraduado: puedes diseñar nuevas tecnologías a partir de una serie de requisitos. ",
+            "Doctorado: para ti la pregunta no es “¿Puede hacerse?” sino “¿Cómo se puede hacer?” ",
+            "Erudito: Un visionario en tu campo, cambias la forma en la que gente interactúa con el mundo mediante la tecnología. "
+          ],
+          "goesWithAttr": []
         }
       ]
     }
@@ -285,18 +635,10 @@
         "values": [
           {
             "name": "Celeridad",
-            "value": 1,
-            "description": ""
-          },
-          {
-            "name": "Fortaleza",
-            "value": 1,
-            "description": ""
-          },
-          {
-            "name": "Protean",
-            "value": 1,
-            "description": "Los Ojos de la Bestia: El vampiro ve perfectamente en la oscuridad total: no necesita luz para percibir detalles incluso en la cueva o en el sótano más oscuro. Sistema: el personaje debe declarar su deseo de invocar los Ojos. No hace falta tirada, pero el cambio tarda un turno completo en realizarse. Mientras los Ojos estén manifestados se sufrirá un + 1 a la dificultad de las tiradas Sociales con mortales, salvo que tome alguna medida para ocultarlos (las gafas de sol son la solución más sencilla). Un vampiro sin este poder que se encuentre sumergido en la oscuridad total sufre las penalizaciones de Lucha a Ciegas"
+            "value": 0,
+            "description": "",
+            "levels": [],
+            "showLowers": true
           }
         ]
       },
@@ -306,18 +648,42 @@
         "values": [
           {
             "name": "Consciencia",
-            "value": 2,
-            "description": ""
+            "value": 0,
+            "description": "",
+            "levels": [
+              "0 Sociopata.",
+              "1 Insensible.",
+              "2 Normal.",
+              "3 Ético.",
+              "4 Justo.",
+              "5 Contrito."
+            ]
           },
           {
             "name": "Auto control",
-            "value": 3,
-            "description": ""
+            "value": 0,
+            "description": "",
+            "levels": [
+              "0 Bestia.",
+              "1 Inestable.",
+              "2 Normal.",
+              "3 Templado.",
+              "4 Inalterable.",
+              "5 Autodominio total."
+            ]
           },
           {
             "name": "Coraje",
-            "value": 5,
-            "description": ""
+            "value": 0,
+            "description": "",
+            "levels": [
+              "0 Cobarde.",
+              "1 Tímido.",
+              "2 Normal.",
+              "3 Resuelto.",
+              "4 Arrojado.",
+              "5 Heroico."
+            ]
           }
         ]
       },
@@ -326,19 +692,172 @@
         "max": 5,
         "values": [
           {
-            "name": "Generación",
-            "value": 5,
-            "description": "lo alejado que se encuentra el personaje de Caín"
+            "name": "Aliados",
+            "value": 0,
+            "description": "Los Aliados son humanos que te ayudan: familiares, amigos o incluso una organización mortal que te deba lealtad. Aunque colaborarán contigo de buen grado sin tener que presionarles, no siempre estarán disponibles. Tienen sus propias vidas y hay límites que no están dispuestos a cruzar. También podrían tener algún Trasfondo propio de utilidad, ya que podrían proporcionarte un acceso indirecto a otros contactos, influencia y recursos. Los Aliados suele ser gente que ocupa posiciones importantes en tu ciudad, aunque siempre hay que pedir permiso al Narrador. Podrías tener como amigo a un trabajador de la morgue del distrito, el dueño de un blog importante, entre la alta sociedad o en un lugar en construcción. Tus Aliados podrían ser un clan de nómadas que se mueven en un campamento que recorre la zona o podría ser una familia de generaciones de oficiales de policía. Puede que cuentes incluso con el alcalde como tu amigo, dependiendo de cuántos puntos gastes en este Rasgo. Tus Aliados suelen ser fiables (aunque probablemente no sepan que eres o un vampiro, o incluso que tales cosas existan). Sin embargo, todo tiene su lado negativo: si terminas pidiendo favores a tus amigos en la Cosa Nostra lo más probable es que en el futuro quieran algo a cambio, lo que suele ser el principio de una historia... los Aliados pueden ser acumulados entre un grupo de personajes.",
+            "levels": [
+              "Un aliado de poder e influencia moderadas .",
+              "Dos aliados de poder moderado .",
+              "Tres aliados, uno muy influyente .",
+              "Cuatro aliados, uno muy influyente .",
+              "Cinco aliados, uno extremadamente influyente ."
+            ]
           },
           {
-            "name": "Arsenal",
-            "value": 4,
-            "description": "los recipientes a los que el personaje tiene acceso libre y seguro."
+            "name": "Contactos",
+            "value": 0,
+            "description": "Conoces a gente por toda la ciudad, y cuando te pones a hacer llamadas telefónicas puedes lograr una enorme cantidad de información. Los Contactos son gente a la que puedes sobornar, manipular o amenazar para que te haga favores, pero también puede tratarse de conocidos importantes, amigos con los que puedes contar para que te ayuden en sus especialidades. Deberías describir cada contacto importante antes del comienzo del juego. Además de tus contactos principales dispondrás de otros menores repartidos por toda la ciudad. Uno de los primeros podría ser el Fiscal del Distrito, y uno de los segundos un policía, un funcionario de tráfico, un portero de discoteca o incluso un vendedor de perritos calientes. No tienes porqué describir a todos estos “conocidos” antes de empezar la crónica. Para hablar con tus contactos menores te basta con tirar Contactos (dificultad 7), pudiendo acceder a uno de ellos por cada éxito, por supuesto, podrías tener que “convencerlos” para que te digan lo que buscas, asumiendo que puedan conseguir la información. Los Contactos pueden ser acumulados por el grupo de personajes.",
+            "levels": [
+              "Un contacto importante .",
+              "Dos contactos importantes .",
+              "Tres contactos importantes .",
+              "Cuatro contactos importantes .",
+              "Cinco contactos importantes ."
+            ]
+          },
+          {
+            "name": "Criados",
+            "value": 0,
+            "description": "Tus criados no son exactamente ni Aliados ni Contactos, sino sirvientes y ayudantes que te son leales. Muchos de los criados vampíricos son ghouls (página 496), ya que sus poderes sobrenaturales y su lealtad forzada por el vínculo de sangre los convierte en servidores perfectos. También puede ser gente a la que hayas Dominado tan repetidamente que hayan perdido el libre albedrío, o seguidores tan hechizados por tu Presencia que su lealtad bordee el fanatismo. Algunos vampiros, especialmente los que poseen la Disciplina Animalismo, utilizan “sabuesos infernales” (perros ghoul) y otros animales como criados. Debes mantener un cierto control sobre tus servidores, ya sea mediante el sueldo, el don de tu vitae o el uso de Disciplinas. Los criados nunca serán “leales hasta la muerte”. Si les tratas mal sin ejercer algún tipo de control se volverán contra ti. Pueden ser útiles, pero siempre representarán algún problema. Un ghoul poderoso podría ser rebelde, estúpido o carente de habilidades prácticas. Un mayordomo leal podría ser débil o carecer de toda iniciativa y creatividad. Este Trasfondo no es una excusa para crear un guardaespaldas imparable o un asesino amaestrado, sino para introducir otros personajes bien desarrollados en la crónica y reflejar a los seguidores por los que los Vástagos son famosos (por lo general los Criados son más similares a Renfield que a Anita Blake). Si el jugador y el Narrador están de acuerdo, un jugador puede crear un solo Criado más competente invirtiendo más puntos en este Trasfondo, o como dice el refrán, poniendo más huevos en la misma cesta. También es posible disponer de más Criados con un solo punto si se trata de criaturas especialmente pequeñas y limitadas. En cualquier caso, se debe contar con la aprobación del Narrador. Los jugadores pueden gastar puntos de Trasfondo Acumulados como Criados.",
+            "levels": [
+              "Un Criado .",
+              "Dos Criados .",
+              "Tres Criados .",
+              "Cuatro Criados .",
+              "Cinco Criados ."
+            ]
+          },
+          {
+            "name": "Dominio",
+            "value": 0,
+            "description": "Dominio es un territorio físico (normalmente dentro de la ciudad protagonista de la Crónica) en el que tu personaje controla el acceso a la hora de que los vampiros se alimenten. Algunos Vástagos se refieren a su Dominio como Territorios de Caza, y la mayoría lo protegen celosamente, incluso invocando la Tradición del mismo nombre para proteger sus derechos. Como parte de este Trasfondo, el derecho del personaje es reconocido por el Príncipe o la autoridad vampírica de la ciudad en la que se encuentra el Dominio. Un vampiro que posee un Dominio no puede evitar que sus habitantes vivos se dediquen a sus asuntos, ni puede ejercer ninguna influencia directa sobre ellos, pero puede vigilar y observar sus movimientos. También puede disponer de Aliados o Criados situados para buscar vampiros desconocidos y alertarle cuando encuentren a uno. Este Trasfondo se refiere específicamente al aspecto geográfico (en la mayoría de los casos un barrio o calle) y a la propiedad y derechos sobre el territorio, y no tanto a la gente que vive en él (que es el énfasis del Rebaño). Dominio constituye una parte importante de la sociedad de la Estirpe –los vampiros que carecen de un territorio importante raramente consiguen respeto– pero no proporciona automáticamente una Posición o un título entre los Condenados. Puedes dedicar uno o más puntos en Dominio para incrementar la seguridad del territorio del personaje en lugar de aumentar su tamaño. Cada punto asignado a su seguridad proporciona una penalización de +1 a todos los esfuerzos para infiltrarse en el territorio por parte de alguien a quien su propietario no haya dado permiso, y una dificultad de -1 a los esfuerzos del personaje para identificar y rastrear intrusos en el Dominio. Por ejemplo, un Dominio de un punto de tamaño y dos puntos de seguridad es pequeño pero se encuentra bastante protegido contra las intrusiones, frente a un Dominio de tres puntos de tamaño pero sin ningún tipo de seguridad. Cada nivel de Dominio reduce la dificultad de las tiradas de caza en -1 para tu personaje y quienes hayan recibido permiso para cazar. Su valor también se añade a tu Reserva de Sangre inicial (no puede superar el máximo). Si usas la opción de seguridad, cada punto en la seguridad del Dominio incrementa la dificultad de las tiradas de caza en +1 para los vampiros indeseados. Como se ha mencionado anteriormente, los personajes de un grupo pueden compartir sus Trasfondos de Dominio para mejorar sus resultados. Entre 6 y 8 puntos permiten asegurar una ciudad pequeña o una parte distintiva de una ciudad como Dominio. Entre 10 y 15 puntos aseguran un sector importante aunque no geográfico de una gran ciudad como “los puertos” o “Highland Park”. Toda una gran ciudad podría ser un Dominio de 100 puntos o más, como Atlanta, Bagdad, Dallas o Ginebra. Una metrópoli como Londres, Nueva York, París, Roma, Sao Paulo o Shangai requerirían muchos cientos de puntos de Dominio.",
+            "levels": [
+              "Un edificio pequeño, como una casa familiar o un establecimiento social —lo suficiente para un refugio normal .",
+              "Una iglesia, fábrica, almacén, un edificio de tamaño medio o alguna gran estructura, —una localización con acceso al exterior pero fácilmente controlable .",
+              "Un bloque de apartamentos o una intersección urbana importante —una localización o zona que ofrezca lugares donde ocultarse así como un acceso controlado .",
+              "Una sección de las alcantarillas, una red de túneles de servicio, una urbanización en una colina cerca de la ciudad —un lugar con límites de protección y acceso definidos, como una carretera aislada por las montañas, un puente o una fuerza de seguridad privada .",
+              "Todo un barrio, una subdivisión étnica como “Chinatown” o “Pequeña Italia” o todo un suburbio ."
+            ]
+          },
+          {
+            "name": "Fama",
+            "value": 0,
+            "description": "Disfrutas de un amplio reconocimiento en la sociedad mortal, quizá por ser un artista, un escritor o un atleta. La gente disfruta simplemente con verte, lo que te concede numerosos privilegios entre los humanos. Sin embargo, también puede atraer una atención no deseada ahora que ya no estás vivo. El arma más importante que proporciona la fama es la capacidad para afectar a la opinión pública, algo que los medios de comunicación modernos demuestran constantemente. La Fama no siempre está ligada con el entretenimiento o el mundo del espectáculo. Un terrible criminal con un juicio con cargos elevados posiblemente disponga de cierta Fama, así como un abogado o un científico que ha realizado un descubrimiento popular. Este Trasfondo es, evidentemente, un arma de doble filo. Puedes disfrutar de los privilegios de tu prestigio (consigues las mejores butacas, te invitan a lugares en los que no podrías entrar de otro modo, conoces a la gente importante), pero te pueden reconocer en los momentos más inoportunos. Tus enemigos no pueden hacerte desaparecer sin que se arme un gran revuelo, y en las zonas pobladas te es mucho más fácil alimentarte, ya que la gente se congrega a tu alrededor (reduce la dificultad de las tiradas de caza en uno por cada círculo de Fama). Además, el Narrador podría permitirte reducir la dificultad de las tiradas Sociales con gente especialmente impresionable.",
+            "levels": [
+              "Eres conocido en un determinado círculo de tu ciudad (pej, las discotecas locales, las páginas de internet, etc) .",
+              "La mayoría de la población reconoce tu cara, eres tanto una celebridad local como una fuente de noticias o incluso un criminal .",
+              "Tienes el reconocimiento de tu estado, quizá seas senador, o una estrella de interés local, o recibas cientos de miles de visitas en tus videos de youtube .",
+              "Famoso en todo el país: todos saben algo sobre ti .",
+              "Eres un icono mediático famoso en el mundo entero La gente bautiza a sus hijos con tu nombre ."
+            ]
+          },
+          {
+            "name": "Generación",
+            "value": 0,
+            "description": "Para decirlo de forma sencilla, este Trasfondo representa tu generación: la pureza de tu sangre y tu proximi dad al Primer Vampiro. Una puntuación elevada podría representar un sire poderoso o un gusto particularmente peligroso por la diablerie. Si no adquieres ningún círculo en este Trasfondo comenzarás como un vampiro de decimotercera generación. Consulta en la página 270 más información al respecto.",
+            "levels": [
+              "12ª generación: reserva de sangre de 11 puntos, puedes gastar 1 punto de sangre por turno .",
+              "11ª generación: reserva de sangre de 12 puntos, puedes gastar 1 punto de sangre por turno .",
+              "10ª generación: reserva de sangre de 13 puntos, puedes gastar 1 punto de sangre por turno .",
+              "9ª generación: reserva de sangre de 14 puntos, puedes gastar 2 puntos de sangre por turno .",
+              "8ª generación: reserva de sangre de 15 puntos, puedes gastar 3 puntos de sangre por turno ."
+            ]
+          },
+          {
+            "name": "Identidad Alternativa",
+            "value": 0,
+            "description": "Mantienes una Identidad Alternativa aparte de la tuya, y completa con papeles, certificados de nacimiento o cualquier otro tipo de documentación que desees. Muy pocos conocen tu verdadero nombre o identidad. Tu personalidad alternativa puede estar involucrada en el crimen organizado, ser miembro de una Secta enemiga, un timador que utiliza distintas identidades en su negocio, o simplemente puedes estar reuniendo información sobre el enemigo. Es posible que algunos vampiros te conozcan como un individuo mientras que otros crean que eres una persona completamente distinta.",
+            "levels": [
+              "Acabas de entrar en este juego A veces te despistas y olvidas tu otra identidad .",
+              "Dominas muy bien tu Identidad Alternativa Eres lo bastante convincente como para hacerte pasar por doctor, abogado, vendedor de pompas fúnebres, camello o espía .",
+              "Tienes una buena reputación como tu Identidad Alternativa, y te reconocen en la zona en la que te has infiltrado .",
+              "Tu nueva identidad tiene el respeto y la confianza de la zona infiltrada .",
+              "Tienes un gran respeto en tu zona de operaciones, y puedes haber llegado incluso a acumular posición Tienes la confianza (o al menos el reconocimiento) de muchas figuras poderosas "
+            ]
+          },
+          {
+            "name": "Influencia",
+            "value": 0,
+            "description": "Tienes a la comunidad mortal cogida por el mango, ya sea mediante tu dinero, tu prestigio, tu cargo, el chantaje o la manipulación sobrenatural. Los Vástagos con mucha Influencia pueden orientar, y en algunos casos controlar, los procesos políticos y sociales de la sociedad humana. La Influencia representa la suma de tu poder político en tu comunidad, especialmente en la policía y la burocracia. En algunos casos, cultivar Influencia es una forma de generar Recursos (consulta a continuación). Se puede utilizar la Influencia en alguna tirada sustituyendo a una Habilidad, sobre todo cuando se intenta controlar a los funcionarios menores. Por supuesto, siempre es más sencillo conseguir cambios de forma local que en el ámbito estatal (es relativamente fácil lograr la demolición de un edificio “abandonado”, pero no empezar una guerra contra otra nación). La Influencia puede utilizarse con puntos de Trasfondo Acumulados.",
+            "levels": [
+              "Moderadamente influyente, importante en la ciudad .",
+              "Buenos contactos, una fuerza en la política estatal .",
+              "Posición o influencia, un factor en la política regional .",
+              "Gran poder personal, influencia en toda la nación .",
+              "Enorme influencia, todo el mundo atiende tus palabras ."
+            ]
+          },
+          {
+            "name": "Mentor",
+            "value": 0,
+            "description": "Este Rasgo representa a un antiguo (y puede que a más de uno) que cuida de ti y que de vez en cuando te ofrece su guía. Un Mentor puede ser muy poderoso, pero sus capacidades no tienen porqué ser directas. Dependiendo del número de círculos en el Trasfondo podría no ser más que un vampiro con una importante red de informadores, o una criatura centenaria con una tremenda influencia y vastos poderes sobrenaturales. Podría ofrecer consejo, hablar con el Príncipe (o el Arzobispo) en tu favor, apartar a otros antiguos de tu camino o avisarte cuando te metas en problemas demasiado serios. A menudo tu Mentor es tu sire, pero podría ser igualmente cualquier Cainita interesado en tu bienestar. Una elevada puntuación de Mentor puede incluso representar a un grupo de vampiros con intereses comunes, como los antiguos de la capilla Tremere de la ciudad o una célula de la Mano Negra. Ten en cuenta que este rasgo no es una tarjeta de “Queda libre de la cárcel”, tu Mentor no llegará como la caballería cada vez que estés en peligro (y si lo hace puede que pierdas un punto en el Trasfondo tras haber intervenido de forma tan directa por ti), y a cambio de su mecenazgo podría esperar algún favor (lo que puede dar pie a interesantes historias). El Mentor suele ser distante y darte información y consejo por camaradería, pero te abandonará sin pensárselo dos veces si resultas ser un “aprendiz” problemático o indigno.",
+            "levels": [
+              "Tu mentor es un ancilla con poca influencia, o un Ductus o Sacerdote de Manada .",
+              "Tu mentor es respetado, un antiguo o un vampiro veterano y respetado, por ejemplo .",
+              "Tu mentor es muy influyente, como un miembro de la Primogenitura o un Obispo .",
+              "Tu mentor tiene un gran poder en la ciudad, podría ser Príncipe o Arzobispo .",
+              "Tu mentor es extraordinariamente poderoso, quizá un Justicar o Cardenal ."
+            ]
+          },
+          {
+            "name": "Miembro de la Mano Negra",
+            "value": 0,
+            "description": "Este Trasfondo sólo es para personajes del Sabbat. Eres miembro de la temida Mano Negra, el grupo de soldados y asesinos que sirven al Sabbat con fervor. Disponer de este Trasfondo indica que eres un miembro de pleno derecho de la organización, y que por lo tanto tienes todos los beneficios y responsabilidades correspondientes. Puedes solicitar la ayuda de otros miembros de la Mano Negra si lo necesitas. Por supuesto, los demás también pueden pedir tu apoyo en cualquier momento. Por tanto puedes verte encargado de asesinatos, se te puede solicitar asistencia militar o que ayudes a cumplir los objetivos políticos de la Mano como diplomático o espía. También puede que tengas que participar en cruzadas que te alejen de tus compañeros de manada. Todos los miembros de la Mano Negra deben responder a la llamada de sus camaradas, especialmente si se trata de un superior. Ser miembro de esta organización es todo un prestigio, ya que el resto del Sabbat respeta a tu grupo. Si al tratar con los demás haces pública tu afiliación, podrás sumar tu posición en este Rasgo a cualquier reserva social, incluso después de haber tenido en cuenta cualquier otra Posición o Habilidad. Sin embargo, la mayoría prefiere no revelar su alianza. La Mano Negra es especialmente efectiva cazando a vampiros del Sabbat que realmente no pertenecen a la secta. Cuidado, mentirosos...",
+            "levels": [
+              "Eres un soldado, puedes llamar a un miembro de la Mano Negra una vez por historia .",
+              "Eres conocido y respetado en la Mano Negra, puedes llamar a otros dos miembros una vez por historia .",
+              "La Mano Negra te tiene en gran estima, puedes llamar a cinco miembros una vez por historia .",
+              "Eres un héroe dentro de la Mano Negra, puedes llamar hasta a siete miembros dos veces por historia (pero más te vale tener motivos, si los demás te creen blando puedes comenzar a perder puntos en este Trasfondo) También puedes liderar a grandes grupos de asesinos en caso de necesidad .",
+              "Ya formas parte de la leyenda de la Mano Negra, puedes llamar hasta a doce miembros dos veces por historia (recuerda la precaución anterior) También puedes dirigir a grandes grupos a la acción si fuera necesario Los Serafines llegan a pedirte consejo en asuntos importantes ."
+            ]
+          },
+          {
+            "name": "Posición",
+            "value": 0,
+            "description": "Tienes una cierta reputación y posición (merecidas o no) en la comunidad vampírica local. La posición dentro de la Camarilla suele derivarse de la de tu sire y del respeto que se tenga a tu linaje. Dentro del Sabbat es consecuencia de la reputación de tu manada o de tu celo personal. Los antiguos son conocidos por tener poco respeto hacia los jóvenes, pero este Trasfondo puede mitigar en cierto modo esta limitación. Una posición elevada en la Camarilla no tiene efecto en el Sabbat, y viceversa (en realidad te convierte en un blanco aún más apetecible para tus rivales). Del mismo modo, se puede considerar que los Autarcas tienen Posición cero, salvo que de algún modo hayan ganado el poder y la atención suficientes como para que se les tome en serio. Puedes tener ocasión de tirar Posición junto a tus Rasgos Sociales, lo que refleja los efectos positivos de tu prestigio. Nota que los Caitiff no pueden comprar Posición durante la creación del personaje. Son lo más bajo que existe, y cualquier respeto deberán ganárselo en el transcurso de la crónica.",
+            "levels": [
+              "Conocido: un neonato / un Sacerdote de Manada .",
+              "Respetado: un ancilla / un Ductus respetado .",
+              "Influyente: un antiguo / un Templario .",
+              "Poderoso: un miembro de la Primogenitura / un Obispo .",
+              "Luminaria: un príncipe / un Arzobispo ."
+            ]
+          },
+          {
+            "name": "Rebaño",
+            "value": 0,
+            "description": "Has creado un grupo de mortales de los que puedes alimentarte sin miedo. Un rebaño puede tomar muchas formas, desde grupos de aficionados a las discotecas hasta auténticos cultos construidos alrededor de tu figura divina. Además de proporcionar alimento, los miembros de tu rebaño pueden ser útiles en asuntos menores, aunque por lo general no es fácil controlarlos, no tienen una gran relación mutua y no son especialmente hábiles (si quieres peones más útiles adquiere Aliados o Contactos). La puntuación del Rebaño se suma a tus tiradas para cazar, ver más detalles en la página 258. Los jugadores pueden adquirir un Rebaño Acumulado con sus puntos de Trasfondo.",
+            "levels": [
+              "Tres recipientes .",
+              "Siete recipientes .",
+              "Quince recipientes .",
+              "Treinta recipientes .",
+              "Sesenta recipientes ."
+            ]
           },
           {
             "name": "Recursos",
-            "value": 3,
-            "description": "Acomodado. Eres un miembro destacado y establecido de tu comunidad, con terrenos y viviendo en propiedad, y tienes una reputación que te permite obtener un crédito en términos muy generosos. Probablemente tengas más propiedades inmuebles que dinero líquido. Puedes mantener un modo de vida de un nivel de un punto de Recursos donde quieras y durante tanto tiempo como quieras."
+            "value": 0,
+            "description": "Los Recursos son bienes valiosos que se encuentran a disposición de tu personaje. Puede que se trate de dinero, pero a medida que la puntuación de este Trasfondo se incrementa, es más probable que se trate de inversiones, propiedades o algún tipo de capital –terrenos, acciones industriales, valores, inventarios comerciales, infraestructuras criminales, bienes de contrabando, e incluso tributos o tasas. Recuerda que los vampiros no necesitan gastar en ningún tipo de alimento salvo la sangre y sus necesidades (no así sus deseos) de refugio son muy sencillas de satisfacer. Los vampiros suelen dedicar sus Recursos a pagar sus lujos y los gastos asociados al desarrollo y mantenimiento de Influencia, Posición y otros Trasfondos. Un personaje sin puntos en Recursos puede simplemente tener ropa y lo suficiente para ir tirando, o puede sobrevivir en la miseria durmiendo en un cajón refrigerador bajo un paso a nivel. Cada mes recibes unos ingresos según tu puntuación. Asegúrate de describir exactamente de dónde procede el dinero, ya sea de un empleo, un fondo de inversiones o dividendos. (los Narradores deberían decidir en función de la localidad y el tiempo qué cantidad es adecuada para estos ingresos mensuales). Después de todo, tu fortuna podría secarse en el transcurso de la crónica, dependiendo de tu habilidad para defenderla. Si necesitas dinero en metálico puedes vender tus activos menos líquidos, pero dependiendo de su naturaleza puede llevarte semanas, o incluso meses. Los compradores de arte no aparecen de debajo de las piedras. Los jugadores pueden adquirir Recursos para sus personajes con puntos de Trasfondo Acumulados.",
+            "levels": [
+              "Suficiente Puedes mantener establemente una típica residencia de clase trabajadora aunque de cuando en cuando aparezcan gastos adicionales .",
+              "Moderado Puedes considerarte en una buena posición en la clase media, con comprar y gasto ocasionales de una persona de una clase más alta Puedes mantener un empleado o contratar ayuda especializada si es necesario Una parte de tus Recursos son convertibles en dinero como propiedades transportables (como joyas o muebles) y también puedes disponer de otras posesiones (como un coche o una casa modesta) que te permiten mantener un modo de vida a un nivel de 1 punto en otro lugar que quieras hasta seis meses .",
+              "Acomodado Eres un miembro destacado y establecido de tu comunidad, con terrenos y viviendo en propiedad, y tienes una reputación que te permite obtener un crédito en términos muy generosos Probablemente tengas más propiedades inmuebles que dinero líquido Puedes mantener un modo de vida de un nivel de un punto de Recursos donde quieras y durante tanto tiempo como quieras.",
+              "Rico Raramente usas el dinero, pues casi todas tus posesiones existen en formas más tangibles, valiosas y estables que el papel moneda Tienes más riqueza que muchos de tus iguales (si se les puede llamar así) Cuando no dedicas atención suficiente a tus Recursos puedes mantener una existencia de tres puntos de Recursos durante un año y una existencia de dos indefinidamente .",
+              "Asquerosamente rico Eres el modelo que los demás aspiran a alcanzar, por lo menos en la mentalidad popular Programas de televisión, artículos en las revistas y páginas webs de cotilleos se dedican a especular sobre tu forma de vestir, los invitados que entran en tus casas y el lujo de tus medios de transporte Tienes inversiones enormes y ampliamente distribuidas, quizás unidas al destino de naciones enteras, con cientos de empleados y conexiones en todos los niveles de la sociedad de una región Viajas con un mínimo de comodidad de tres puntos de Recursos, y más con poco esfuerzo A veces empresas y gobiernos recurren a ti y te compran acciones o fondos de inversión ."
+            ]
+          },
+          {
+            "name": "Rituales",
+            "value": 0,
+            "description": "Este Trasfondo sólo es para personajes del Sabbat. Conoces los ritae y ritos del Sabbat, y sabes como realizar muchos de ellos. Este Trasfondo es importante para ser un Sacerdote de Manada –sin este Trasfondo, los ritae no funcionan. Se trata de una inversión sobrenatural, utilizando la magia creada por los antiguos hechiceros Tzimisce. Los vampiros del Sabbat que no son Sacerdotes de Manada necesitan una buena razón para adquirir este Trasfondo, pues los Sacerdotes de Manada son reacios a compartir sus secretos con los miembros más “laicos” de la Secta. Algunos ejemplos de ritos incluyen la Vaulderie (pág. 288) así como los que aparecen en el Apéndice (pág. 507).",
+            "levels": [
+              "Conoces unos pocos auctoritas ritae de tu elección.",
+              "Conoces algunos de los auctoritas ritae y unos pocos ignoblis ritae de tu elección .",
+              "Conoces todos los auctoritas ritae y algunos ignoblis ritae de tu elección También puedes crear tus propios ignoblis ritae con suficiente tiempo (consulta a tu Narrador para determinar el tiempo de desarrollo y sus efectos en el juego) .",
+              "Conoces todos los auctoritas ritae y muchos ignoblis ritae de tu elección También puedes crear tus propios ignoblis ritae con suficiente tiempo (consulta a tu Narrador para determinar el tiempo de desarrollo y sus efectos en el juego) Además estás familiarizado con las funciones de numerosos ignoblis ritae regionales y específicos de ciertas manadas, aunque no puedas realizarlos .",
+              "Conoces todos los auctoritas ritae y muchísimos ignoblis ritae de tu elección También puedes crear tus propios ignoblis ritae con suficiente tiempo (consulta a tu Narrador para determinar el tiempo de desarrollo y sus efectos en el juego) Además estás familiarizado con el funcionamiento de casi todos los ignoblis ritae regionales y específicos de manadas, aunque no puedes realizarlos, si han sido escritos o transmitidos en el Sabbat, por lo menos has oído hablar de ellos ."
+            ]
           }
         ]
       },
@@ -347,19 +866,9 @@
         "max": 4,
         "values": [
           {
-            "name": "Invinculable",
-            "value": 5,
-            "description": "Eres inmune al Vínculo de Sangre. Los vampiros Tremere no pueden adquirir este Mérito."
-          },
-          {
-            "name": "Idioma",
-            "value": 1,
-            "description": "Conoces un idioma además de tu lengua materna. Puedes adquirir este Mérito varias veces, cada vez para un idioma diferente."
-          },
-          {
-            "name": "Ambidiestro",
-            "value": 1,
-            "description": "Tienes una gran destreza con la “mano mala” y puedes realizar acciones con ella sin penalización. Seguirás teniendo que emplear las reglas para acciones múltiples, pero no sufrirás una penalización adicional si, por ejemplo, empleas dos armas o te ves obligado a emplear la mala."
+            "name": "example",
+            "value": 0,
+            "description": ""
           }
         ]
       },
@@ -368,29 +877,9 @@
         "max": 4,
         "values": [
           {
-            "name": "Excl. de Presa",
-            "value": 1,
-            "description": "(Niños) Te niegas a cazar un determinado tipo de presa. Podrías evitar a los traficantes de droga, los policías, los contables, los ricos, etc. Si por accidente llegaras a beber su sangre entrarías automáticamente en frenesí y deberías tirar para evitar una pérdida de Humanidad (dificultad 7). Ver a otro vampiro alimentarse del objeto de tu exclusión también puede provocar un frenesí, a discreción del Narrador. Los Ventrue, que se deben a la limitación impuesta por su debilidad, no pueden adquirir este Defecto."
-          },
-          {
-            "name": "T. Mascarada",
-            "value": 2,
-            "description": "En tus primeras noches como miembro de la Estirpe, rompiste accidentalmente la Mascarada –y te vieron haciéndolo. Alguien tapó tu error, pero se guarda el favor. Ahora vives temeroso de que se revele tu error. Mientras tanto, tu “salvador” se aprovecha de ti despiadadamente. Este Defecto sólo puede ser adquirido por vampiros de Sectas o Clanes que respeten la Mascarada."
-          },
-          {
-            "name": "Secreto Oscuro",
-            "value": 1,
-            "description": "Guardas algún tipo de secreto que, de ser descubierto, representaría un inmenso problema para ti y te convertiría en un paria de la sociedad vampírica local. Podría ser cualquier cosa, desde haber asesinado a un antiguo hasta pertenecer a los Anarquistas."
-          },
-          {
-            "name": "Impaciente",
-            "value": 1,
-            "description": "No tienes paciencia para quedarte y esperar. Quieres hacer las cosas ya, y que el Diablo se lleve al último. Cada vez que te ves obligado a esperar en vez de actuar, es necesaria una tirada de Autocontrol para ver si te largas por tu cuenta."
-          },
-          {
-            "name": "Resp. Especial",
-            "value": 1,
-            "description": "Poco después de tu Abrazo te presentaste voluntario para una tarea para conseguir respeto y aprobación de los vampiros que te rodean. ¡Ahora deseas no haber abierto nunca tu puta boca! Aunque no recibes ningún mérito especial por cumplir con tu deber, perderías un montón de respeto si alguna vez renunciaras. La naturaleza y los detalles de tu obligación deberían ser acordados con el Narrador previamente Entre algunos ejemplos puede ser prestar dinero a otros vampiros, actuar como mensajero o posiblemente conseguir víctimas para los ritae (como los Festines de Sangre). "
+            "name": "Examplo",
+            "value": 0,
+            "description": ""
           }
         ]
       }
@@ -402,30 +891,88 @@
       "color": "success",
       "perTurn": 1,
       "value": {
-        "max": 9,
-        "now": 9
+        "max": 10,
+        "now": 10
       },
-      "description": "-"
+      "description": "-",
+      "levels": [
+        "1: Débil.",
+        "2: Pusilánime.",
+        "3: Inseguro.",
+        "4: Vacilante.",
+        "5: Seguro.",
+        "6: Confiado.",
+        "7: Tenaz.",
+        "8: Firme.",
+        "9: Férreo.",
+        "10: Implacable."
+      ]
     },
     {
       "name": "Reserva de sangre",
       "color": "danger",
       "perTurn": 3,
       "value": {
-        "max": 15,
-        "now": 15
+        "max": 10,
+        "now": 10
       },
       "description": "-"
     },
     {
-      "name": "Vida",
-      "color": "success",
+      "name": "Humanidad",
+      "color": "info",
       "perTurn": 1,
       "value": {
-        "max": 1500,
-        "now": 1400
+        "max": 10,
+        "now": 6
       },
-      "description": "-"
+      "description": "-",
+      "levels": [
+        "0: Monstruoso",
+        "1: Horrible",
+        "2: Bestial",
+        "3: Frío",
+        "4: Insensible",
+        "5: Distante",
+        "6: Reservado",
+        "7: Normal",
+        "8: Sensible",
+        "9: Compasivo",
+        "10: Santo"
+      ]
     }
-  ]
+  ],
+  "health": {
+    "name": "Vida",
+    "penalty": [
+      0,
+      -1,
+      -1,
+      -2,
+      -2,
+      -5,
+      -99
+    ],
+    "damage": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "types": [
+      "",
+      "/ - Contundente",
+      "X - Letal",
+      "* - Agravado"
+    ],
+    "typesDesc": [
+      "No hay daño",
+      "el daño contundente incluye los puñetazos y otros traumas conmocionadores con escasa capacidad para matar a una víctima (especialmente a un vampiro) instantáneamente. Todos los personajes emplearán su puntuación total en Resistencia para soportar los daños contundentes, que además se curarán con relativa velocidad.",
+      "es el causado por ataques que pretenden dañar letal e inmediatamente al objetivo. Los mortales no pueden emplear la Resistencia para absorber sus efectos, pero sí lo vampiros.",
+      "ciertos tipos de ataque son mortales hasta para los no muertos. Se considera que el fuego, la luz del sol y los colmillos y garras de los vampiros, hombres lobo y otros seres sobrenaturales causan daño agravado. Solo puede absorberse con Fortaleza, y tarda bastante en recuperarse"
+    ]
+  }
 }
